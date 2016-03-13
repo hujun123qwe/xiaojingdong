@@ -1,0 +1,25 @@
+{include file="pageheader.htm"}
+{insert_scripts files="../js/utils.js,listtable.js"}
+<div class="list-div" id="listDiv">
+<table width="100%" cellspacing="1" cellpadding="2">
+  <tr>
+    <th>奖项名称</th>
+    <th>用户昵称</th>
+	<th>中奖时间</th>
+    <th>中奖代码</th>
+    <th>是否发奖</th>
+  </tr>
+  {foreach item=item from=$log}
+   <tr align="center">
+	<td>{$item.class_name}</td>
+	<td><a href="users.php?act=edit&id={$item.uid}">{$item.nickname}</a></td>
+	<td>{$item.createymd}</td>
+	<td>{$item.code}</td>
+	<td>{if $item.issend == 1}已发{else}<a href="weixin_egg.php?act=log&lid={$item.lid}">发奖</a>{/if}</td>
+  </tr> 
+  {foreachelse}
+  <tr><td colspan="5">暂无中奖记录</td></tr>
+  {/foreach}
+</table>
+</div>
+{include file="pagefooter.htm"}

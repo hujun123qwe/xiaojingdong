@@ -1,0 +1,4 @@
+*.log
+*.xml
+.idea/
+Runtime/Tmep/
