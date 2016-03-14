@@ -1,0 +1,38 @@
+<div class="TodaySelected">
+    <div id="TBBRim">
+        <div class="fmRim TodayBoutique">
+            <ul class="fmCon">
+                <li class="HBSBlock">
+
+
+                    <volist name="todaySelected" id="vo">
+                    <div class="TBB">
+                        <a target="_blank" href="{:U('Mia/goodsDetails/',array('goodsId'=>$vo['goodsId']))}" title="{$vo['goodsName']}">
+                        <div class="Commodity rel">
+                            <img src="__PUBLIC__/images/goodsImg.jpg" width="228" height="228" alt="{$vo['goodsName']}"/>
+                            <div class="Nicon NI_hot">热</div>
+                        </div>
+                        <div class="price1">
+                            <div class="r">
+                                2440人喜欢
+                            </div>
+                            <span class="p1">￥</span>
+                            <span class="p2">{$vo['shopPrice']}</span>
+                            <span class="originalPrice">￥{$vo['marketPrice']}</span>
+                        </div>
+                        <div class="intro">
+                            <p>{$vo['goodsName']}</p>
+                            <p class="gray3">{$vo['goodsBrief']}</p>
+                        </div>
+                        </a>
+                    </div>
+                    </volist>
+
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!--今日精选-结束-->

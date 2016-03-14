@@ -1,0 +1,55 @@
+<div class="newTN clearfix">
+    <div class="w1000">
+        <div class="r">
+            <?php if(session('WST_USER.userId')>0){ ?>
+            <ul >
+                <li><a href="{:U('Users/logout')}">退出</a></li>
+                <li class="line">|</li>
+                <li><a href="/help.html" rel="nofollow">帮助中心</a></li>
+                <li class="line">|</li>
+                <li class="mymia mymiaBtn PubBtnHover">
+                    <span class="indexPubTop">
+                    <a href="{:U('Users/index')}" target="_blank" rel="nofollow">我的蜜芽</a>
+                    </span>
+                    <div class="mymiaCon PubConHover">
+                        <a href="/order_lists" rel="nofollow">我的订单</a>
+                        <a href="/my_getredbag" rel="nofollow">我的红包</a>
+                        <a href="/my_coupon" rel="nofollow">我的代金券</a>
+                        <a href="/my_brand" rel="nofollow">我收藏的品牌</a>
+                        <a href="/my_collect" rel="nofollow">我收藏的商品</a>
+                    </div>
+                </li>
+                <li class="line">|</li>
+                <li>你好，<span >{$WST_USER['loginName']}</span></li>
+            </ul>
+            <?php }else{ ?>
+            <ul >
+                <li><a href="/help.html">帮助中心</a></li>
+                <li class="line">|</li>
+                <li><a href="{:U('Users/regist')}" title="点击注册" rel="nofollow">免费注册</a></li>
+                <li class="line">|</li>
+                <li><a href="{:U('Users/login')}" title="点击登录" rel="nofollow">登录</a></li>
+                <li class="line">|</li>
+                <li>您好，欢迎来到宝宝帝母婴商城 </li>
+            </ul>
+            <?php } ?>
+        </div>
+
+        <div class="l">
+            <ul>
+                <li class="cur"><a href="/">宝宝帝首页</a></li>
+                <li ><a href="javascript:addToFavorite()">收藏宝宝帝</a></li>
+                <li class="phone">
+                    <a href="#" data-html="true" tabindex="0" role="button" data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                       data-template='<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content" style="padding:0px;width:200px;"></div></div>'
+                       title="微信扫一扫" data-html="true" data-content="<img class='img-responsive' src='__IMG__/weixin.jpg'>">
+                        宝宝帝微商城
+                    </a>
+                </li>
+                <li style="background:url('__IMG__/phone.gif') no-repeat center center;width:120px;border-right:1px solid #e5e5e5;overflow:hidden;text-indent:-999px;">400-789-2000</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
