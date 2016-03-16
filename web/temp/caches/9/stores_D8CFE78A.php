@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:13:{i:0;s:73:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/stores.dwt";i:1;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_header.lbi";i:2;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:5;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:6;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_list.lbi";i:7;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_pager.lbi";i:8;s:89:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_tuijian.lbi";i:9;s:79:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/help.lbi";i:10;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footer.lbi";i:11;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:12;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";}s:7:"expires";i:1458044408;s:8:"maketime";i:1458040808;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:13:{i:0;s:73:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/stores.dwt";i:1;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_header.lbi";i:2;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:5;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:6;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_list.lbi";i:7;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_pager.lbi";i:8;s:89:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_tuijian.lbi";i:9;s:79:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/help.lbi";i:10;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footer.lbi";i:11;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:12;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";}s:7:"expires";i:1458133900;s:8:"maketime";i:1458130300;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="http://xjd.local/" />
@@ -54,17 +54,6 @@ var process_request = "正在处理您的请求...";
       <li class="sn-cart mini-cart menu">
       	<a id="mc-menu-hd" class="sn-cart-link mui-global-iconfont" href="flow.php" target="_top" rel="nofollow">购物车</a>
       </li>
-      <li class="sn-favorite menu-item">
-        <div class="sn-menu"> 
-        	<a aria-haspopup="menu-4" tabindex="0" class="menu-hd" href="user.php?act=collection_list" target="_top" rel="nofollow">收藏夹<b></b></a>
-          	<div id="menu-4" class="menu-bd">
-            	<div class="menu-bd-panel"> 
-                	<a href="user.php?act=collection_list" target="_top" rel="nofollow">收藏的宝贝</a> 
-                    <a href="user.php?act=follow_shop" target="_top" rel="nofollow">收藏的店铺</a> 
-                </div>
-          </div>
-        </div>
-      </li>
       <li class="sn-separator"></li>
       <script type="text/javascript">
 		function show_qcord(){
@@ -94,7 +83,18 @@ var process_request = "正在处理您的请求...";
         </div>
         </div>
       </li>
-      <li class="sn-seller menu-item">
+        <li class="sn-favorite menu-item">
+            <div class="sn-menu">
+                <a aria-haspopup="menu-4" tabindex="0" class="menu-hd" href="user.php?act=collection_list" target="_top" rel="nofollow">收藏夹<b></b></a>
+                <div id="menu-4" class="menu-bd">
+                    <div class="menu-bd-panel">
+                        <a href="user.php?act=collection_list" target="_top" rel="nofollow">收藏的宝贝</a>
+                        <a href="user.php?act=follow_shop" target="_top" rel="nofollow">收藏的店铺</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+      <li class="sn-seller menu-item" >
         <div class="sn-menu J_DirectPromo">
         <a aria-haspopup="menu-6" tabindex="0" class="menu-hd" href="" target="_top">商家支持<b></b></a>
         <div class="menu-bd" id="menu-6">
@@ -110,53 +110,12 @@ var process_request = "正在处理您的请求...";
                
               <a href="help.php?id=18" >常见问题</a> 
                
-              <a href="article_list.php" >文章资讯</a> 
-               
             </li>
             <li>
               <h3>帮助：</h3>
               <a href="help.php" target="_top" title="帮助中心">帮助中心</a> 
             </li>
           </ul>
-        </div>
-      </li>
-      <li class="sn-sitemap">
-        <div class="sn-menu">
-          <h3 class="menu-hd" tabindex="0" aria-haspopup="menu-8"><span class="sn-site-link">网站导航</span><b></b></h3>
-          <div class="menu-bd sn-sitemap-bd" id="menu-8">
-            <div class="site-cont site-hot">
-              <h2>热点推荐<span>Hot</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop介绍 </a></li>
-                <li><a href="">ecshop下载 </a></li>
-                <li><a href="">ecshop补丁 </a></li>
-                <li><a href="">ecshop商业授权 </a></li>
-                <li><a href="">ecshop二次开发 </a></li>
-                <li><a href="">ecshop模板定制 </a></li>
-              </ul>
-            </div>
-            <div class="site-cont site-market">
-              <h2>行业市场<span>Market</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop商业模板 </a></li>
-                <li><a href="">ecshop免费模板 </a></li>
-                <li><a href="">ecshop插件 </a></li>
-                <li><a href="">ecshop一站开店 </a></li>
-                <li><a href="">ecshop主机域名 </a></li>
-                <li><a href="">ecshop服务套餐 </a></li>
-              </ul>
-            </div>
-            <div class="site-cont site-brand">
-              <h2>优店风尚<span>Stores</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop手机端 </a></li>
-                <li><a href="">ecshop微商城 </a></li>
-                <li><a href="">ecshop小京东 </a></li>
-                <li><a href="">ecshop视觉营销 </a></li>
-                <li><a href="">ecshop高端模板 </a></li>
-              </ul>
-            </div>
-          </div>
         </div>
       </li>
     </ul>
@@ -1584,23 +1543,17 @@ function loginactResponse(result)
     <ul class="allMenu Left">
   <li><a class="index nav" href="/" title="首页">首页</a></li>
    
-  <li><a href="category.php?id=1"  class="nav " title="食品生鲜" >食品生鲜</a></li>  
+  <li><a href="category.php?id=1"  class="nav " title="新品上市" >新品上市</a></li>  
    
-  <li><a href="stores.php"  class="nav current" title="店铺街" >店铺街</a></li>  
+  <li><a href="stores.php"  class="nav current" title="孕妇专区" >孕妇专区</a></li>  
    
-  <li><a href="pro_search.php?intro=promotion"  class="nav " title="团购" >团购</a></li>  
+  <li><a href="pro_search.php?intro=promotion"  class="nav " title="今日特卖" >今日特卖</a></li>  
    
-  <li><a href="pre_sale.php"  class="nav " title="预售" >预售</a></li>  
-   
-  <li><a href="auction.php"  class="nav " title="拍卖" >拍卖</a></li>  
+  <li><a href="pre_sale.php"  class="nav " title="反季特卖" >反季特卖</a></li>  
    
   <li><a href="exchange.php"  class="nav " title="积分商城" >积分商城</a></li>  
    
   <li><a href="activity.php"  class="nav " title="优惠活动" >优惠活动</a></li>  
-   
-  <li><a href="scan.php"  class="nav " title="智能扫货" >智能扫货</a></li>  
-   
-  <li><a href="article_list.php"  class="nav " title="文章资讯" >文章资讯</a></li>  
   </ul> </div>
 </div>
 <script type="text/javascript">function _show_(h,b){if(!h){return;}if(b&&b.source&&b.target){var d=(typeof b.source=="string")?M.$("#"+b.source):b.source;var e=(typeof b.target=="string")?M.$("#"+b.target):b.target;if(d&&e&&!e.isDone){e.innerHTML=d.value;d.parentNode.removeChild(d);if(typeof b.callback=="function"){b.callback();}e.isDone=true;}}M.addClass(h,"hover");if(b&&b.isLazyLoad&&h.isDone){var g=h.find("img");for(var a=0,c=g.length;a<c;a++){var f=g[a].getAttribute("data-src_index_menu");if(f){g[a].setAttribute("src",f);g[a].removeAttribute("data-src_index_menu");}}h.isDone=true;}}function _hide_(a){if(!a){return;}if(a.className.indexOf("hover")>-1){M.removeClass(a,"hover");}}function shoucang(){var b=window.location.href;var a=document.title;try{window.external.addFavorite(b,a);}catch(c){try{window.sidebar.addPanel(a,b,"");}catch(c){alert("加入收藏失败，请使用Ctrl+D进行添加");}}}</script> 
@@ -1953,7 +1906,6 @@ $('.search-type li').click(function() {
 		</div>
       </div>	
 	</div>
-	
  
 	  <div class="mui-page" data-spm="20131103">
         <div class="mui-page-wrap"> 
@@ -1976,8 +1928,7 @@ $('.search-type li').click(function() {
 	</div>
 </div> 
     </div>
-    
-<div class="ft-bands" data-spm="a22255a">
+    <div class="ft-bands" data-spm="a22255a">
  
 	<div style="overflow:hidden" class="ft-col ft-man ft-col-cur">
 	<h3 class="ft-title">男人</h3>

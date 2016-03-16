@@ -97,39 +97,39 @@ var select_spe = "{$lang.select_spe}";
 		<!-- #BeginLibraryItem "/library/index_ad_group.lbi" -->
 		<!-- #EndLibraryItem -->
 		<div class="blank5"></div>
-		<div class="fp-brand-rec main-container" id="J_FpBrandRec">
+<!--		<div class="fp-brand-rec main-container" id="J_FpBrandRec">
 			<a class="brand-title" href="stores.php">热门品牌</a>
 			<div class="brand-content clearfix">
 				<div class="module">
 					<div class="brand-first">
-						<!-- TemplateBeginEditable name="首页店铺展示左侧广告" -->
-						<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示左侧广告" &ndash;&gt;
+						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
 						{insert name='ads' id=$ads_id num=$ads_num}
-						<!-- #EndLibraryItem -->
-						<!-- TemplateEndEditable -->
+						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
+						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
 					</div>
 				</div>
 				<div id="J_indexstore">{insert name='supplier_list'}</div>
 				<div class="module">
 					<div class="brand-today-b">
-						<!-- TemplateBeginEditable name="首页店铺展示右侧广告" -->
-						<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示右侧广告" &ndash;&gt;
+						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
 						{insert name='ads' id=$ads_id num=$ads_num}
-						<!-- #EndLibraryItem -->
-						<!-- TemplateEndEditable -->
+						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
+						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="blank5"></div>
+		</div>-->
+		<!--<div class="blank5"></div>
 		<div class="home-sale-layout wrapper">
 			<div class="left-layout">
-				<!-- #BeginLibraryItem "/library/stores_tab.lbi" -->
-				<!-- #EndLibraryItem -->
+				&lt;!&ndash; #BeginLibraryItem "/library/stores_tab.lbi" &ndash;&gt;
+				&lt;!&ndash; #EndLibraryItem &ndash;&gt;
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						<!--{foreach from=$promotion_goods item=goods name=index_goods}-->
-						<!--{if $smarty.foreach.index_goods.iteration < 6}-->
+						&lt;!&ndash;{foreach from=$promotion_goods item=goods name=index_goods}&ndash;&gt;
+						&lt;!&ndash;{if $smarty.foreach.index_goods.iteration < 6}&ndash;&gt;
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -143,23 +143,23 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-price">
 									商城价：
 									<em>
-										<!-- {if $goods.promote_price neq ""} -->
+										&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 										{$goods.promote_price}
-										<!-- {else}-->
+										&lt;!&ndash; {else}&ndash;&gt;
 										{$goods.shop_price}
-										<!--{/if}-->
+										&lt;!&ndash;{/if}&ndash;&gt;
 									</em>
 								</dd>
 							</dl>
 						</li>
-						<!--{/if}-->
-						<!--{/foreach}-->
+						&lt;!&ndash;{/if}&ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						<!-- {foreach name=index_goods from=$top_goods item=goods}-->
-						<!--{if $smarty.foreach.index_goods.iteration < 6}-->
+						&lt;!&ndash; {foreach name=index_goods from=$top_goods item=goods}&ndash;&gt;
+						&lt;!&ndash;{if $smarty.foreach.index_goods.iteration < 6}&ndash;&gt;
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -173,23 +173,23 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-price">
 									商城价：
 									<em>
-										<!-- {if $goods.promote_price neq ""} -->
+										&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 										{$goods.promote_price}
-										<!-- {else}-->
+										&lt;!&ndash; {else}&ndash;&gt;
 										{$goods.shop_price}
-										<!--{/if}-->
+										&lt;!&ndash;{/if}&ndash;&gt;
 									</em>
 								</dd>
 							</dl>
 						</li>
-						<!--{/if}-->
-						<!--{/foreach}-->
+						&lt;!&ndash;{/if}&ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						<!--{foreach from=$hot_goods item=goods name=index_goods}-->
-						<!--{if $smarty.foreach.index_goods.iteration < 6}-->
+						&lt;!&ndash;{foreach from=$hot_goods item=goods name=index_goods}&ndash;&gt;
+						&lt;!&ndash;{if $smarty.foreach.index_goods.iteration < 6}&ndash;&gt;
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -203,23 +203,23 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-price">
 									商城价：
 									<em>
-										<!-- {if $goods.promote_price neq ""} -->
+										&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 										{$goods.promote_price}
-										<!-- {else}-->
+										&lt;!&ndash; {else}&ndash;&gt;
 										{$goods.shop_price}
-										<!--{/if}-->
+										&lt;!&ndash;{/if}&ndash;&gt;
 									</em>
 								</dd>
 							</dl>
 						</li>
-						<!--{/if}-->
-						<!--{/foreach}-->
+						&lt;!&ndash;{/if}&ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						<!--{foreach from=$best_goods item=goods name=index_goods}-->
-						<!--{if $smarty.foreach.index_goods.iteration < 6}-->
+						&lt;!&ndash;{foreach from=$best_goods item=goods name=index_goods}&ndash;&gt;
+						&lt;!&ndash;{if $smarty.foreach.index_goods.iteration < 6}&ndash;&gt;
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -233,23 +233,23 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-price">
 									商城价：
 									<em>
-										<!-- {if $goods.promote_price neq ""} -->
+										&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 										{$goods.promote_price}
-										<!-- {else}-->
+										&lt;!&ndash; {else}&ndash;&gt;
 										{$goods.shop_price}
-										<!--{/if}-->
+										&lt;!&ndash;{/if}&ndash;&gt;
 									</em>
 								</dd>
 							</dl>
 						</li>
-						<!--{/if}-->
-						<!--{/foreach}-->
+						&lt;!&ndash;{/if}&ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list">
 					<ul>
-						<!--{foreach from=$new_goods item=goods name=index_goods}-->
-						<!--{if $smarty.foreach.index_goods.iteration < 6}-->
+						&lt;!&ndash;{foreach from=$new_goods item=goods name=index_goods}&ndash;&gt;
+						&lt;!&ndash;{if $smarty.foreach.index_goods.iteration < 6}&ndash;&gt;
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -263,17 +263,17 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-price">
 									商城价：
 									<em>
-										<!-- {if $goods.promote_price neq ""} -->
+										&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 										{$goods.promote_price}
-										<!-- {else}-->
+										&lt;!&ndash; {else}&ndash;&gt;
 										{$goods.shop_price}
-										<!--{/if}-->
+										&lt;!&ndash;{/if}&ndash;&gt;
 									</em>
 								</dd>
 							</dl>
 						</li>
-						<!--{/if}-->
-						<!--{/foreach}-->
+						&lt;!&ndash;{/if}&ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 				</div>
 			</div>
@@ -286,7 +286,7 @@ var select_spe = "{$lang.select_spe}";
 				</div>
 				<div id="saleDiscount" class="sale-discount">
 					<ul>
-						<!--{foreach from=$promotion_goods item=goods name=index_goods key=key}-->
+						&lt;!&ndash;{foreach from=$promotion_goods item=goods name=index_goods key=key}&ndash;&gt;
 						{if $smarty.foreach.index_goods.iteration > 5 and $smarty.foreach.index_goods.iteration < 10}
 						<li>
 							<dl>
@@ -299,11 +299,11 @@ var select_spe = "{$lang.select_spe}";
 									</a>
 								</dd>
 								<dd class="goods-price">
-									<!-- {if $goods.promote_price neq ""} -->
+									&lt;!&ndash; {if $goods.promote_price neq ""} &ndash;&gt;
 									{$goods.promote_price}
-									<!-- {else}-->
+									&lt;!&ndash; {else}&ndash;&gt;
 									{$goods.shop_price}
-									<!--{/if}-->
+									&lt;!&ndash;{/if}&ndash;&gt;
 									<span class="original">{$goods.market_price}</span>
 								</dd>
 								<dd class="goods-price-discount">
@@ -325,7 +325,7 @@ var select_spe = "{$lang.select_spe}";
 								<dd class="goods-buy-btn"></dd>
 							</dl>
 						</li>
-						<!-- 
+						&lt;!&ndash;
 						<script type="text/javascript">
 						/**
 						Tday[{$key}] = new Date("{$goods.gmt_end_time}");
@@ -335,9 +335,9 @@ var select_spe = "{$lang.select_spe}";
 						{clock({$key});}, 1000);
 						**/
 						</script>
-						 -->
-						<!-- {/if} -->
-						<!--{/foreach}-->
+						 &ndash;&gt;
+						&lt;!&ndash; {/if} &ndash;&gt;
+						&lt;!&ndash;{/foreach}&ndash;&gt;
 					</ul>
 					<div class="pagination">
 						<span style="opacity: 0.4;"></span>
@@ -349,7 +349,7 @@ var select_spe = "{$lang.select_spe}";
 					<div class="arrow next" style="opacity: 0;"></div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<div class="blank5"></div>
 		<!-- 楼层 - start -->
 		<div class="floorList">
@@ -385,34 +385,7 @@ var select_spe = "{$lang.select_spe}";
 			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
 			<!-- #EndLibraryItem -->
 			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层2" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层3" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层4" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层5" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层6" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层7" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
-			<!-- TemplateBeginEditable name="商品分类楼层8" -->
-			<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-			<!-- #EndLibraryItem -->
-			<!-- TemplateEndEditable -->
+
 		</div>
 		<!-- 楼层 - end -->
 	</div>

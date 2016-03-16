@@ -1,24 +1,24 @@
-<?php exit;?>a:3:{s:8:"template";a:12:{i:0;s:79:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/article_list.dwt";i:1;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_header.lbi";i:2;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:5;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:6;s:80:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/ar_ad.lbi";i:7;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/ar_ad_mid.lbi";i:8;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/article_tit1.lbi";i:9;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/article_tit2.lbi";i:10;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/article_tit3.lbi";i:11;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footer.lbi";}s:7:"expires";i:1457856096;s:8:"maketime";i:1457852496;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:13:{i:0;s:73:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/stores.dwt";i:1;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_header.lbi";i:2;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:5;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:6;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_list.lbi";i:7;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_pager.lbi";i:8;s:89:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_tuijian.lbi";i:9;s:79:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/help.lbi";i:10;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footer.lbi";i:11;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:12;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";}s:7:"expires";i:1458134245;s:8:"maketime";i:1458130645;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="http://xjd.local/" />
 <meta name="Generator" content="68ECSHOP v4_2" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>店铺街_小京东商城  </title>
 <meta name="Keywords" content="" />
 <meta name="Description" content="" />
-<title>文章列表_小京东商城  </title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
-<link href="themes/68ecshopcom_360buy/style.css" rel="stylesheet" type="text/css" />
-<link href="themes/68ecshopcom_360buy/css/article_list.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/common.js"></script><script src="themes/68ecshopcom_360buy/js/common.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/zxbbs.min.js"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.5.1.min.js"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/slidePic.min.js"></script>
+<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/store.css">
+<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/second.css">
+<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/brandbar.css">
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script><script type="text/javascript" src="js/jquery.json.js"></script><script type="text/javascript" src="js/transport.js"></script><script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js" ></script>
 </head>
-<body class="root_body">
+<body>
 <div id="site-nav"> 
-<script language="javascript"> 
+  <script language="javascript"> 
 <!--
 /*屏蔽所有的js错误*/
 function killerrors() { 
@@ -54,17 +54,6 @@ var process_request = "正在处理您的请求...";
       <li class="sn-cart mini-cart menu">
       	<a id="mc-menu-hd" class="sn-cart-link mui-global-iconfont" href="flow.php" target="_top" rel="nofollow">购物车</a>
       </li>
-      <li class="sn-favorite menu-item">
-        <div class="sn-menu"> 
-        	<a aria-haspopup="menu-4" tabindex="0" class="menu-hd" href="user.php?act=collection_list" target="_top" rel="nofollow">收藏夹<b></b></a>
-          	<div id="menu-4" class="menu-bd">
-            	<div class="menu-bd-panel"> 
-                	<a href="user.php?act=collection_list" target="_top" rel="nofollow">收藏的宝贝</a> 
-                    <a href="user.php?act=follow_shop" target="_top" rel="nofollow">收藏的店铺</a> 
-                </div>
-          </div>
-        </div>
-      </li>
       <li class="sn-separator"></li>
       <script type="text/javascript">
 		function show_qcord(){
@@ -94,7 +83,18 @@ var process_request = "正在处理您的请求...";
         </div>
         </div>
       </li>
-      <li class="sn-seller menu-item">
+        <li class="sn-favorite menu-item">
+            <div class="sn-menu">
+                <a aria-haspopup="menu-4" tabindex="0" class="menu-hd" href="user.php?act=collection_list" target="_top" rel="nofollow">收藏夹<b></b></a>
+                <div id="menu-4" class="menu-bd">
+                    <div class="menu-bd-panel">
+                        <a href="user.php?act=collection_list" target="_top" rel="nofollow">收藏的宝贝</a>
+                        <a href="user.php?act=follow_shop" target="_top" rel="nofollow">收藏的店铺</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+      <li class="sn-seller menu-item" >
         <div class="sn-menu J_DirectPromo">
         <a aria-haspopup="menu-6" tabindex="0" class="menu-hd" href="" target="_top">商家支持<b></b></a>
         <div class="menu-bd" id="menu-6">
@@ -110,53 +110,12 @@ var process_request = "正在处理您的请求...";
                
               <a href="help.php?id=18" >常见问题</a> 
                
-              <a href="article_list.php" >文章资讯</a> 
-               
             </li>
             <li>
               <h3>帮助：</h3>
               <a href="help.php" target="_top" title="帮助中心">帮助中心</a> 
             </li>
           </ul>
-        </div>
-      </li>
-      <li class="sn-sitemap">
-        <div class="sn-menu">
-          <h3 class="menu-hd" tabindex="0" aria-haspopup="menu-8"><span class="sn-site-link">网站导航</span><b></b></h3>
-          <div class="menu-bd sn-sitemap-bd" id="menu-8">
-            <div class="site-cont site-hot">
-              <h2>热点推荐<span>Hot</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop介绍 </a></li>
-                <li><a href="">ecshop下载 </a></li>
-                <li><a href="">ecshop补丁 </a></li>
-                <li><a href="">ecshop商业授权 </a></li>
-                <li><a href="">ecshop二次开发 </a></li>
-                <li><a href="">ecshop模板定制 </a></li>
-              </ul>
-            </div>
-            <div class="site-cont site-market">
-              <h2>行业市场<span>Market</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop商业模板 </a></li>
-                <li><a href="">ecshop免费模板 </a></li>
-                <li><a href="">ecshop插件 </a></li>
-                <li><a href="">ecshop一站开店 </a></li>
-                <li><a href="">ecshop主机域名 </a></li>
-                <li><a href="">ecshop服务套餐 </a></li>
-              </ul>
-            </div>
-            <div class="site-cont site-brand">
-              <h2>优店风尚<span>Stores</span></h2>
-              <ul class="site-list">
-                <li><a href="">ecshop手机端 </a></li>
-                <li><a href="">ecshop微商城 </a></li>
-                <li><a href="">ecshop小京东 </a></li>
-                <li><a href="">ecshop视觉营销 </a></li>
-                <li><a href="">ecshop高端模板 </a></li>
-              </ul>
-            </div>
-          </div>
         </div>
       </li>
     </ul>
@@ -1584,23 +1543,17 @@ function loginactResponse(result)
     <ul class="allMenu Left">
   <li><a class="index nav" href="/" title="首页">首页</a></li>
    
-  <li><a href="category.php?id=1"  class="nav " title="食品生鲜" >食品生鲜</a></li>  
+  <li><a href="category.php?id=1"  class="nav " title="新品上市" >新品上市</a></li>  
    
-  <li><a href="stores.php"  class="nav " title="店铺街" >店铺街</a></li>  
+  <li><a href="stores.php"  class="nav current" title="孕妇专区" >孕妇专区</a></li>  
    
-  <li><a href="pro_search.php?intro=promotion"  class="nav " title="团购" >团购</a></li>  
+  <li><a href="pro_search.php?intro=promotion"  class="nav " title="今日特卖" >今日特卖</a></li>  
    
-  <li><a href="pre_sale.php"  class="nav " title="预售" >预售</a></li>  
-   
-  <li><a href="auction.php"  class="nav " title="拍卖" >拍卖</a></li>  
+  <li><a href="pre_sale.php"  class="nav " title="反季特卖" >反季特卖</a></li>  
    
   <li><a href="exchange.php"  class="nav " title="积分商城" >积分商城</a></li>  
    
   <li><a href="activity.php"  class="nav " title="优惠活动" >优惠活动</a></li>  
-   
-  <li><a href="scan.php"  class="nav " title="智能扫货" >智能扫货</a></li>  
-   
-  <li><a href="article_list.php"  class="nav current" title="文章资讯" >文章资讯</a></li>  
   </ul> </div>
 </div>
 <script type="text/javascript">function _show_(h,b){if(!h){return;}if(b&&b.source&&b.target){var d=(typeof b.source=="string")?M.$("#"+b.source):b.source;var e=(typeof b.target=="string")?M.$("#"+b.target):b.target;if(d&&e&&!e.isDone){e.innerHTML=d.value;d.parentNode.removeChild(d);if(typeof b.callback=="function"){b.callback();}e.isDone=true;}}M.addClass(h,"hover");if(b&&b.isLazyLoad&&h.isDone){var g=h.find("img");for(var a=0,c=g.length;a<c;a++){var f=g[a].getAttribute("data-src_index_menu");if(f){g[a].setAttribute("src",f);g[a].removeAttribute("data-src_index_menu");}}h.isDone=true;}}function _hide_(a){if(!a){return;}if(a.className.indexOf("hover")>-1){M.removeClass(a,"hover");}}function shoucang(){var b=window.location.href;var a=document.title;try{window.external.addFavorite(b,a);}catch(c){try{window.sidebar.addPanel(a,b,"");}catch(c){alert("加入收藏失败，请使用Ctrl+D进行添加");}}}</script> 
@@ -1637,485 +1590,468 @@ $('.search-type li').click(function() {
     $('#searchtype').val($(this).attr('num'));
 });
 </script>
-</div>
-<div class="article_block clearfix">
-  <div id="focus">
-    <div class="stageBox">
-      <div id="JS_focus_stage" style="margin-top: -1824px; "> 
-      <a href='http://' target='_blank' title='广告5'><img src='data/article/1437334721101005376.jpg' height='456' alt='广告5'/></a><a href='http://' target='_blank' title='广告4'><img src='data/article/1437334712958170263.jpg' height='456' alt='广告4'/></a><a href='http://' target='_blank' title='广告3'><img src='data/article/1437334700595779668.jpg' height='456' alt='广告3'/></a><a href='http://' target='_blank' title='广告2'><img src='data/article/1437334690546712289.jpg' height='456' alt='广告2'/></a><a href='http://' target='_blank' title='广告1'><img src='data/article/1437603513188688137.jpg' height='456' alt='广告1'/></a>      </div>
-    </div>
-    <div class="panel">
-      <div id="JS_focus_nav" class="nav">
-       <a class="" href="javascript:;" data-alt=""> 1 </a> 
-       <a href="javascript:;" data-alt="" class=""> 2 </a> 
-       <a href="javascript:;" data-alt="" class=""> 3 </a> 
-       <a href="javascript:;" data-alt="" class=""> 4 </a> 
-       <a href="javascript:;" data-alt="" class="current"> 5 </a> </div>
-    </div>
-  </div>
-  <div class="articleList">
-    <h3></h3>
-    <div class="learn_news">
-      <h4>商之翼"0"元建站送主机-颠覆传统建站模式</h4>
-      <p class="k_h"><a href="article.php?id=106" target="_blank"><p>0元= 一个PC端商城+wap手机端商城+ 1G万网主机！泡碗面的功夫，一个完整的高品质网站就这样诞生了，你信吗？...</a> </p>
-      <p><a href="article.php?id=106" class="red" target="_blank">【详细阅读】</a></p>
-    </div>
-       
-    
-        
-    <ul class="allList bodertop mt10">    
-    			<li><a class="kind" href="article_cat.php?id=12" target="_blank">站内快讯</a><span>|</span><a href="article.php?id=120" target="_blank" title="客户送锦旗 感恩“优质服务”">客户送锦旗 感恩“优质服务”</a></li>
-            			<li><a class="kind" href="article_cat.php?id=12" target="_blank">站内快讯</a><span>|</span><a href="article.php?id=119" target="_blank" title="ECSmart出免费版了！商之翼就是这么任性">ECSmart出免费版了！商之翼就是这么任性</a></li>
-            			<li><a class="kind" href="article_cat.php?id=12" target="_blank">站内快讯</a><span>|</span><a href="article.php?id=118" target="_blank" title="出大事了！秦皇岛商之翼被录音啦！">出大事了！秦皇岛商之翼被录音啦！</a></li>
-            			<li><a class="kind" href="article_cat.php?id=12" target="_blank">站内快讯</a><span>|</span><a href="article.php?id=63" target="_blank" title="面部护理满额送157元家 ">面部护理满额送157元家 </a></li>
-            			<li><a class="kind" href="article_cat.php?id=12" target="_blank">站内快讯</a><span>|</span><a href="article.php?id=62" target="_blank" title="买家庭护理用品送宝洁魅力 ">买家庭护理用品送宝洁魅力 </a></li>
-             
-	</ul>
-    
-    <ul class="allList bodertop mt10">
-			<li><a class="kind" href="article_cat.php?id=14" target="_blank">今日聚焦</a><span>|</span><a href="article.php?id=106" target="_blank" title="商之翼"0"元建站送主机-颠覆传统建站模式">商之翼"0"元建站送主机-颠覆传统建站模式</a></li>
-            			<li><a class="kind" href="article_cat.php?id=14" target="_blank">今日聚焦</a><span>|</span><a href="article.php?id=105" target="_blank" title="秦皇岛商之翼“六一”儿童节发礼物啦！">秦皇岛商之翼“六一”儿童节发礼物啦！</a></li>
-            			<li><a class="kind" href="article_cat.php?id=14" target="_blank">今日聚焦</a><span>|</span><a href="article.php?id=104" target="_blank" title="客户送锦旗 感恩“优质服务”">客户送锦旗 感恩“优质服务”</a></li>
-            			<li><a class="kind" href="article_cat.php?id=14" target="_blank">今日聚焦</a><span>|</span><a href="article.php?id=90" target="_blank" title="秦皇岛商之翼网络科技有限公司2015年端午节放假通知">秦皇岛商之翼网络科技有限公司2015年端午节放假通知</a></li>
-            			<li><a class="kind" href="article_cat.php?id=14" target="_blank">今日聚焦</a><span>|</span><a href="article.php?id=89" target="_blank" title="端午佳节粽飘香，商之翼恭祝大家端午节安康！">端午佳节粽飘香，商之翼恭祝大家端午节安康！</a></li>
-             
-	</ul>
-  </div>
-  
-  
-      
-  <div class="pageSide">
-    <div class="sideCom">
-                <div class="title"><a class="ico ico3" href="article_cat.php?id=18"></a>行业聚焦</div>
-                                                                                                                                              
-      <ul class="body">
-                      <li>
-          <div class="subject"><span class="ico ico1">1</span><a href="article.php?id=103" target="_blank" title="刘强东说要用这三个“F”搞定农村电商">刘强东说要用这三个“F”搞定农村...</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">2</span><a href="article.php?id=102" target="_blank" title="淘宝、天猫、聚划算整合，行癫履新，重开聚划算竞拍机制">淘宝、天猫、聚划算整合，行癫履新...</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">3</span><a href="article.php?id=101" target="_blank" title="朋友圈广告首次嫁接电商 唯品会试撒娇付">朋友圈广告首次嫁接电商 唯品会试...</a></div>
-        </li>
-                                                                                                                                  
-                                                                        <li>
-           <div class="subject"><span class="ico ico2">4</span><a href="article.php?id=100" target="_blank" title="美丽说推服装反向定制 称供应链快过ZARA">美丽说推服装反向定制 称供应链快...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">5</span><a href="article.php?id=99" target="_blank" title="微商用微信营销软件挣钱的八种方法">微商用微信营销软件挣钱的八种方法</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">6</span><a href="article.php?id=98" target="_blank" title="阿里下线11家快递打击炒信刷单 涉及中铁快运增益">阿里下线11家快递打击炒信刷单 ...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">7</span><a href="article.php?id=97" target="_blank" title="跨界电商风生水起：京东淘宝进军海外市场困难重重">跨界电商风生水起：京东淘宝进军海...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">8</span><a href="article.php?id=96" target="_blank" title="优衣库的稳健和精明，凡客的文艺和草莽">优衣库的稳健和精明，凡客的文艺和...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">9</span><a href="article.php?id=95" target="_blank" title="Etsy上市暴涨88% 中国工艺品电商何去何从？">Etsy上市暴涨88% 中国工艺...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">10</span><a href="article.php?id=94" target="_blank" title="外卖O2O：轻模式、重模式、第三方平台">外卖O2O：轻模式、重模式、第三...</a></div>
-        </li>
-                    
-      </ul>
-    </div>
-    
-    <div class="pic Right"> 
-        <a href="article.php?id=91" target="_blank" title="ecshop开发中心官方微信开通了，求关注~~"><img src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437372021893382.jpg" width="273" height="110"></a> 
-     
-    </div>
-  </div>
-  
-  
-</div>
-    <div class="article_block homeAd">
-    <div class="ad_list" style="margin-top: 0px; ">
-<a href='http://' target='_blank' title='广告通栏2'><img src='data/article/1437442318510034222.jpg' width='1210' height='50' alt='广告通栏2'/></a><a href='http://' target='_blank' title='广告通栏1'><img src='data/article/1437442307400141231.jpg' width='1210' height='50' alt='广告通栏1'/></a>   </div>
-    </div>
-     <div class="article_block clearfix">
-    
-		<div class="mainCom">
-			<div class="title"> <span class="tName">系统分类</span> </div>			<div class="body">
-            	<div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=14" target="_blank">今日聚焦</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=14" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=106" target="_blank" title="商之翼"0"元建站送主机-颠覆传统建站模式">商之翼"0"元建站送主机-颠覆传统建站模式</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=105" target="_blank" title="秦皇岛商之翼“六一”儿童节发礼物啦！">秦皇岛商之翼“六一”儿童节发礼物啦！</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=104" target="_blank" title="客户送锦旗 感恩“优质服务”">客户送锦旗 感恩“优质服务”</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=90" target="_blank" title="秦皇岛商之翼网络科技有限公司2015年端午节放假通知">秦皇岛商之翼网络科技有限公司2015年端午节放假通知</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=89" target="_blank" title="端午佳节粽飘香，商之翼恭祝大家端午节安康！">端午佳节粽飘香，商之翼恭祝大家端午节安康！</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=88" target="_blank" title="热烈庆祝商之翼XJD加盟连锁版系统V1.0荣获国家软件著作权证书">热烈庆祝商之翼XJD加盟连锁版系统V1.0荣获国家软件著作权证书</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=87" target="_blank" title="热烈庆祝商之翼多商户管理系统V1.0荣获国家软件著作权证书">热烈庆祝商之翼多商户管理系统V1.0荣获国家软件著作权证书</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=86" target="_blank" title="锐变|商之翼多商户V2.0版重磅来袭！Prefect！">锐变|商之翼多商户V2.0版重磅来袭！Prefect！</a></li>                    									<li><a class="kind" href="article_cat.php?id=14" target="_blank" title="今日聚焦">今日聚焦</a><span>|</span><a href="article.php?id=85" target="_blank" title="小京东V3.0谁与争锋——不同版本，更多选择！">小京东V3.0谁与争锋——不同版本，更多选择！</a></li>                                                  
-					   </ul>
-                </div>
-                 
-                <div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=18" target="_blank">行业聚焦</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=18" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=103" target="_blank" title="刘强东说要用这三个“F”搞定农村电商">刘强东说要用这三个“F”搞定农村电商</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=102" target="_blank" title="淘宝、天猫、聚划算整合，行癫履新，重开聚划算竞拍机制">淘宝、天猫、聚划算整合，行癫履新，重开聚划算竞拍机制</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=101" target="_blank" title="朋友圈广告首次嫁接电商 唯品会试撒娇付">朋友圈广告首次嫁接电商 唯品会试撒娇付</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=100" target="_blank" title="美丽说推服装反向定制 称供应链快过ZARA">美丽说推服装反向定制 称供应链快过ZARA</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=99" target="_blank" title="微商用微信营销软件挣钱的八种方法">微商用微信营销软件挣钱的八种方法</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=98" target="_blank" title="阿里下线11家快递打击炒信刷单 涉及中铁快运增益">阿里下线11家快递打击炒信刷单 涉及中铁快运增益</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=97" target="_blank" title="跨界电商风生水起：京东淘宝进军海外市场困难重重">跨界电商风生水起：京东淘宝进军海外市场困难重重</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=96" target="_blank" title="优衣库的稳健和精明，凡客的文艺和草莽">优衣库的稳健和精明，凡客的文艺和草莽</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=95" target="_blank" title="Etsy上市暴涨88% 中国工艺品电商何去何从？">Etsy上市暴涨88% 中国工艺品电商何去何从？</a></li>                                                  
-					   </ul>
-                </div>		
-			</div>
-		</div>
-             
-  <div class="pageSide">
-    <div class="sideCom">
-                <div class="title"><a class="ico ico3" href="article_cat.php?id=9"></a>关于我们 </div>
-                                                                                                                                              
-      <ul class="body">
-                      <li>
-          <div class="subject"><span class="ico ico1">1</span><a href="article.php?id=77" target="_blank" title="京东礼品卡">京东礼品卡</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">2</span><a href="article.php?id=76" target="_blank" title="节能补贴">节能补贴</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">3</span><a href="article.php?id=74" target="_blank" title="返修/退换货">返修/退换货</a></div>
-        </li>
-                                                                                                                                  
-                                                                        <li>
-           <div class="subject"><span class="ico ico2">4</span><a href="article.php?id=73" target="_blank" title="退款说明">退款说明</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">5</span><a href="article.php?id=72" target="_blank" title="公司转账">公司转账</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">6</span><a href="article.php?id=71" target="_blank" title="在线支付">在线支付</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">7</span><a href="article.php?id=70" target="_blank" title="Global Shipping">Global Shipping</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">8</span><a href="article.php?id=69" target="_blank" title="如何送礼">如何送礼</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">9</span><a href="article.php?id=68" target="_blank" title="联系客服">联系客服</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">10</span><a href="article.php?id=66" target="_blank" title="团购/机票">团购/机票</a></div>
-        </li>
-                    
-      </ul>
-    </div>
-   
-  </div>
-        
+  <div id="content">
+    <div class="flow">
+      <div class="cate_attr">
+      <div class="nav-tag clearfix"> 
+      	<h5 class="filter-label-ab">分类</h5>
+        <div class="cate_attr_con">
+        	<div class="filter-all-ab">
+      			<a  class="selected"  target="_self" href="stores.php"><span>全部</span></a>
+            </div>
+            <div class="district-tab">
+        		 
+        		<a  target="_self" href="stores.php?id=1"><span>精选</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=2"><span>女人</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=3"><span>男人</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=4"><span>家装</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=5"><span>母婴</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=6"><span>美妆</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=7"><span>美食</span></a>
+        		 
+        		<a  target="_self" href="stores.php?id=8"><span>数码</span></a>
+        		            </div> 
         </div>
-<DIV class="artimg_box article_block">
-<DIV class=sec-title-1>
-<H3>手机促销</H3><A class="more" 
-href="article_cat.php?id=11">更多&gt;&gt;</A></DIV>
- 
-<UL>
-  <LI class=focus>
-  <P><A href="article.php?id=117"><IMG class="view" alt="刘强东你错了，是时候调整战略了" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/65111437375507.jpg"></A></P>
-  <P><A class=txt title="刘强东你错了，是时候调整战略了" target="_blank"
-  href="article.php?id=117">刘强东你错了，是时候...</A></P></LI>
-                         
-      <LI>
-  <P><A href="article.php?id=116" target="_blank"><IMG class="view" alt="外卖O2O：轻模式、重模式、第三方平台" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/97151437375448.jpg"></A></P>
-  <P><A class=txt title="外卖O2O：轻模式、重模式、第三方平台" target="_blank"
-  href="article.php?id=116">外卖O2O：轻模式、...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=115" target="_blank"><IMG class="view" alt="电商这么火，能用它来发展农村经济吗？" src="themes/68ecshopcom_360buy/images/upgrade_ad/article_img.jpg"></A></P>
-  <P><A class=txt title="电商这么火，能用它来发展农村经济吗？" target="_blank"
-  href="article.php?id=115">电商这么火，能用它来...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=114" target="_blank"><IMG class="view" alt="刘强东警告传统企业：加盟模式会被O2O干掉！" src="themes/68ecshopcom_360buy/images/upgrade_ad/article_img.jpg"></A></P>
-  <P><A class=txt title="刘强东警告传统企业：加盟模式会被O2O干掉！" target="_blank"
-  href="article.php?id=114">刘强东警告传统企业：...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=113" target="_blank"><IMG class="view" alt="叫好不叫座！腾讯支付的瓶颈在哪儿？" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/37571437375146.jpg"></A></P>
-  <P><A class=txt title="叫好不叫座！腾讯支付的瓶颈在哪儿？" target="_blank"
-  href="article.php?id=113">叫好不叫座！腾讯支付...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=112" target="_blank"><IMG class="view" alt="让千禧一代爱上你品牌的11种方法" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/32701437375099.jpg"></A></P>
-  <P><A class=txt title="让千禧一代爱上你品牌的11种方法" target="_blank"
-  href="article.php?id=112">让千禧一代爱上你品牌...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=111" target="_blank"><IMG class="view" alt="刘强东带领京东高管下农村 拓展农村电商业务" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437375002807362.jpg"></A></P>
-  <P><A class=txt title="刘强东带领京东高管下农村 拓展农村电商业务" target="_blank"
-  href="article.php?id=111">刘强东带领京东高管下...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=110" target="_blank"><IMG class="view" alt="王健林详解万达O2O，马云：赚钱的事想好了，代价呢？" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437374922544782.png"></A></P>
-  <P><A class=txt title="王健林详解万达O2O，马云：赚钱的事想好了，代价呢？" target="_blank"
-  href="article.php?id=110">王健林详解万达O2O...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=109" target="_blank"><IMG class="view" alt="“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437374860704903.jpg"></A></P>
-  <P><A class=txt title="“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战" target="_blank"
-  href="article.php?id=109">“互联网+”下的全零...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=108" target="_blank"><IMG class="view" alt="街头小卖部真的被电商和超市逼得走投无路了吗？" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437374786400195.jpg"></A></P>
-  <P><A class=txt title="街头小卖部真的被电商和超市逼得走投无路了吗？" target="_blank"
-  href="article.php?id=108">街头小卖部真的被电商...</A></P></LI>
-        <LI>
-  <P><A href="article.php?id=107" target="_blank"><IMG class="view" alt="乐视商城荣获首届艾奇奖“商业模式创新类B2C”银奖" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437374688345889.jpg"></A></P>
-  <P><A class=txt title="乐视商城荣获首届艾奇奖“商业模式创新类B2C”银奖" target="_blank"
-  href="article.php?id=107">乐视商城荣获首届艾奇...</A></P></LI>
-       
-  </UL></DIV>
-<div class="article_block clearfix">
-		    
-		<div class="mainCom">
-			<div class="title"> <span class="tName">系统分类</span> </div>			<div class="body">
-            	<div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=11" target="_blank">手机促销</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=11" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=117" target="_blank" title="刘强东你错了，是时候调整战略了">刘强东你错了，是时候调整战略了</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=116" target="_blank" title="外卖O2O：轻模式、重模式、第三方平台">外卖O2O：轻模式、重模式、第三方平台</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=115" target="_blank" title="电商这么火，能用它来发展农村经济吗？">电商这么火，能用它来发展农村经济吗？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=114" target="_blank" title="刘强东警告传统企业：加盟模式会被O2O干掉！">刘强东警告传统企业：加盟模式会被O2O干掉！</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=113" target="_blank" title="叫好不叫座！腾讯支付的瓶颈在哪儿？">叫好不叫座！腾讯支付的瓶颈在哪儿？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=112" target="_blank" title="让千禧一代爱上你品牌的11种方法">让千禧一代爱上你品牌的11种方法</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=111" target="_blank" title="刘强东带领京东高管下农村 拓展农村电商业务">刘强东带领京东高管下农村 拓展农村电商业务</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=110" target="_blank" title="王健林详解万达O2O，马云：赚钱的事想好了，代价呢？">王健林详解万达O2O，马云：赚钱的事想好了，代价呢？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=109" target="_blank" title="“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战">“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战</a></li>                                                  
-					   </ul>
-                </div>
-                 
-                <div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=13" target="_blank">生活百科</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=13" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=55" target="_blank" title="买婴儿服装送价值39元">买婴儿服装送价值39元</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=53" target="_blank" title="买名品香水送博柏利女士香">买名品香水送博柏利女士香</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=52" target="_blank" title="买家庭护理用品送宝洁魅力">买家庭护理用品送宝洁魅力</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=51" target="_blank" title="面部护理满额送157元家">面部护理满额送157元家</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=41" target="_blank" title="每周骑车5小时或损害男性生育力">每周骑车5小时或损害男性生育力</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=40" target="_blank" title="常吃麻辣火锅影响头发生长容易造成脱发">常吃麻辣火锅影响头发生长容易造成脱发</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=39" target="_blank" title="青少年吸烟可导致抑郁症">青少年吸烟可导致抑郁症</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=38" target="_blank" title="维生素C ——春季必须补的维生素">维生素C ——春季必须补的维生素</a></li>                    									<li><a class="kind" href="article_cat.php?id=13" target="_blank" title="生活百科">生活百科</a><span>|</span><a href="article.php?id=37" target="_blank" title="蛋白粉有副作用吗？">蛋白粉有副作用吗？</a></li>                                                  
-					   </ul>
-                </div>		
-			</div>
-		</div>
-  <div class="pageSide">
-    <div class="sideCom">
-                <div class="title"><a class="ico ico3" href="article_cat.php?id=12"></a>站内快讯</div>
-                                                                                                                                              
-      <ul class="body">
-                      <li>
-          <div class="subject"><span class="ico ico1">1</span><a href="article.php?id=120" target="_blank" title="客户送锦旗 感恩“优质服务”">客户送锦旗 感恩“优质服务”</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">2</span><a href="article.php?id=119" target="_blank" title="ECSmart出免费版了！商之翼就是这么任性">ECSmart出免费版了！商之翼就是这么...</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">3</span><a href="article.php?id=118" target="_blank" title="出大事了！秦皇岛商之翼被录音啦！">出大事了！秦皇岛商之翼被录音啦！</a></div>
-        </li>
-                                                                                                                                  
-                                                                        <li>
-           <div class="subject"><span class="ico ico2">4</span><a href="article.php?id=63" target="_blank" title="面部护理满额送157元家 ">面部护理满额送157元家</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">5</span><a href="article.php?id=62" target="_blank" title="买家庭护理用品送宝洁魅力 ">买家庭护理用品送宝洁魅力</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">6</span><a href="article.php?id=61" target="_blank" title="买名品香水送博柏利女士香 ">买名品香水送博柏利女士香</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">7</span><a href="article.php?id=34" target="_blank" title="3G知识普及">3G知识普及</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">8</span><a href="article.php?id=33" target="_blank" title="三星SGHU308说明书下载">三星SGHU308说明书下载</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">9</span><a href="article.php?id=32" target="_blank" title="手机游戏下载">手机游戏下载</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">10</span><a href="article.php?id=31" target="_blank" title="诺基亚6681手机广告欣赏">诺基亚6681手机广告欣赏</a></div>
-        </li>
-                    
-      </ul>
+      </div>
     </div>
-   
-  </div>
-        
-        </div>
+      <div class="flow-wrap clearfix">
  
-  
-  <DIV class="artimg_box1 article_block" style="margin-bottom:10px;">
-<DIV class=sec-title-1>
-<H3>开店必备</H3><A class="more"  target="_blank"
-href="article_cat.php?id=4">更多&gt;&gt;</A></DIV>
- 
-<UL>
-  
-     <LI>
-  <P><A href="article.php?id=130" target="_blank"><IMG class=view 
-  alt="网店一条街和网店连锁店的未来" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376698700858.jpg"></A></P>
-  <P><A class=txt title="网店一条街和网店连锁店的未来" target="_blank"
-  href="article.php?id=130">网店一条街和网店连锁...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=129" target="_blank"><IMG class=view 
-  alt="传统企业可以融入的互联网思维" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376628428123.jpg"></A></P>
-  <P><A class=txt title="传统企业可以融入的互联网思维" target="_blank"
-  href="article.php?id=129">传统企业可以融入的互...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=128" target="_blank"><IMG class=view 
-  alt="90后创业更擅长喊口号 创业团队拿第一笔融资时应注意什么" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376601586523.jpg"></A></P>
-  <P><A class=txt title="90后创业更擅长喊口号 创业团队拿第一笔融资时应注意什么" target="_blank"
-  href="article.php?id=128">90后创业更擅长喊口...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=127" target="_blank"><IMG class=view 
-  alt="2014这一年———小卖家的机会" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376464197989.jpg"></A></P>
-  <P><A class=txt title="2014这一年———小卖家的机会" target="_blank"
-  href="article.php?id=127">2014这一年———...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=126" target="_blank"><IMG class=view 
-  alt="从VC角度看，什么样的人适合做企业家级创始人" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376431126857.jpg"></A></P>
-  <P><A class=txt title="从VC角度看，什么样的人适合做企业家级创始人" target="_blank"
-  href="article.php?id=126">从VC角度看，什么样...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=125" target="_blank"><IMG class=view 
-  alt="初创品牌：如何建立宗教一样的粉丝信仰" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376314889552.jpg"></A></P>
-  <P><A class=txt title="初创品牌：如何建立宗教一样的粉丝信仰" target="_blank"
-  href="article.php?id=125">初创品牌：如何建立宗...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=124" target="_blank"><IMG class=view 
-  alt="阿里云建站市场如何进行网站备案" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437376282729948.png"></A></P>
-  <P><A class=txt title="阿里云建站市场如何进行网站备案" target="_blank"
-  href="article.php?id=124">阿里云建站市场如何进...</A></P></LI>
-   
-  </UL></DIV>
-  
-  
-<div class="article_block clearfix">
-		<div class="mainCom">
-			<div class="title"> <span class="tName">系统分类</span> </div>			<div class="body">
-            	<div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=18" target="_blank">行业聚焦</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=18" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=103" target="_blank" title="刘强东说要用这三个“F”搞定农村电商">刘强东说要用这三个“F”搞定农村电商</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=102" target="_blank" title="淘宝、天猫、聚划算整合，行癫履新，重开聚划算竞拍机制">淘宝、天猫、聚划算整合，行癫履新，重开聚划算竞拍机制</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=101" target="_blank" title="朋友圈广告首次嫁接电商 唯品会试撒娇付">朋友圈广告首次嫁接电商 唯品会试撒娇付</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=100" target="_blank" title="美丽说推服装反向定制 称供应链快过ZARA">美丽说推服装反向定制 称供应链快过ZARA</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=99" target="_blank" title="微商用微信营销软件挣钱的八种方法">微商用微信营销软件挣钱的八种方法</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=98" target="_blank" title="阿里下线11家快递打击炒信刷单 涉及中铁快运增益">阿里下线11家快递打击炒信刷单 涉及中铁快运增益</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=97" target="_blank" title="跨界电商风生水起：京东淘宝进军海外市场困难重重">跨界电商风生水起：京东淘宝进军海外市场困难重重</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=96" target="_blank" title="优衣库的稳健和精明，凡客的文艺和草莽">优衣库的稳健和精明，凡客的文艺和草莽</a></li>                    									<li><a class="kind" href="article_cat.php?id=18" target="_blank" title="行业聚焦">行业聚焦</a><span>|</span><a href="article.php?id=95" target="_blank" title="Etsy上市暴涨88% 中国工艺品电商何去何从？">Etsy上市暴涨88% 中国工艺品电商何去何从？</a></li>                                                  
-					   </ul>
-                </div>
-                 
-                <div class="first">
-                	                                 	<div class="head">
-                    	<span><a href="article_cat.php?id=11" target="_blank">手机促销</a></span>
-                        <div class="Right gray">
-                             <a class="last" href="article_cat.php?id=11" target="_blank">更多</a>
-                        </div>
-                    </div>
-                                                                                                                                                                                                                                                                                                                                          
-                    	<ul class="allList">
-                         									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=117" target="_blank" title="刘强东你错了，是时候调整战略了">刘强东你错了，是时候调整战略了</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=116" target="_blank" title="外卖O2O：轻模式、重模式、第三方平台">外卖O2O：轻模式、重模式、第三方平台</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=115" target="_blank" title="电商这么火，能用它来发展农村经济吗？">电商这么火，能用它来发展农村经济吗？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=114" target="_blank" title="刘强东警告传统企业：加盟模式会被O2O干掉！">刘强东警告传统企业：加盟模式会被O2O干掉！</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=113" target="_blank" title="叫好不叫座！腾讯支付的瓶颈在哪儿？">叫好不叫座！腾讯支付的瓶颈在哪儿？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=112" target="_blank" title="让千禧一代爱上你品牌的11种方法">让千禧一代爱上你品牌的11种方法</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=111" target="_blank" title="刘强东带领京东高管下农村 拓展农村电商业务">刘强东带领京东高管下农村 拓展农村电商业务</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=110" target="_blank" title="王健林详解万达O2O，马云：赚钱的事想好了，代价呢？">王健林详解万达O2O，马云：赚钱的事想好了，代价呢？</a></li>                    									<li><a class="kind" href="article_cat.php?id=11" target="_blank" title="手机促销">手机促销</a><span>|</span><a href="article.php?id=109" target="_blank" title="“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战">“互联网+”下的全零售惠战 国美在线引领上半年电商行业最强战</a></li>                                                  
-					   </ul>
-                </div>		
-			</div>
+	<div class="flow-item first"> 
+      <a href="supplier.php?suppId=5" class="flow-datu" title="L&L"> 
+        <img title="L&amp;L" width="150" height="150" alt="" data-original="/data/street_logo/supplier5/original5_220x220.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" >
+      </a>
+      <div class="flow-content">
+      	<h4 class="flow-title">
+        	<a href="supplier.php?suppId=5" title="色彩与艺术"><span>色彩与艺术</span></a>
+            <span onclick='guanzhu(5);' class="guanzhu">关注</span>        </h4>
+        <p class="flow-logo">
+        <a href="supplier.php?suppId=5" style="float:none; display:inline-block;"><img id="j_logo_5" alt="" width="90" height="45" data-original="/data/supplier/logo/logo_supplier5.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"></a>
+        </p>
+	  	<p class="flow-desc">
+        	<span>卖家：</span>
+            <a href="supplier.php?suppId=5" title="L&L管理员" target="_blank"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=2697133333&site=qq&menu=yes" target="_blank" alt="点击这里联系我" title="点击这里联系我" class="flow-qq"><img src="http://wpa.qq.com/pa?p=1:2697133333:4" height="16" border="0" alt="QQ" /></a>
+            <a href="http://amos1.taobao.com/msg.ww?v=2&uid=ecshop模板中心&s=2" target="_blank" class="flow-qq"><img src="http://amos1.taobao.com/online.ww?v=2&uid=ecshop模板中心&s=2" width="16" height="16" border="0" alt="淘宝旺旺" /></a>
+        </p>
+        <p class="flow-desc">
+        	<span>所在地：</span>北京,北京,西城区        </p>
+        <p class="flow-desc">
+        	<a href="supplier.php?suppId=5" title="进入店铺，查看所有的商品">共<strong>8</strong>件宝贝>></a>
+        </p>
+      </div>
+      <div class="flow-score">
+      	<h3>店铺动态评分</h3>
+        <p>描述相符：<span>5</span></p>
+        <p>服务态度：<span>5</span></p>
+        <p>发货速度：<span>5</span></p>
+      </div>
+	  <div class="flow-main flow-main1">
+      	<div class="picMarquee-left">
+			<div class="bda">
+		 		<div class="picListta">
+			<ul>
+							<li>
+					<a href="goods.php?id=46" title="2015夏季小西装女外套夏装薄款韩版修身短款小西服" target="_blank" class="img"><img src="images/201507/thumb_img/46_thumb_G_1437516342367.jpg"> <span>￥213.00</span> </a> 
+					<a href="goods.php?id=46" title="2015夏季小西装女外套夏装薄款韩版修身短款小西服" target="_blank" class="name">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=45" title="2015夏装韩版修身白色小西装女薄外套" target="_blank" class="img"><img src="images/201507/thumb_img/45_thumb_G_1437516035103.jpg"> <span>￥399.00</span> </a> 
+					<a href="goods.php?id=45" title="2015夏装韩版修身白色小西装女薄外套" target="_blank" class="name">2015夏装韩版修身白色小西装女薄外套</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=42" title="2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏" target="_blank" class="img"><img src="images/201507/thumb_img/42_thumb_G_1437515742056.jpg"> <span>￥259.00</span> </a> 
+					<a href="goods.php?id=42" title="2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏" target="_blank" class="name">2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=40" title="伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋" target="_blank" class="img"><img src="images/201507/thumb_img/40_thumb_G_1437515363345.jpg"> <span>￥299.00</span> </a> 
+					<a href="goods.php?id=40" title="伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋" target="_blank" class="name">伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋</a> 
+				</li>
+						</ul>
+               </div>
+	       			</div>
 		</div>
+      </div>	
+	</div>
+ 
+	<div class="flow-item first"> 
+      <a href="supplier.php?suppId=1" class="flow-datu" title="天天果园旗舰店"> 
+        <img title="天天果园" width="150" height="150" alt="" data-original="/data/street_logo/supplier1/original1_220x220.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" >
+      </a>
+      <div class="flow-content">
+      	<h4 class="flow-title">
+        	<a href="supplier.php?suppId=1" title="天天果园"><span>天天果园</span></a>
+            <span onclick='guanzhu(1);' class="guanzhu">关注</span>        </h4>
+        <p class="flow-logo">
+        <a href="supplier.php?suppId=1" style="float:none; display:inline-block;"><img id="j_logo_1" alt="" width="90" height="45" data-original="/data/supplier/logo/logo_supplier1.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"></a>
+        </p>
+	  	<p class="flow-desc">
+        	<span>卖家：</span>
+            <a href="supplier.php?suppId=1" title="天天果园旗舰店管理员" target="_blank"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank" alt="点击这里联系我" title="点击这里联系我" class="flow-qq"><img src="http://wpa.qq.com/pa?p=1:123456789:4" height="16" border="0" alt="QQ" /></a>
+            <a href="http://amos1.taobao.com/msg.ww?v=2&uid=&s=2" target="_blank" class="flow-qq"><img src="http://amos1.taobao.com/online.ww?v=2&uid=&s=2" width="16" height="16" border="0" alt="淘宝旺旺" /></a>
+        </p>
+        <p class="flow-desc">
+        	<span>所在地：</span>河北,秦皇岛,天天果园基地        </p>
+        <p class="flow-desc">
+        	<a href="supplier.php?suppId=1" title="进入店铺，查看所有的商品">共<strong>17</strong>件宝贝>></a>
+        </p>
+      </div>
+      <div class="flow-score">
+      	<h3>店铺动态评分</h3>
+        <p>描述相符：<span>5</span></p>
+        <p>服务态度：<span>5</span></p>
+        <p>发货速度：<span>5</span></p>
+      </div>
+	  <div class="flow-main flow-main2">
+      	<div class="picMarquee-left">
+			<div class="bda">
+		 		<div class="picListta">
+			<ul>
+							<li>
+					<a href="goods.php?id=25" title="蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品" target="_blank" class="img"><img src="images/201507/thumb_img/25_thumb_G_1437504443197.jpg"> <span>￥19.00</span> </a> 
+					<a href="goods.php?id=25" title="蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品" target="_blank" class="name">蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=24" title="悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g" target="_blank" class="img"><img src="images/201507/thumb_img/24_thumb_G_1437504375288.jpg"> <span>￥78.00</span> </a> 
+					<a href="goods.php?id=24" title="悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g" target="_blank" class="name">悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=23" title="进口 新鲜水果 车厘子1000g" target="_blank" class="img"><img src="images/201507/thumb_img/23_thumb_G_1437504225111.jpg"> <span>￥198.00</span> </a> 
+					<a href="goods.php?id=23" title="进口 新鲜水果 车厘子1000g" target="_blank" class="name">进口 新鲜水果 车厘子1000g</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=22" title="美国空运车厘子 新鲜水果进口大樱桃 2斤装" target="_blank" class="img"><img src="images/201507/thumb_img/22_thumb_G_1437504174862.jpg"> <span>￥168.00</span> </a> 
+					<a href="goods.php?id=22" title="美国空运车厘子 新鲜水果进口大樱桃 2斤装" target="_blank" class="name">美国空运车厘子 新鲜水果进口大樱桃 2斤装</a> 
+				</li>
+						</ul>
+               </div>
+	       			</div>
+		</div>
+      </div>	
+	</div>
+ 
+	<div class="flow-item first"> 
+      <a href="supplier.php?suppId=7" class="flow-datu" title="金星家纺"> 
+        <img title="金星家纺" width="150" height="150" alt="" data-original="/data/street_logo/supplier7/original7_220x220.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" >
+      </a>
+      <div class="flow-content">
+      	<h4 class="flow-title">
+        	<a href="supplier.php?suppId=7" title="平分秋色"><span>平分秋色</span></a>
+            <span onclick='guanzhu(7);' class="guanzhu">关注</span>        </h4>
+        <p class="flow-logo">
+        <a href="supplier.php?suppId=7" style="float:none; display:inline-block;"><img id="j_logo_7" alt="" width="90" height="45" data-original="/data/supplier/logo/logo_supplier7.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"></a>
+        </p>
+	  	<p class="flow-desc">
+        	<span>卖家：</span>
+            <a href="supplier.php?suppId=7" title="金星家纺管理员" target="_blank"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank" alt="点击这里联系我" title="点击这里联系我" class="flow-qq"><img src="http://wpa.qq.com/pa?p=1:123456789:4" height="16" border="0" alt="QQ" /></a>
+            <a href="http://amos1.taobao.com/msg.ww?v=2&uid=ecshop模板中心&s=2" target="_blank" class="flow-qq"><img src="http://amos1.taobao.com/online.ww?v=2&uid=ecshop模板中心&s=2" width="16" height="16" border="0" alt="淘宝旺旺" /></a>
+        </p>
+        <p class="flow-desc">
+        	<span>所在地：</span>上海,上海,浦东新区        </p>
+        <p class="flow-desc">
+        	<a href="supplier.php?suppId=7" title="进入店铺，查看所有的商品">共<strong>8</strong>件宝贝>></a>
+        </p>
+      </div>
+      <div class="flow-score">
+      	<h3>店铺动态评分</h3>
+        <p>描述相符：<span>5</span></p>
+        <p>服务态度：<span>5</span></p>
+        <p>发货速度：<span>5</span></p>
+      </div>
+	  <div class="flow-main flow-main3">
+      	<div class="picMarquee-left">
+			<div class="bda">
+		 		<div class="picListta">
+			<ul>
+							<li>
+					<a href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床" target="_blank" class="img"><img src="images/201507/thumb_img/140_thumb_G_1437528915082.jpg"> <span>￥333.00</span> </a> 
+					<a href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床" target="_blank" class="name">雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=139" title="优雅100 经典设计款全棉斜纹印花四件套" target="_blank" class="img"><img src="images/201507/thumb_img/139_thumb_G_1437528892306.jpg"> <span>￥189.00</span> </a> 
+					<a href="goods.php?id=139" title="优雅100 经典设计款全棉斜纹印花四件套" target="_blank" class="name">优雅100 经典设计款全棉斜纹印花四件套</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=137" title="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基" target="_blank" class="img"><img src="images/201507/thumb_img/137_thumb_G_1437528855059.jpg"> <span>￥399.00</span> </a> 
+					<a href="goods.php?id=137" title="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基" target="_blank" class="name">LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=131" title="摩登生活 法式梳妆台欧式梳妆台实木梳妆台" target="_blank" class="img"><img src="images/201507/thumb_img/131_thumb_G_1437527214145.jpg"> <span>￥1233.00</span> </a> 
+					<a href="goods.php?id=131" title="摩登生活 法式梳妆台欧式梳妆台实木梳妆台" target="_blank" class="name">摩登生活 法式梳妆台欧式梳妆台实木梳妆台</a> 
+				</li>
+						</ul>
+               </div>
+	       			</div>
+		</div>
+      </div>	
+	</div>
+ 
+	<div class="flow-item first"> 
+      <a href="supplier.php?suppId=6" class="flow-datu" title="伊人化妆品专卖店"> 
+        <img title="伊人化妆" width="150" height="150" alt="" data-original="/data/street_logo/supplier6/original6_220x220.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" >
+      </a>
+      <div class="flow-content">
+      	<h4 class="flow-title">
+        	<a href="supplier.php?suppId=6" title="伊人化妆"><span>伊人化妆</span></a>
+            <span onclick='guanzhu(6);' class="guanzhu">关注</span>        </h4>
+        <p class="flow-logo">
+        <a href="supplier.php?suppId=6" style="float:none; display:inline-block;"><img id="j_logo_6" alt="" width="90" height="45" data-original="/data/supplier/logo/logo_supplier6.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"></a>
+        </p>
+	  	<p class="flow-desc">
+        	<span>卖家：</span>
+            <a href="supplier.php?suppId=6" title="伊人化妆品专卖店管理员" target="_blank"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=27821006&site=qq&menu=yes" target="_blank" alt="点击这里联系我" title="点击这里联系我" class="flow-qq"><img src="http://wpa.qq.com/pa?p=1:27821006:4" height="16" border="0" alt="QQ" /></a>
+            <a href="http://amos1.taobao.com/msg.ww?v=2&uid=640989032&s=2" target="_blank" class="flow-qq"><img src="http://amos1.taobao.com/online.ww?v=2&uid=640989032&s=2" width="16" height="16" border="0" alt="淘宝旺旺" /></a>
+        </p>
+        <p class="flow-desc">
+        	<span>所在地：</span>河北,秦皇岛,河北大街192号        </p>
+        <p class="flow-desc">
+        	<a href="supplier.php?suppId=6" title="进入店铺，查看所有的商品">共<strong>30</strong>件宝贝>></a>
+        </p>
+      </div>
+      <div class="flow-score">
+      	<h3>店铺动态评分</h3>
+        <p>描述相符：<span>5</span></p>
+        <p>服务态度：<span>5</span></p>
+        <p>发货速度：<span>5</span></p>
+      </div>
+	  <div class="flow-main flow-main4">
+      	<div class="picMarquee-left">
+			<div class="bda">
+		 		<div class="picListta">
+			<ul>
+							<li>
+					<a href="goods.php?id=173" title="Dior迪奥女士香水豪华礼物套装 礼盒套装*真我*甜心*魅惑各5ML" target="_blank" class="img"><img src="images/201507/thumb_img/173_thumb_G_1437531646299.jpg"> <span>￥580.00</span> </a> 
+					<a href="goods.php?id=173" title="Dior迪奥女士香水豪华礼物套装 礼盒套装*真我*甜心*魅惑各5ML" target="_blank" class="name">Dior迪奥女士香水豪华礼物套装 礼盒套装*真我*甜心*魅惑各5ML</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=169" title="迪奥(Dior) EDT CD 花漾甜心女士香水100ML" target="_blank" class="img"><img src="images/201507/thumb_img/169_thumb_G_1437531448738.jpg"> <span>￥790.00</span> </a> 
+					<a href="goods.php?id=169" title="迪奥(Dior) EDT CD 花漾甜心女士香水100ML" target="_blank" class="name">迪奥(Dior) EDT CD 花漾甜心女士香水100ML</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=166" title="欧莱雅角质顺滑去屑洗发露200ml" target="_blank" class="img"><img src="images/201507/thumb_img/166_thumb_G_1437531158758.jpg"> <span>￥22.00</span> </a> 
+					<a href="goods.php?id=166" title="欧莱雅角质顺滑去屑洗发露200ml" target="_blank" class="name">欧莱雅角质顺滑去屑洗发露200ml</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=164" title="L’OREAL/欧莱雅 洗发护发套装 " target="_blank" class="img"><img src="images/201507/thumb_img/164_thumb_G_1437531039732.jpg"> <span>￥98.00</span> </a> 
+					<a href="goods.php?id=164" title="L’OREAL/欧莱雅 洗发护发套装 " target="_blank" class="name">L’OREAL/欧莱雅 洗发护发套装 </a> 
+				</li>
+						</ul>
+               </div>
+	       			</div>
+		</div>
+      </div>	
+	</div>
+ 
+	<div class="flow-item first"> 
+      <a href="supplier.php?suppId=2" class="flow-datu" title="小金蛋母婴旗舰店"> 
+        <img title="小金蛋" width="150" height="150" alt="" data-original="/data/street_logo/supplier2/original2_220x220.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" >
+      </a>
+      <div class="flow-content">
+      	<h4 class="flow-title">
+        	<a href="supplier.php?suppId=2" title="遇见春天的你"><span>遇见春天的你</span></a>
+            <span onclick='guanzhu(2);' class="guanzhu">关注</span>        </h4>
+        <p class="flow-logo">
+        <a href="supplier.php?suppId=2" style="float:none; display:inline-block;"><img id="j_logo_2" alt="" width="90" height="45" data-original="/data/supplier/logo/logo_supplier2.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"></a>
+        </p>
+	  	<p class="flow-desc">
+        	<span>卖家：</span>
+            <a href="supplier.php?suppId=2" title="小金蛋母婴旗舰店管理员" target="_blank"></a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank" alt="点击这里联系我" title="点击这里联系我" class="flow-qq"><img src="http://wpa.qq.com/pa?p=1:123456789:4" height="16" border="0" alt="QQ" /></a>
+            <a href="http://amos1.taobao.com/msg.ww?v=2&uid=ecshop模板中心&s=2" target="_blank" class="flow-qq"><img src="http://amos1.taobao.com/online.ww?v=2&uid=ecshop模板中心&s=2" width="16" height="16" border="0" alt="淘宝旺旺" /></a>
+        </p>
+        <p class="flow-desc">
+        	<span>所在地：</span>北京,北京,平安大街169号        </p>
+        <p class="flow-desc">
+        	<a href="supplier.php?suppId=2" title="进入店铺，查看所有的商品">共<strong>9</strong>件宝贝>></a>
+        </p>
+      </div>
+      <div class="flow-score">
+      	<h3>店铺动态评分</h3>
+        <p>描述相符：<span>5</span></p>
+        <p>服务态度：<span>5</span></p>
+        <p>发货速度：<span>5</span></p>
+      </div>
+	  <div class="flow-main flow-main5">
+      	<div class="picMarquee-left">
+			<div class="bda">
+		 		<div class="picListta">
+			<ul>
+							<li>
+					<a href="goods.php?id=49" title="安琦诺 夏装新品孕妇装 韩版休闲外出服喂奶衣套装" target="_blank" class="img"><img src="images/201507/thumb_img/49_thumb_G_1437517210470.jpg"> <span>￥128.00</span> </a> 
+					<a href="goods.php?id=49" title="安琦诺 夏装新品孕妇装 韩版休闲外出服喂奶衣套装" target="_blank" class="name">安琦诺 夏装新品孕妇装 韩版休闲外出服喂奶衣套装</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=48" title="安踏品牌童装男童短袖POLO衫运动服" target="_blank" class="img"><img src="images/201507/thumb_img/48_thumb_G_1437516602245.jpg"> <span>￥109.00</span> </a> 
+					<a href="goods.php?id=48" title="安踏品牌童装男童短袖POLO衫运动服" target="_blank" class="name">安踏品牌童装男童短袖POLO衫运动服</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=47" title="大男童春秋马甲童装 男童西装纯棉" target="_blank" class="img"><img src="images/201507/thumb_img/47_thumb_G_1437516432274.jpg"> <span>￥119.00</span> </a> 
+					<a href="goods.php?id=47" title="大男童春秋马甲童装 男童西装纯棉" target="_blank" class="name">大男童春秋马甲童装 男童西装纯棉</a> 
+				</li>
+							<li>
+					<a href="goods.php?id=44" title="第七公社 一家三口亲子装夏装2015卡通人物" target="_blank" class="img"><img src="images/201507/thumb_img/44_thumb_G_1437515947214.jpg"> <span>￥69.00</span> </a> 
+					<a href="goods.php?id=44" title="第七公社 一家三口亲子装夏装2015卡通人物" target="_blank" class="name">第七公社 一家三口亲子装夏装2015卡通人物</a> 
+				</li>
+						</ul>
+               </div>
+	       			</div>
+		</div>
+      </div>	
+	</div>
+	
+ 
+	  <div class="mui-page" data-spm="20131103">
+        <div class="mui-page-wrap"> 
+		<b class="mui-page-num">
+						<a href="stores.php?id=0&page=1" class="j_PageChange" style="border-left: 1px solid #E5E5E5;">&lt;</a> 
+																		<a href="stores.php?id=0&page=1" class="j_PageChange" data-page="1">1</a> 
+				
+												<a class="mui-page-next  j_PageChange " data-page="1" href="stores.php?id=0&page=1">&gt;</a> 
+						
+		</b> 
+		<b class="mui-page-skip">
+			<form method="get">
+			<input type="hidden" name="id" value="0">
+			共1页，去第
+			<input type="text" value="1" size="3" class="mui-page-skipTo j_PageChangeInput" name="page">
+			页
+			<button class="mui-btn-s mui-page-skipBtn j_PageChangeBtn" type="submit">确定</button>
+			</form>
+		</b> 
+	</div>
+</div> 
+    </div>
+    
+<div class="ft-bands" data-spm="a22255a">
+ 
+	<div style="overflow:hidden" class="ft-col ft-man ft-col-cur">
+	<h3 class="ft-title">男人</h3>
+	<h4 class="ft-desc"></h4>
 		
-        
-        
-  <div class="pageSide">
-    <div class="sideCom">
-                <div class="title"><a class="ico ico3" href="article_cat.php?id=4"></a>开店必备</div>
-                                                                                                                                              
-      <ul class="body">
-                      <li>
-          <div class="subject"><span class="ico ico1">1</span><a href="article.php?id=130" target="_blank" title="网店一条街和网店连锁店的未来">网店一条街和网店连锁店的未来</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">2</span><a href="article.php?id=129" target="_blank" title="传统企业可以融入的互联网思维">传统企业可以融入的互联网思维</a></div>
-        </li>
-                                <li>
-          <div class="subject"><span class="ico ico1">3</span><a href="article.php?id=128" target="_blank" title="90后创业更擅长喊口号 创业团队拿第一笔融资时应注意什么">90后创业更擅长喊口号 创业团队...</a></div>
-        </li>
-                                                                                                                                  
-                                                                        <li>
-           <div class="subject"><span class="ico ico2">4</span><a href="article.php?id=127" target="_blank" title="2014这一年———小卖家的机会">2014这一年———小卖家的机会</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">5</span><a href="article.php?id=126" target="_blank" title="从VC角度看，什么样的人适合做企业家级创始人">从VC角度看，什么样的人适合做企...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">6</span><a href="article.php?id=125" target="_blank" title="初创品牌：如何建立宗教一样的粉丝信仰">初创品牌：如何建立宗教一样的粉丝...</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">7</span><a href="article.php?id=124" target="_blank" title="阿里云建站市场如何进行网站备案">阿里云建站市场如何进行网站备案</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">8</span><a href="article.php?id=123" target="_blank" title="什么是个性化网络营销？">什么是个性化网络营销？</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">9</span><a href="article.php?id=122" target="_blank" title="电商营销推广中的四个必杀要点">电商营销推广中的四个必杀要点</a></div>
-        </li>
-                                  <li>
-           <div class="subject"><span class="ico ico2">10</span><a href="article.php?id=121" target="_blank" title="出错的艺术：如何设计404页面">出错的艺术：如何设计404页面</a></div>
-        </li>
-                    
-      </ul>
-    </div>
-   
-  </div>
-        
-        </div>
-        
-  
-  <DIV class="artimg_box1 article_block" style="margin-bottom:10px;">
-<DIV class=sec-title-1>
-<H3>手机促销</H3><A class="more" 
-href="article_cat.php?id=11" target="_blank">更多&gt;&gt;</A></DIV>
+	</div>
+	
  
-<UL>
+	<div style="overflow:hidden" class="ft-col ft-electric ">
+	<h3 class="ft-title">家装</h3>
+	<h4 class="ft-desc"></h4>
+		 
+		<p class="ft-list"> 
+		<a href="supplier.php?suppId=7" class="ft-item"><img width="90" height="45" alt="金星家纺" data-original="/data/supplier/logo/logo_supplier7.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"> <b class="ui-brand-btn ui-brand-btn-ex-s ui-brand-btn-ex-bubble j_CollectBrand" data-brandid="42638"><i></i><span>关注店铺</span><b></b></b> </a> 
+		</p>
+		<p class="ft-list"></p>
+	<p class="ft-list"></p>
+		
+	</div>
+	
+ 
+	<div style="overflow:hidden" class="ft-col ft-mami ">
+	<h3 class="ft-title">母婴</h3>
+	<h4 class="ft-desc"></h4>
+		 
+		<p class="ft-list"> 
+		<a href="supplier.php?suppId=2" class="ft-item"><img width="90" height="45" alt="小金蛋" data-original="/data/supplier/logo/logo_supplier2.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"> <b class="ui-brand-btn ui-brand-btn-ex-s ui-brand-btn-ex-bubble j_CollectBrand" data-brandid="42638"><i></i><span>关注店铺</span><b></b></b> </a> 
+		</p>
+		<p class="ft-list"></p>
+	<p class="ft-list"></p>
+		
+	</div>
+	
+ 
+	<div style="overflow:hidden" class="ft-col ft-makeup ">
+	<h3 class="ft-title">美妆</h3>
+	<h4 class="ft-desc"></h4>
+		 
+		<p class="ft-list"> 
+		<a href="supplier.php?suppId=6" class="ft-item"><img width="90" height="45" alt="伊人化妆" data-original="/data/supplier/logo/logo_supplier6.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"> <b class="ui-brand-btn ui-brand-btn-ex-s ui-brand-btn-ex-bubble j_CollectBrand" data-brandid="42638"><i></i><span>关注店铺</span><b></b></b> </a> 
+		</p>
+		<p class="ft-list"></p>
+	<p class="ft-list"></p>
+		
+	</div>
+	
+ 
+	<div style="overflow:hidden" class="ft-col ft-sport ">
+	<h3 class="ft-title">美食</h3>
+	<h4 class="ft-desc"></h4>
+		 
+		<p class="ft-list"> 
+		<a href="supplier.php?suppId=1" class="ft-item"><img width="90" height="45" alt="天天果园" data-original="/data/supplier/logo/logo_supplier1.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"> <b class="ui-brand-btn ui-brand-btn-ex-s ui-brand-btn-ex-bubble j_CollectBrand" data-brandid="42638"><i></i><span>关注店铺</span><b></b></b> </a> 
+		</p>
+		<p class="ft-list"></p>
+	<p class="ft-list"></p>
+		
+	</div>
+	
+ 
+	<div style="overflow:hidden" class="ft-col ft-life ">
+	<h3 class="ft-title">数码</h3>
+	<h4 class="ft-desc"></h4>
+		
+	</div>
+	
+</div>    <div class="blank5"></div>
+  </div>
+  <div class="site-footer" style="border-top:1px solid #dfdfdf">
+  <div class="wrapper">
+<div class="footer-links clearfix"> 
+            <dl class="col-links col-links-first">
+        <dt>新手上路 </dt>
+                <dd><a rel="nofollow" href="help.php?id=9" target="_blank">售后流程</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=10" target="_blank">购物流程</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=11" target="_blank">订购方式</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=71" target="_blank">在线支付</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=72" target="_blank">公司转账</a></dd>
+              </dl>
+            <dl class="col-links ">
+        <dt>配送方式 </dt>
+                <dd><a rel="nofollow" href="help.php?id=15" target="_blank">货到付款区域</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=16" target="_blank">配送支付查询</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=17" target="_blank">支付方式说明</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=69" target="_blank">如何送礼</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=70" target="_blank">Global Shipping</a></dd>
+              </dl>
+            <dl class="col-links ">
+        <dt>购物指南</dt>
+                <dd><a rel="nofollow" href="help.php?id=18" target="_blank">常见问题</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=20" target="_blank">订购流程</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=46" target="_blank">注册新会员</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=66" target="_blank">团购/机票</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=68" target="_blank">联系客服</a></dd>
+              </dl>
+            <dl class="col-links ">
+        <dt>售后服务</dt>
+                <dd><a rel="nofollow" href="help.php?id=21" target="_blank">退换货原则</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=22" target="_blank">售后服务保证</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=42" target="_blank">换货流程</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=73" target="_blank">退款说明</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=74" target="_blank">返修/退换货</a></dd>
+              </dl>
+            <dl class="col-links ">
+        <dt>关于我们 </dt>
+                <dd><a rel="nofollow" href="help.php?id=24" target="_blank">网站故障报告</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=25" target="_blank">选机咨询</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=26" target="_blank">投诉与建议</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=76" target="_blank">节能补贴</a></dd>
+                <dd><a rel="nofollow" href="help.php?id=77" target="_blank">京东礼品卡</a></dd>
+              </dl>
+            <div class="col-contact">
+        <p class="phone">400-000-0001</p>
+        <p>周一至周五 9:00-17:30<br>
+          （仅收市话费）</p>
+        <a rel="nofollow" class="btn2 btn-primary btn-small" href="javascript:void(0);" style="color:#fff">24小时在线客服</a> </div>
+    </div>
+  </div>
+</div>
+ 
   
-     <LI>
-  <P><A href="article.php?id=117" target="_blank"><IMG class="view" alt="刘强东你错了，是时候调整战略了" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/65111437375507.jpg"></A></P>
-  <P><A class=txt title="刘强东你错了，是时候调整战略了" target="_blank"
-  href="article.php?id=117">刘强东你错了，是时候...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=116" target="_blank"><IMG class="view" alt="外卖O2O：轻模式、重模式、第三方平台" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/97151437375448.jpg"></A></P>
-  <P><A class=txt title="外卖O2O：轻模式、重模式、第三方平台" target="_blank"
-  href="article.php?id=116">外卖O2O：轻模式、...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=115" target="_blank"><IMG class="view" alt="电商这么火，能用它来发展农村经济吗？" src="themes/68ecshopcom_360buy/images/upgrade_ad/article_img.jpg"></A></P>
-  <P><A class=txt title="电商这么火，能用它来发展农村经济吗？" target="_blank"
-  href="article.php?id=115">电商这么火，能用它来...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=114" target="_blank"><IMG class="view" alt="刘强东警告传统企业：加盟模式会被O2O干掉！" src="themes/68ecshopcom_360buy/images/upgrade_ad/article_img.jpg"></A></P>
-  <P><A class=txt title="刘强东警告传统企业：加盟模式会被O2O干掉！" target="_blank"
-  href="article.php?id=114">刘强东警告传统企业：...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=113" target="_blank"><IMG class="view" alt="叫好不叫座！腾讯支付的瓶颈在哪儿？" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/37571437375146.jpg"></A></P>
-  <P><A class=txt title="叫好不叫座！腾讯支付的瓶颈在哪儿？" target="_blank"
-  href="article.php?id=113">叫好不叫座！腾讯支付...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=112" target="_blank"><IMG class="view" alt="让千禧一代爱上你品牌的11种方法" src="http://127.0.0.9/includes/ueditor/php/../../../images/image/32701437375099.jpg"></A></P>
-  <P><A class=txt title="让千禧一代爱上你品牌的11种方法" target="_blank"
-  href="article.php?id=112">让千禧一代爱上你品牌...</A></P></LI>
-    <LI>
-  <P><A href="article.php?id=111" target="_blank"><IMG class="view" alt="刘强东带领京东高管下农村 拓展农村电商业务" src="http://127.0.0.9/includes/ueditor/php/../../../bdimages/upload1/20150720/1437375002807362.jpg"></A></P>
-  <P><A class=txt title="刘强东带领京东高管下农村 拓展农村电商业务" target="_blank"
-  href="article.php?id=111">刘强东带领京东高管下...</A></P></LI>
-   
-  </UL></DIV>
-<script type="text/javascript">
-new Tab(M.$("a","#JS_tab_nav"),M.$(".tab_body","#JS_tab_body"));
-new Tab(M.$("a","#JS_tab_link_nav"),M.$(".tab_body","#JS_tab_link_body"));
-focus();
-</script>
-<script type="text/javascript">
-$(document).ready(function() {
-	
-	//专题滚动
-	$('#subBody').slidePic(true,5000,250,3,20,'.container',3);
-	
-	//横幅广告滚动
-    $('.homeAd').slideAds(5000,300,1);
-});
-</script>
 <div class="site-footer">
   <div class="wrapper">
     <div class="footer-info clearfix">
@@ -2147,5 +2083,265 @@ $(document).ready(function() {
 Ajax.call('api/okgoods.php', '', '', 'GET', 'JSON');
 //预售
 Ajax.call('pre_sale.php?act=check_order', '', '', 'GET', 'JSON');
-</script></body>
+</script> 
+  <script type="text/javascript">
+function fun1()
+{
+ 	$("#right_login").children(".dropdown").show();
+ 	var id=1;
+ 	Ajax.call('user.php?act=login_check_yzm', 'id=' + id,  collectResponses, 'GET', 'JSON');
+}
+function onmouseroutfun(){
+ 	$("#right_login").children(".dropdown").hide();
+}
+function collectResponses(result)
+{
+	document.getElementsByName('back_act').value = result.message;
+	if(result.error>0)
+	{
+		document.getElementById('o-authcode').style.display='block';
+	}
+	else
+	{
+	document.getElementById('o-authcode').style.display='none';
+	}
+}
+</script>
+<div class="sidebar-nav" style="height: 100%; top: 0px; bottom: auto;">
+  <div class="mods">
+    <div class="middle-items">
+      <div class="mod_head" id="right_login" onMouseOver="fun1();" onMouseOut="onmouseroutfun();" > 
+        <a href="user.php" class="btn_head" title="我的用户中心">
+      	 	<img src="themes/68ecshopcom_360buy/images/upgrade_ad/user_head.png" />
+        </a>
+        <div class="dropdown" style="display: none; opacity: 1; margin-right: 0px;"> 
+                  <form name="formLogin" action="user.php" method="post" onSubmit="return userLogin()">
+          <div class="form">
+            <h2><strong>请登录</strong><span>还没有账号？<a href="register.php" class="right_register">立即注册</a></span></h2>
+            <div class="item"> <span class="label">账号</span>
+              <div>
+                <input name="username" type="text" class="text" value="" tabindex="1"/>
+              </div>
+            </div>
+            <div class="item"> <span class="label">密码</span>
+              <div>
+                <input type="password" id="password" name="password" class="text" tabindex="2"/>
+              </div>
+            </div>
+            <div class="item " id="o-authcode"> <span class="label_t">验证码</span>
+              <div>
+                <input type="text" id="authcode" name="captcha" class="text text-1" tabindex="3"/>
+                <label class="img"> <img src="captcha.php?is_login=1&" alt="captcha" style="vertical-align: middle;cursor: pointer;" onClick="this.src='captcha.php?is_login=1&'+Math.random()" /> </label>
+              </div>
+            </div>
+            <div class="item" id="autoentry">
+              <div class="safety">
+                <input type="checkbox" value="1" name="remember" id="remember" class="checkbox"/>
+                <label for="remember" class="mar-b">记住密码</label>
+                <a class="forget_password" href="findPwd.php">忘记密码？</a>
+            </div>
+            </div>
+            <div class="item">
+              <input type="hidden" name="act" value="act_login" />
+              <input type="hidden" name="back_act"  value=''/>
+              <input type="submit" name="submit" class="btn-img" id="loginsubmit" value="立即登录" />
+            </div>
+          </div>
+        </form>
+                  <span class="cart_arrow" style="background:none;border:none"><b class="arrow-1"></b> <b class="arrow-2"></b></span> 
+        </div>
+      </div>
+      <div class="mod online-service J-stie-68"> <a href="javascript:;" class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i> <em>销 售</em></td>
+            </tr>
+            <tr>
+              <td>在 线<br>
+                销 售</td>
+            </tr>
+          </tbody>
+        </table>
+        </a>
+        <div class="dropdown" style="display: none; opacity: 1; margin-right: 0px;">
+          <div class="head clearfix">
+            <h3 class="grid-c-l">在线销售顾问</h3>
+          </div>
+          <div class="button-bar"> 
+            
+            554fcae493e564ee0dc75bdf2ebf94cacustomer_service|a:1:{s:4:"name";s:16:"customer_service";}554fcae493e564ee0dc75bdf2ebf94ca             
+          </div>
+          <span class="cart_arrow"><b class="arrow-1"></b> <b class="arrow-2"></b></span></div>
+      </div>
+      <div class="mod vote_list J-stie-68"> <a href="javascript:;" class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i> <em>调 查</em></td>
+            </tr>
+            <tr>
+              <td>在 线<br>
+                调 查</td>
+            </tr>
+          </tbody>
+        </table>
+        </a>
+        <div class="dropdown" style="display: none; opacity: 1; margin-right: 0px;">
+          <div class="head clearfix">
+            <h3 class="grid-c-l">在线调查问卷</h3>
+          </div>
+          <div class="button-bar"> 
+          554fcae493e564ee0dc75bdf2ebf94cavote|a:1:{s:4:"name";s:4:"vote";}554fcae493e564ee0dc75bdf2ebf94ca
+ 
+          </div>
+          <span class="cart_arrow"><b class="arrow-1"></b> <b class="arrow-2"></b></span></div>
+      </div>
+      <div class="mod reserve" style="height:135px;" id="ECS_CARTINFO">
+      554fcae493e564ee0dc75bdf2ebf94cacart_info|a:1:{s:4:"name";s:9:"cart_info";}554fcae493e564ee0dc75bdf2ebf94ca      </div>
+      <div class="mod traffic"> <span class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i> <em>关 注</em></td>
+            </tr>
+            <tr>
+              <td><a href="user.php?act=follow_shop" target="_blank" class="btn">关注<br>
+                店铺</a></td>
+            </tr>
+          </tbody>
+        </table>
+        </span> </div>
+      <div class="mod insure" id="collectGoods"> <span class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i> <em>收 藏</em></td>
+            </tr>
+            <tr>
+              <td><a href="user.php?act=collection_list" class="btn">收 藏<br>
+                商 品</a></td>
+            </tr>
+          </tbody>
+        </table>
+        </span> </div>
+      
+       <div class="mod qrcode J-stie-68"> <a href="javascript:;" class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i></td>
+            </tr>
+            <tr>
+              <td>官 方<br>
+                微 信</td>
+            </tr>
+          </tbody>
+        </table>
+        </a>
+        <div class="dropdown  dropdown_t" style="display: none; opacity: 1; margin-right: 0px;"> <span></span>
+          <p>扫描二维码，码上有礼！</p>
+          <span class="cart_arrow" style="background:none;border:none"><b class="arrow-1"></b> <b class="arrow-2"></b></span> </div>
+      </div> 
+    </div>
+    <div class="bottom-items">
+      <div class="mod top disabled"> <a href="javascript:;" class="btn">
+        <table>
+          <tbody>
+            <tr>
+              <td><i></i></td>
+            </tr>
+            <tr>
+              <td>回 到<br>
+                顶 部</td>
+            </tr>
+          </tbody>
+        </table>
+        </a> </div>
+    </div>
+  </div>
+</div> 
+<script type="text/javascript">
+$(".J-stie-68").mouseover(function(){
+ $(this).children(".dropdown").show();
+ })
+ $(".J-stie-68").mouseout(function(){
+ $(this).children(".dropdown").hide();
+ })
+$(".J-stie-68").mouseleave(function(){
+ $(this).children(".dropdown").hide();
+ })
+</script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+var headHeight2=200;  //这个高度其实有更好的办法的。使用者根据自己的需要可以手工调整。
+ 
+var top=$(".top");       //要悬浮的容器的id
+$(window).scroll(function(){ 
+ 
+if($(this).scrollTop()>headHeight2){ 
+top.removeClass("disabled");  
+}
+else{ 
+top.addClass("disabled"); 
+} 
+}) 
+})
+$(".top").click(function(){
+$('body,html').animate({scrollTop:0},800);
+return false;
+});
+$("#mod-fold").click(function(){
+$('.sidebar-nav').hasClass('fold') ? $('.sidebar-nav').removeClass('fold') : $('.sidebar-nav').addClass('fold');
+});
+</script>
+ </div>
+</body>
+<script type="text/javascript">
+function guanzhu(sid){
+	Ajax.call('supplier.php', 'go=other&act=add_guanzhu&suppId=' + sid, selcartResponse, 'GET', 'JSON');
+}
+function selcartResponse(result){
+	
+	alert(result.info);
+}
+function store_focus(e){
+	var logo="#j_logo_"+e;
+	var clo="#j_brand_"+e;
+	$(logo).hide(); 
+	$(clo).show();
+	}
+function store_nofocus(e){
+	var logo="#j_logo_"+e;
+	var clo="#j_brand_"+e;
+	$(logo).show(); 
+	$(clo).hide(); 
+	}
+$(".ft-bands div").mouseover(function(){
+$(this).addClass('ft-col-cur').siblings().removeClass('ft-col-cur'); //切换选项卡标签的class
+})
+</script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+var headHeight=200;  //这个高度其实有更好的办法的。使用者根据自己的需要可以手工调整。
+ 
+var nav=$("#J_NavTag"); 
+$(window).scroll(function(){ 
+ 
+if($(this).scrollTop()>headHeight){ 
+nav.addClass("nav-fixed"); 
+} 
+else{ 
+nav.removeClass("nav-fixed"); 
+} 
+}) 
+})
+</script>
+<script type="text/javascript">
+$("img").lazyload({
+    effect       : "fadeIn",
+	 skip_invisible : true,
+	 failure_limit : 20
+});
+</script>
 </html>

@@ -178,7 +178,7 @@ $this->assign('promotion_info1', get_promotion_info1());
      	<a href="/" class="header-logo" title="logo"><img src="../images/header/logo.jpg" /></a>
       </h1>
       <div class="header-extra">
-        {include file='library/user_header_right.lbi'} 
+<!--        {include file='library/user_header_right.lbi'} -->
         <script src="images/page.js" type="text/javascript"></script>  
         <div id="mallSearch" class="mall-search" style="position:relative; z-index:999999999; overflow:visible;">
         <div id="search_tips" style="display:none;"></div>
