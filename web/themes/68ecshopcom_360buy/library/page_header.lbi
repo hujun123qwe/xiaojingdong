@@ -214,7 +214,10 @@ $this->assign('promotion_info1', get_promotion_info1());
             </fieldset>
           </form>
           <ul class="hot-query" >
-          {foreach from=$searchkeywords item=val name=name}<li {if $smarty.foreach.name.first}style="border-left: none;"{/if}><a href="search.php?keywords={$val|escape:url}">{$val}</a></li>{/foreach}
+          {foreach from=$searchkeywords item=val name=name}
+              <li {if $smarty.foreach.name.first}style="border-left: none;"{/if}>
+              <a href="search.php?keywords={$val|escape:url}">{$val}</a></li>
+          {/foreach}
             
           </ul>
         </div>

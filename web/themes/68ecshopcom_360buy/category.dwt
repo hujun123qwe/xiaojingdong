@@ -21,6 +21,8 @@
 {insert_scripts files='jquery.json.js,transport.js'}
 </head>
 <body>
+this is category.dwt
+<br>
 <div role="navigation" id="site-nav"> 
   <script type="text/javascript" src="themes/68ecshopcom_360buy/js/base-2011.js"></script> 
   <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
@@ -31,7 +33,7 @@
   	  <!-- #BeginLibraryItem "/library/best_nei.lbi" --><!-- #EndLibraryItem --> 
       <!--i-right end--> 
       
-      {* 代码替换_start  By  www.68ecshop.com *} 
+
       <!--组合搜索 开始--> 
       <script type="text/javascript">
 	

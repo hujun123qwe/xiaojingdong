@@ -217,7 +217,10 @@ $this->assign('promotion_info1', get_promotion_info1());
 if ($this->_foreach['name']['total'] > 0):
     foreach ($_from AS $this->_var['val']):
         $this->_foreach['name']['iteration']++;
-?><li <?php if (($this->_foreach['name']['iteration'] <= 1)): ?>style="border-left: none;"<?php endif; ?>><a href="search.php?keywords=<?php echo urlencode($this->_var['val']); ?>"><?php echo $this->_var['val']; ?></a></li><?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
+?>
+              <li <?php if (($this->_foreach['name']['iteration'] <= 1)): ?>style="border-left: none;"<?php endif; ?>>
+              <a href="search.php?keywords=<?php echo urlencode($this->_var['val']); ?>"><?php echo $this->_var['val']; ?></a></li>
+          <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
             
           </ul>
         </div>

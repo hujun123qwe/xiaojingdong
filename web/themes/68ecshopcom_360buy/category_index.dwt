@@ -22,6 +22,8 @@
 {insert_scripts files='common.js'}
 </head>
 <body>
+this is catagoory_index.dwt
+<br>
 <div id="site-nav"> 
   <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
   <div class="first-show"> 

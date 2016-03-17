@@ -77,10 +77,10 @@ var select_spe = "<?php echo $this->_var['lang']['select_spe']; ?>";
 			alert(result.message);	
 		}
 	    </script>
-		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_28012900_1458131285');if (count($_from)):
-    foreach ($_from AS $this->_var['row_0_28012900_1458131285']):
+		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_77377300_1458225828');if (count($_from)):
+    foreach ($_from AS $this->_var['row_0_77377300_1458225828']):
 ?>
-		<?php if ($this->_var['row_0_28012900_1458131285']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_28012900_1458131285']['send_end_date'] > $this->_var['time']): ?>
+		<?php if ($this->_var['row_0_77377300_1458225828']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_77377300_1458225828']['send_end_date'] > $this->_var['time']): ?>
 
 		<?php endif; ?>
 		<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

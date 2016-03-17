@@ -1,62 +1,168 @@
-<?php exit;?>a:3:{s:8:"template";a:16:{i:0;s:72:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/index.dwt";i:1;s:91:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_headerindex.lbi";i:2;s:91:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_headerindex.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:5;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:6;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad3.lbi";i:7;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/order_type.lbi";i:8;s:87:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_articles.lbi";i:9;s:89:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad_group.lbi";i:10;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_goods.lbi";i:11;s:91:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footerindex.lbi";i:12;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:13;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";i:14;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/left_bar.lbi";i:15;s:93:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/arrive_notice_list.lbi";}s:7:"expires";i:1458229428;s:8:"maketime";i:1458225828;}<!DOCTYPE html">
-<html lang="zh-cn">
+<?php exit;?>a:3:{s:8:"template";a:13:{i:0;s:81:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/category_index.dwt";i:1;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_header.lbi";i:2;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:92:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:5;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:6;s:77:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/ad.lbi";i:7;s:82:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/history.lbi";i:8;s:93:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/arrive_notice_list.lbi";i:9;s:79:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/help.lbi";i:10;s:86:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footer.lbi";i:11;s:83:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:12;s:84:"D:/Documents/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";}s:7:"expires";i:1458229565;s:8:"maketime";i:1458225965;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="http://xjd.local/" />
 <meta name="Generator" content="68ECSHOP v4_2" />
-<meta property="qc:admins" content="377512662466053307063757" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="小京东商城" />
-<meta name="Description" content="小京东商城" />
-<meta name="renderer" content="webkit" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<title>小京东商城  </title>
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>食品生鲜_小京东商城  </title>
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
-<link rel="alternate" type="application/rss+xml" title="RSS|小京东商城  " href="feed.php" />
-<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/index.css" />
-<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" />
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.6.2.min.js"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jqueryAll.index.min.js"></script>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jump.js"></script>
-<script type="text/javascript">
-$(function(){
-	 $(".brand-wall-content img").each(function(k,img){
-		new JumpObj(img,10);
-	});
-});
-var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
-var btn_buy = "购买";
-var is_cancel = "取消";
-var select_spe = "请选择商品属性";
-</script>
-<script type="text/javascript" src="js/jquery.json.js"></script><script type="text/javascript" src="js/transport.js"></script> <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/index.js"></script></head>
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/category_index.css" />
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/search_goods.js"></script>
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery_006.js"></script>
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/base-2011.js"></script>
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js" ></script>
+<script type="text/javascript" src="js/jquery.json.js"></script><script type="text/javascript" src="js/transport.js"></script><script type="text/javascript" src="js/common.js"></script></head>
 <body>
-	<div id="site-nav">
-		<div id="header">
+this is catagoory_index.dwt
+<br>
+<div id="site-nav"> 
+  <script language="javascript"> 
+<!--
+/*屏蔽所有的js错误*/
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+//-->
+</script>
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/increase-68.css" />
+<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" type="text/css" />
+<script type="text/javascript">
+var process_request = "正在处理您的请求...";
+</script>
+<div id="sn-bd">
+  <div class="sn-container"> 
+  	<script type="text/javascript" src="js/utils.js"></script><script type="text/javascript" src="js/common.min.js"></script>    <font id="login-info" class="sn-login-info">
+    	554fcae493e564ee0dc75bdf2ebf94camember_info|a:1:{s:4:"name";s:11:"member_info";}554fcae493e564ee0dc75bdf2ebf94ca    </font>
+    <ul class="sn-quick-menu">
+      <li class="sn-mytaobao menu-item j_MyTaobao">
+        <div class="sn-menu">
+        	<a aria-haspopup="menu-2" tabindex="0" class="menu-hd" href="user.php" target="_top" rel="nofollow">我的信息<b></b></a>
+          	<div id="menu-2" class="menu-bd">
+            	<div class="menu-bd-panel" id="myTaobaoPanel">
+                	<a href="user.php?act=order_list" target="_top" rel="nofollow">已买到的宝贝</a> 
+                    <a href="user.php?act=address_list" target="_top" rel="nofollow">我的地址管理</a> 
+               </div>
+          </div>
+        </div>
+      </li>
+      <li class="sn-mybrand">
+      	<a target="_top" id="J_SnMyBrand" class="sn-mybrand-link mui-global-iconfont" href="user.php?act=follow_shop">我关注的店铺</a> 
+      </li>
+      <li class="sn-cart mini-cart menu">
+      	<a id="mc-menu-hd" class="sn-cart-link mui-global-iconfont" href="flow.php" target="_top" rel="nofollow">购物车</a>
+      </li>
+      <li class="sn-separator"></li>
+      <script type="text/javascript">
+		function show_qcord(){
+			var qs=document.getElementById('sn-qrcode');
+			qs.style.display="block";
+		}
+		function hide_qcord(){
+			var qs=document.getElementById('sn-qrcode');
+			qs.style.display="none";
+		}
+	  </script>
+      <li class="menu-item">
+      	<div class="sn-menu">
+        <a aria-haspopup="menu-6" tabindex="0" class="menu-hd sn-mobile-link" href="" target="_top">手机版<b></b></a>
+        <div class="menu-bd sn-qrcode" id="menu-5">
+          <ul>
+            <li class="app_xiazai">
+              <a href="#" target="_top" class="app_store"></a>
+              <img src="themes/68ecshopcom_360buy/images/app.jpg" alt="手机客户端" width="76px" height="76px" />               
+            </li>
+            <li class="app_xiazai1">
+              <a href="#" target="_top" class="app_android"></a> 
+              <img src="themes/68ecshopcom_360buy/images/android.jpg" alt="手机客户端" width="76px" height="76px" /> 
+            </li>
+           
+          </ul>
+        </div>
+        </div>
+      </li>
+        <li class="sn-favorite menu-item">
+            <div class="sn-menu">
+                <a aria-haspopup="menu-4" tabindex="0" class="menu-hd" href="user.php?act=collection_list" target="_top" rel="nofollow">收藏夹<b></b></a>
+                <div id="menu-4" class="menu-bd">
+                    <div class="menu-bd-panel">
+                        <a href="user.php?act=collection_list" target="_top" rel="nofollow">收藏的宝贝</a>
+                        <a href="user.php?act=follow_shop" target="_top" rel="nofollow">收藏的店铺</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+      <li class="sn-seller menu-item" >
+        <div class="sn-menu J_DirectPromo">
+        <a aria-haspopup="menu-6" tabindex="0" class="menu-hd" href="" target="_top">商家支持<b></b></a>
+        <div class="menu-bd" id="menu-6">
+          <ul>
+            <li>
+              <h3>商家：</h3>
+               
+              <a href="help.php?id=9" >售后流程</a> 
+               
+              <a href="help.php?id=10" >购物流程</a> 
+               
+              <a href="help.php?id=11" >订购方式</a> 
+               
+              <a href="help.php?id=18" >常见问题</a> 
+               
+            </li>
+            <li>
+              <h3>帮助：</h3>
+              <a href="help.php" target="_top" title="帮助中心">帮助中心</a> 
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<script>
+header_login();
+function header_login()
+{	
+	Ajax.call('login_act_ajax.php', '', loginactResponse, 'GET', 'JSON', '1', '1');
+}
+function loginactResponse(result)
+{
+	var MEMBERZONE =document.getElementById('login-info');
+	MEMBERZONE.innerHTML= result.memberinfo;
+}
+</script> 
+<div id="header">
   <div class="headerLayout">
     <div class="headerCon ">
       <h1 id="mallLogo" class="mall-logo"> 
-     	<a href="/" class="header-logo" title="logo"><img src="themes/68ecshopcom_360buy/images/header/logo.jpg" /></a>
+      	<a href="/" class="header-logo" title="logo"><img src="themes/68ecshopcom_360buy/images/header/logo.jpg" /></a> 
       </h1>
       <div class="header-extra">
         <div class="header-banner"> 
 	<a href="#1" title="七天包退"></a> 
     <a href="#2" title="正品保障"></a> 
     <a href="#3" title="闪电发货"></a> 
-</div>        <script src="themes/68ecshopcom_360buy/images/page.js" type="text/javascript"></script>  
-        <div id="mallSearch" class="mall-search" style="position:relative; z-index:999999999; overflow:visible;">
-        <div id="search_tips" style="display:none;"></div>
+</div> 
+        <script src="themes/68ecshopcom_360buy/images/page.js" type="text/javascript"></script>
+        <div id="mallSearch" class="mall-search" style="position:relative; z-index:999999999; overflow:visible">
+          <div id="search_tips" style="display:none;"></div>
           <ul class="search-type clearfix">
-          	<li class="cur" num="0">宝贝</li>
-          	<li  num="1">店铺</li>
-          </ul>	 
+          <li  class="cur" num="0">宝贝</li>
+          <li  num="1">店铺</li>
+          </ul>
+	  
           <form class="mallSearch-form" method="get" name="searchForm" id="searchForm" action="search.php" onSubmit="return checkSearchForm()">
-	   		<input type='hidden' name='type' id="searchtype" value="0">
+	  		<input type='hidden' name='type' id="searchtype" value="0">
             <fieldset>
               <legend>搜索</legend>
               <div class="mallSearch-input clearfix">
-                <div id="s-combobox-135" class="s-combobox">
+                <div id="s-combobox-135" class="s-combobox">		
                   <div class="s-combobox-input-wrap">
                     <input aria-haspopup="true" role="combobox" class="s-combobox-input" name="keywords" id="keyword" tabindex="9" accesskey="s" onkeyup="STip(this.value, event);" autocomplete="off"  value="请输入关键词" onFocus="if(this.value=='请输入关键词'){this.value='';}else{this.value=this.value;}" onBlur="if(this.value=='')this.value='请输入关键词'" type="text">
                   </div>
@@ -66,27 +172,20 @@ var select_spe = "请选择商品属性";
             </fieldset>
           </form>
           <ul class="hot-query" >
-                    	<li style="border-left: none;">
-            	<a href="search.php?keywords=iPhone5" title="iPhone5">iPhone5</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=NZXT" title="NZXT">NZXT</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=%E6%97%85%E8%A1%8C%E5%8C%85" title="旅行包">旅行包</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=%E6%A0%BC%E5%8A%9B%E7%94%B5%E6%9A%96%E5%99%A8" title="格力电暖器">格力电暖器</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=%E5%B9%B4%E8%B4%A7%E5%85%88%E5%88%B0%E5%AE%B6" title="年货先到家">年货先到家</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=MX2" title="MX2">MX2</a>
-            </li>
-                    	<li >
-            	<a href="search.php?keywords=%E9%82%93%E5%B0%8F%E5%B9%B3%E6%97%B6%E4%BB%A3" title="邓小平时代">邓小平时代</a>
-            </li>
+                        <li style="border-left: none;">
+              <a href="search.php?keywords=iPhone5">iPhone5</a></li>
+                        <li >
+              <a href="search.php?keywords=NZXT">NZXT</a></li>
+                        <li >
+              <a href="search.php?keywords=%E6%97%85%E8%A1%8C%E5%8C%85">旅行包</a></li>
+                        <li >
+              <a href="search.php?keywords=%E6%A0%BC%E5%8A%9B%E7%94%B5%E6%9A%96%E5%99%A8">格力电暖器</a></li>
+                        <li >
+              <a href="search.php?keywords=%E5%B9%B4%E8%B4%A7%E5%85%88%E5%88%B0%E5%AE%B6">年货先到家</a></li>
+                        <li >
+              <a href="search.php?keywords=MX2">MX2</a></li>
+                        <li >
+              <a href="search.php?keywords=%E9%82%93%E5%B0%8F%E5%B9%B3%E6%97%B6%E4%BB%A3">邓小平时代</a></li>
                       
           </ul>
         </div>
@@ -96,29 +195,9 @@ var select_spe = "请选择商品属性";
 </div>
 <div class="globa-nav">
   <div class="w">
-  	<div class="allGoodsCat Left" > 
-    	<a href="catalog.php" class="menuEvent" title="查看全部商品分类"><strong class="catName">全部商品分类</strong><i></i></a>
-   </div>
-   <ul class="allMenu Left">
-  <li><a class="index nav" href="/" title="首页">首页</a></li>
-   
-  <li><a href="category.php?id=1"  class="nav " title="新品上市" >新品上市</a></li>  
-   
-  <li><a href="stores.php"  class="nav " title="孕妇专区" >孕妇专区</a></li>  
-   
-  <li><a href="pro_search.php?intro=promotion"  class="nav " title="今日特卖" >今日特卖</a></li>  
-   
-  <li><a href="pre_sale.php"  class="nav " title="反季特卖" >反季特卖</a></li>  
-   
-  <li><a href="exchange.php"  class="nav " title="积分商城" >积分商城</a></li>  
-   
-  <li><a href="activity.php"  class="nav " title="优惠活动" >优惠活动</a></li>  
-  </ul>  </div>
-</div>
-<script type="text/javascript">function _show_(h,b){if(!h){return;}if(b&&b.source&&b.target){var d=(typeof b.source=="string")?M.$("#"+b.source):b.source;var e=(typeof b.target=="string")?M.$("#"+b.target):b.target;if(d&&e&&!e.isDone){e.innerHTML=d.value;d.parentNode.removeChild(d);if(typeof b.callback=="function"){b.callback();}e.isDone=true;}}M.addClass(h,"hover");if(b&&b.isLazyLoad&&h.isDone){var g=h.find("img");for(var a=0,c=g.length;a<c;a++){var f=g[a].getAttribute("data-src_index_menu");if(f){g[a].setAttribute("src",f);g[a].removeAttribute("data-src_index_menu");}}h.isDone=true;}}function _hide_(a){if(!a){return;}if(a.className.indexOf("hover")>-1){M.removeClass(a,"hover");}}</script>
-<div class="w">
-	<div class="all_cat" style="background: #ffffff;filter: alpha(Opacity=80);background-color: rgba(255,255,255,.8);">
-		<div class="list" onmouseover="_show_(this,{'source':'JS_side_cat_textarea_1','target':'JS_side_cat_list_1'});" onmouseout="_hide_(this);">
+    <div class="allGoodsCat Left" onmouseover="_show_(this)" onmouseout="_hide_(this)"> 
+      <a href="catalog.php" class="menuEvent" title="查看全部商品分类"><strong class="catName">全部商品分类</strong><i></i></a>
+      <div class="expandMenu all_cat"> <div class="list" onmouseover="_show_(this,{'source':'JS_side_cat_textarea_1','target':'JS_side_cat_list_1'});" onmouseout="_hide_(this);">
 	<dl class="cat" >
   		<dt class="catName"> 
         	<strong class="cat1 Left">
@@ -1476,8 +1555,25 @@ var select_spe = "请选择商品属性";
 </div>
  
  
-	</div>
+ </div>
+    </div>
+    <ul class="allMenu Left">
+  <li><a class="index nav" href="/" title="首页">首页</a></li>
+   
+  <li><a href="category.php?id=1"  class="nav current" title="新品上市" >新品上市</a></li>  
+   
+  <li><a href="stores.php"  class="nav " title="孕妇专区" >孕妇专区</a></li>  
+   
+  <li><a href="pro_search.php?intro=promotion"  class="nav " title="今日特卖" >今日特卖</a></li>  
+   
+  <li><a href="pre_sale.php"  class="nav " title="反季特卖" >反季特卖</a></li>  
+   
+  <li><a href="exchange.php"  class="nav " title="积分商城" >积分商城</a></li>  
+   
+  <li><a href="activity.php"  class="nav " title="优惠活动" >优惠活动</a></li>  
+  </ul> </div>
 </div>
+<script type="text/javascript">function _show_(h,b){if(!h){return;}if(b&&b.source&&b.target){var d=(typeof b.source=="string")?M.$("#"+b.source):b.source;var e=(typeof b.target=="string")?M.$("#"+b.target):b.target;if(d&&e&&!e.isDone){e.innerHTML=d.value;d.parentNode.removeChild(d);if(typeof b.callback=="function"){b.callback();}e.isDone=true;}}M.addClass(h,"hover");if(b&&b.isLazyLoad&&h.isDone){var g=h.find("img");for(var a=0,c=g.length;a<c;a++){var f=g[a].getAttribute("data-src_index_menu");if(f){g[a].setAttribute("src",f);g[a].removeAttribute("data-src_index_menu");}}h.isDone=true;}}function _hide_(a){if(!a){return;}if(a.className.indexOf("hover")>-1){M.removeClass(a,"hover");}}function shoucang(){var b=window.location.href;var a=document.title;try{window.external.addFavorite(b,a);}catch(c){try{window.sidebar.addPanel(a,b,"");}catch(c){alert("加入收藏失败，请使用Ctrl+D进行添加");}}}</script> 
 <script type="text/javascript">
 //<![CDATA[
 function checkSearchForm()
@@ -1505,1432 +1601,848 @@ function myValue2()
 }
 //]]>
 </script>
-<div class="blank10"></div>
-<script>
-/* *
- * 清除购物车购买商品数量
- */
-function delet(rec_id)
-{
-	var formBuy      = document.forms['formCart'];
-	var domname='goods_number_'+rec_id;
-	var attr = getSelectedAttributes(document.forms['formCart']);
-	var qty = parseInt(document.getElementById(domname).innerHTML)==0;
-	Ajax.call('flow.php', 'step=price&rec_id=' + rec_id + '&number=' + qty, changecartPriceResponse, 'GET', 'JSON');
-}			
-/* *
- * 增加购物车购买商品数量
- */
-function addcartnum(rec_id)
-{
-  var attr = getSelectedAttributes(document.forms['formCart']);
-  var domname='goods_number_'+rec_id;
-  var qty = parseInt(document.getElementById(domname).innerHTML)+1;
-  Ajax.call('flow.php', 'step=price&rec_id=' + rec_id + '&number=' + qty, changecartPriceResponse, 'GET', 'JSON');
-}
-/* *
- * 减少购买商品数量
- */
-function lesscartnum(rec_id)
-{
-    var formBuy      = document.forms['formCart'];
-	var domname='goods_number_'+rec_id;
-	var attr = getSelectedAttributes(document.forms['formCart']);
-	var qty = parseInt(document.getElementById(domname).innerHTML)-1;
-	Ajax.call('flow.php', 'step=price&rec_id=' + rec_id + '&number=' + qty, changecartPriceResponse, 'GET', 'JSON');
-}
-/**
- * 接收返回的信息
- */
-function changecartPriceResponse(res)
-{
-  if (res.err_msg.length > 0 )
-  {
-    alert(res.err_msg);
-  }
-  else
-  {
-	var domnum='goods_number_'+res.rec_id;
-	if(res.qty <= 0){
-    	document.getElementById('CART_INFO').innerHTML = res.content1;
-	}else{
-    	document.getElementById(domnum).innerHTML = res.qty;
-	}
-    document.getElementById('ECS_CARTINFO').innerHTML = res.result;
-  }
-}
-function changallser(allser)
-{
-	document.getElementById(allser).className='item fore';
-}
-</script> 
-<script>
+<script type="text/javascript">
 $('.search-type li').click(function() {
     $(this).addClass('cur').siblings().removeClass('cur');
     $('#searchtype').val($(this).attr('num'));
 });
-</script>		<div class="home-focus-layout">
-			<ul id="fullScreenSlides" class="full-screen-slides">
-    <li style=" background:url(data/afficheimg/20151009mpfhhr.jpg) center no-repeat; display:list-item"> 
-  	<a href="http://" target="_blank" title="">&nbsp;</a> 
-  </li>
-    <li style=" background:url(data/afficheimg/20150723axsewo.jpg) center no-repeat;display: none; "> 
-  	<a href="http://" target="_blank" title="">&nbsp;</a> 
-  </li>
-    <li style=" background:url(data/afficheimg/20150722uzphik.jpg) center no-repeat;display: none; "> 
-  	<a href="http://" target="_blank" title="">&nbsp;</a> 
-  </li>
-    <li style=" background:url(data/afficheimg/20150722zsmllz.jpg) center no-repeat;display: none; "> 
-  	<a href="http://" target="_blank" title="">&nbsp;</a> 
-  </li>
-  </ul>
-<div class="jfocus-trigeminy">
-  <div class="tm-chaoshi-markets">
-    <div class="markets">
-      <p class="row2">
-                 
-        <a href="affiche.php?ad_id=8&uri=" target="_blank" title="首页幻灯片-小图下1"><img data-original="data/afficheimg/1437497920196427586.jpg"  src="themes/68ecshopcom_360buy/images/loading.gif"  alt="首页幻灯片-小图下1" /></a> 
-                         
-        <a href="affiche.php?ad_id=9&uri=" target="_blank" title="首页幻灯片-小图下2" class="row2_2"><img data-original="data/afficheimg/1437497944523762531.jpg"  src="themes/68ecshopcom_360buy/images/loading.gif"  alt="首页幻灯片-小图下2" /></a> 
-                         
-        <a href="affiche.php?ad_id=10&uri=" target="_blank" title="首页幻灯片-小图下3"><img data-original="data/afficheimg/1437497969836917729.jpg"  src="themes/68ecshopcom_360buy/images/loading.gif"  alt="首页幻灯片-小图下3" /></a> 
-         
-      </p>
+</script>
+  <div class="first-show"> 
+    <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery.plus.js"></script>
+<div class="slide">
+  <ul class="bd">
+        <li style="background:url(data/catflashimg/1437583973984265131.jpg) center top" onClick="location='http://'"></li>
+        <li style="background:url(data/catflashimg/1437583986427105351.jpg) center top" onClick="location='http://'"></li>
+        <li style="background:url(data/catflashimg/1437583997134881148.jpg) center top" onClick="location='http://'"></li>
+      </ul>
+  <div class="hd">
+    <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+    <a class="prev">></a>
+   </div>
+</div>
+<script type="text/javascript">jQuery(".slide").slide({titCell:".hd li",mainCell:".bd",effect:"fade",delayTime:1000,interTime:5000,autoPlay:true,nextCell:".prev"});</script> 
+    <div class="w">
+      <div id="main-nav" class="mainnav">
+        <div class="navbox">
+          <div class="float-list" id="float-list"> 
+             
+             
+                        <dl id="webf1">
+              <dt class=""> <strong style="background-position: -464px -62px;"><a href="category.php?id=14">进口水果</a></strong>
+                <p> 
+                   
+                  <a href="category.php?id=15" class="" title="释迦芭乐">释迦芭乐</a> 
+                   
+                  <a href="category.php?id=16" class="" title="樱桃车厘子">樱桃车厘子</a> 
+                   
+                  <a href="category.php?id=17" class="" title="芒果桃李">芒果桃李</a> 
+                   
+                  <a href="category.php?id=18" class="" title="龙眼荔枝">龙眼荔枝</a> 
+                   
+                  <a href="category.php?id=19" class="" title="小波">小波</a> 
+                   
+                  <a href="category.php?id=20" class="" title="奇异果猕猴桃">奇异果猕猴桃</a> 
+                   
+                  <a href="category.php?id=21" class="" title="凤梨蓝莓">凤梨蓝莓</a> 
+                   
+                  <a href="category.php?id=22" class="" title="榴莲山竹">榴莲山竹</a> 
+                   
+                </p>
+                <b class="arrow-right"></b> 
+              </dt>
+              <dd style="top: 0px; min-height:108px;">
+                <ul class="secondlist">
+                  <li> <strong style="background-position: -464px -80px;"><a href="category.php?id=14">进口水果</a></strong>
+                    <div class="float-list-cont"> 
+                       
+                      <a href="category.php?id=15" class="" title="释迦芭乐">释迦芭乐</a> 
+                       
+                      <a href="category.php?id=16" class="" title="樱桃车厘子">樱桃车厘子</a> 
+                       
+                      <a href="category.php?id=17" class="" title="芒果桃李">芒果桃李</a> 
+                       
+                      <a href="category.php?id=18" class="" title="龙眼荔枝">龙眼荔枝</a> 
+                       
+                      <a href="category.php?id=19" class="" title="小波">小波</a> 
+                       
+                      <a href="category.php?id=20" class="" title="奇异果猕猴桃">奇异果猕猴桃</a> 
+                       
+                      <a href="category.php?id=21" class="" title="凤梨蓝莓">凤梨蓝莓</a> 
+                       
+                      <a href="category.php?id=22" class="" title="榴莲山竹">榴莲山竹</a> 
+                       
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+                        <dl id="webf2">
+              <dt class=""> <strong style="background-position: -464px -62px;"><a href="category.php?id=13">糖果巧克力</a></strong>
+                <p> 
+                   
+                  <a href="category.php?id=24" class="" title="巧克力">巧克力</a> 
+                   
+                  <a href="category.php?id=25" class="" title="口香糖">口香糖</a> 
+                   
+                  <a href="category.php?id=26" class="" title="棒棒糖">棒棒糖</a> 
+                   
+                  <a href="category.php?id=27" class="" title="软糖">软糖</a> 
+                   
+                  <a href="category.php?id=28" class="" title="奶糖">奶糖</a> 
+                   
+                  <a href="category.php?id=29" class="" title="QQ糖">QQ糖</a> 
+                   
+                  <a href="category.php?id=30" class="" title="果冻">果冻</a> 
+                   
+                </p>
+                <b class="arrow-right"></b> 
+              </dt>
+              <dd style="top: 0px; min-height:108px;">
+                <ul class="secondlist">
+                  <li> <strong style="background-position: -464px -80px;"><a href="category.php?id=13">糖果巧克力</a></strong>
+                    <div class="float-list-cont"> 
+                       
+                      <a href="category.php?id=24" class="" title="巧克力">巧克力</a> 
+                       
+                      <a href="category.php?id=25" class="" title="口香糖">口香糖</a> 
+                       
+                      <a href="category.php?id=26" class="" title="棒棒糖">棒棒糖</a> 
+                       
+                      <a href="category.php?id=27" class="" title="软糖">软糖</a> 
+                       
+                      <a href="category.php?id=28" class="" title="奶糖">奶糖</a> 
+                       
+                      <a href="category.php?id=29" class="" title="QQ糖">QQ糖</a> 
+                       
+                      <a href="category.php?id=30" class="" title="果冻">果冻</a> 
+                       
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+                        <dl id="webf3">
+              <dt class=""> <strong style="background-position: -464px -62px;"><a href="category.php?id=9">牛奶乳品</a></strong>
+                <p> 
+                   
+                  <a href="category.php?id=31" class="" title="常温奶">常温奶</a> 
+                   
+                  <a href="category.php?id=32" class="" title="乳饮料">乳饮料</a> 
+                   
+                  <a href="category.php?id=33" class="" title="儿童奶">儿童奶</a> 
+                   
+                  <a href="category.php?id=34" class="" title="酸奶">酸奶</a> 
+                   
+                  <a href="category.php?id=35" class="" title="豆奶">豆奶</a> 
+                   
+                  <a href="category.php?id=36" class="" title="低脂奶">低脂奶</a> 
+                   
+                  <a href="category.php?id=37" class="" title="全脂奶">全脂奶</a> 
+                   
+                  <a href="category.php?id=38" class="" title="成人奶粉">成人奶粉</a> 
+                   
+                </p>
+                <b class="arrow-right"></b> 
+              </dt>
+              <dd style="top: 0px; min-height:108px;">
+                <ul class="secondlist">
+                  <li> <strong style="background-position: -464px -80px;"><a href="category.php?id=9">牛奶乳品</a></strong>
+                    <div class="float-list-cont"> 
+                       
+                      <a href="category.php?id=31" class="" title="常温奶">常温奶</a> 
+                       
+                      <a href="category.php?id=32" class="" title="乳饮料">乳饮料</a> 
+                       
+                      <a href="category.php?id=33" class="" title="儿童奶">儿童奶</a> 
+                       
+                      <a href="category.php?id=34" class="" title="酸奶">酸奶</a> 
+                       
+                      <a href="category.php?id=35" class="" title="豆奶">豆奶</a> 
+                       
+                      <a href="category.php?id=36" class="" title="低脂奶">低脂奶</a> 
+                       
+                      <a href="category.php?id=37" class="" title="全脂奶">全脂奶</a> 
+                       
+                      <a href="category.php?id=38" class="" title="成人奶粉">成人奶粉</a> 
+                       
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+                        <dl id="webf4">
+              <dt class=""> <strong style="background-position: -464px -62px;"><a href="category.php?id=10">坚果炒货</a></strong>
+                <p> 
+                   
+                  <a href="category.php?id=39" class="" title="核桃">核桃</a> 
+                   
+                  <a href="category.php?id=40" class="" title="夏威夷果">夏威夷果</a> 
+                   
+                  <a href="category.php?id=41" class="" title="碧根果">碧根果</a> 
+                   
+                  <a href="category.php?id=42" class="" title="开心果">开心果</a> 
+                   
+                  <a href="category.php?id=43" class="" title="腰果">腰果</a> 
+                   
+                  <a href="category.php?id=44" class="" title="瓜子">瓜子</a> 
+                   
+                  <a href="category.php?id=45" class="" title="花生">花生</a> 
+                   
+                  <a href="category.php?id=46" class="" title="杏仁">杏仁</a> 
+                   
+                </p>
+                <b class="arrow-right"></b> 
+              </dt>
+              <dd style="top: 0px; min-height:108px;">
+                <ul class="secondlist">
+                  <li> <strong style="background-position: -464px -80px;"><a href="category.php?id=10">坚果炒货</a></strong>
+                    <div class="float-list-cont"> 
+                       
+                      <a href="category.php?id=39" class="" title="核桃">核桃</a> 
+                       
+                      <a href="category.php?id=40" class="" title="夏威夷果">夏威夷果</a> 
+                       
+                      <a href="category.php?id=41" class="" title="碧根果">碧根果</a> 
+                       
+                      <a href="category.php?id=42" class="" title="开心果">开心果</a> 
+                       
+                      <a href="category.php?id=43" class="" title="腰果">腰果</a> 
+                       
+                      <a href="category.php?id=44" class="" title="瓜子">瓜子</a> 
+                       
+                      <a href="category.php?id=45" class="" title="花生">花生</a> 
+                       
+                      <a href="category.php?id=46" class="" title="杏仁">杏仁</a> 
+                       
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+                        <dl id="webf5">
+              <dt class=""> <strong style="background-position: -464px -62px;"><a href="category.php?id=12">蜜饯果干</a></strong>
+                <p> 
+                   
+                  <a href="category.php?id=47" class="" title="红枣">红枣</a> 
+                   
+                  <a href="category.php?id=48" class="" title="莓类">莓类</a> 
+                   
+                  <a href="category.php?id=49" class="" title="葡萄干">葡萄干</a> 
+                   
+                  <a href="category.php?id=50" class="" title="芒果干">芒果干</a> 
+                   
+                  <a href="category.php?id=51" class="" title="香蕉干">香蕉干</a> 
+                   
+                  <a href="category.php?id=52" class="" title="山楂片">山楂片</a> 
+                   
+                  <a href="category.php?id=53" class="" title="橄榄">橄榄</a> 
+                   
+                  <a href="category.php?id=54" class="" title="其他">其他</a> 
+                   
+                </p>
+                <b class="arrow-right"></b> 
+              </dt>
+              <dd style="top: 0px; min-height:108px;">
+                <ul class="secondlist">
+                  <li> <strong style="background-position: -464px -80px;"><a href="category.php?id=12">蜜饯果干</a></strong>
+                    <div class="float-list-cont"> 
+                       
+                      <a href="category.php?id=47" class="" title="红枣">红枣</a> 
+                       
+                      <a href="category.php?id=48" class="" title="莓类">莓类</a> 
+                       
+                      <a href="category.php?id=49" class="" title="葡萄干">葡萄干</a> 
+                       
+                      <a href="category.php?id=50" class="" title="芒果干">芒果干</a> 
+                       
+                      <a href="category.php?id=51" class="" title="香蕉干">香蕉干</a> 
+                       
+                      <a href="category.php?id=52" class="" title="山楂片">山楂片</a> 
+                       
+                      <a href="category.php?id=53" class="" title="橄榄">橄榄</a> 
+                       
+                      <a href="category.php?id=54" class="" title="其他">其他</a> 
+                       
+                    </div>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="themes/68ecshopcom_360buy/js/categories_nav.js"></script> 
+    </div>
+    <div style="clear:both"></div>
+    <div class="image-box1">
+             
+      <a href="affiche.php?ad_id=38&uri=" target="_blank">
+      	<img src="themes/68ecshopcom_360buy/images/loading.gif" data-original="data/afficheimg/1437584516643169695.jpg"  height="187" width="510">
+      </a> 
+                   
+      <a href="affiche.php?ad_id=39&uri=" target="_blank">
+      	<img src="themes/68ecshopcom_360buy/images/loading.gif" data-original="data/afficheimg/1437584779944154716.jpg" height="187" width="340">
+      </a> 
+                   
+      <a href="affiche.php?ad_id=40&uri=" target="_blank" style="margin-right:0px">
+      	<img src="themes/68ecshopcom_360buy/images/loading.gif" data-original="data/afficheimg/1437584814283655281.jpg"  height="187" width="340">
+      </a> 
+       
     </div>
   </div>
-</div>
-			<div class="right-sidebar">
-				<div class="order_type">
-  <div class="title">四种方式下订单</div>
-  <ul>
-    <li>
-      <i>1</i>访问网站直接下订单
-    </li>
-    <li>
-      <i>2</i>直接拨打电话
-      <p class="wei_shop">如果在您不方便上网的时候</p>
-      <p class="phone">400-000-0001</p>
-    </li>
-    <li>
-      <i>3</i>支持微商城下订单
-      <div class="wei_shop">
-        <p>关注微商城立即赠送<font style="color:#E31939">20元</font>红包</p>
-        <img src="themes/68ecshopcom_360buy/images/shengji_ad/weixin.jpg" alt="扫描二维码，关注微商城" /> </div>
-    </li>
-    <li> 
-      <i>4</i>支持手机APP下订单 
-    </li>
-  </ul>
-</div>
-				<div class="proclamation">
-					<ul class="tabs-nav">
-						<li class="tabs-selected">
-							<h3>招商入驻</h3>
-						</li>
-						<li class="">
-							<h3>商城公告</h3>
-						</li>
-					</ul>
-					<div class="tabs-panel">
-						<a href="apply_index.php" title="申请商家入驻；已提交申请，可查看当前审核状态。" class="store-join-btn" target="_blank"> </a>
-						<a href="supplier" target="_blank" class="store-join-help">
-							<i class="icon-cog"></i>
-							登录商家管理中心
-						</a>
-					</div>
-					
-					<div class="tabs-panel tabs-hide">
-  <ul class="mall-news">
-        <li><i></i><a target="_blank" href="article.php?id=79" title="商家帮助指南">商家帮助指南 </a> </li>
-        <li><i></i><a target="_blank" href="article.php?id=78" title="供货商(入驻商文章标题)">供货商(入驻商文章标题) </a> </li>
-      </ul>
-</div>
-					
-				</div>
-			</div>
-		</div>
-		<script type="text/javascript">
-	   	function fun(type_id, no_have_val)
-	   	{
-	  	no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val)
-	 	 Ajax.call('user.php?act=user_bonus', 'id=' + type_id + '&no_have=' + no_have, collectResponse, 'GET', 'JSON');
-		}
-		function collectResponse(result)
-		{
-			alert(result.message);	
-		}
-	    </script>
-								<script type="text/javascript">
-$(document).ready(function(){
-  var a = $("#specialId").children("li");
-  var b = $(".bf-content"); 
-  if($(a).length > 0){ 
-		b.css({"display":"block"});
-	} 
-	else{ 
-		b.css({"display":"none"});
-	} 
-});
+  <div class="blank10"></div>
+  
+    <div class="floorWrapper">
+    <div class="mt">
+      <h2>1F<span>进口水果</span></h2>
+      <a href="category.php?id=14" target="_blank" class="category_more">更多 &gt;</a> </div>
+    <script type="text/javascript"> 
+$(document).ready(function(){ 
+$(".itemOuter .itemWrapper").mouseover(function(){ 
+$(this).addClass("itemWrapper_hover"); 
+}); 
+$(".itemOuter .itemWrapper").mouseout(function(){ 
+$(this).removeClass("itemWrapper_hover"); 
+}); 
+}); 
 </script>
-<div class="bf-content" style="display:none"> 
-  <span class="title"></span>
-  <ul id="specialId" class="bf-ul-content clearfix">
-    <li class="b"> 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";s:1:"1";s:3:"num";s:1:"1";}554fcae493e564ee0dc75bdf2ebf94ca </li>
-    <li class="b"> 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";s:1:"2";s:3:"num";s:1:"1";}554fcae493e564ee0dc75bdf2ebf94ca </li>
-    <li class="b"> 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";s:1:"3";s:3:"num";s:1:"1";}554fcae493e564ee0dc75bdf2ebf94ca </li>
-    <li class="b"> 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";s:1:"4";s:3:"num";s:1:"1";}554fcae493e564ee0dc75bdf2ebf94ca </li>
-    <li class="b"> 554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";s:1:"5";s:3:"num";s:1:"1";}554fcae493e564ee0dc75bdf2ebf94ca </li>
-  </ul>
-</div>
-		<div class="blank5"></div>
-<!--		<div class="fp-brand-rec main-container" id="J_FpBrandRec">
-			<a class="brand-title" href="stores.php">热门品牌</a>
-			<div class="brand-content clearfix">
-				<div class="module">
-					<div class="brand-first">
-						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示左侧广告" &ndash;&gt;
-						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
-						554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";N;s:3:"num";N;}554fcae493e564ee0dc75bdf2ebf94ca						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
-						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
-					</div>
-				</div>
-				<div id="J_indexstore">554fcae493e564ee0dc75bdf2ebf94casupplier_list|a:1:{s:4:"name";s:13:"supplier_list";}554fcae493e564ee0dc75bdf2ebf94ca</div>
-				<div class="module">
-					<div class="brand-today-b">
-						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示右侧广告" &ndash;&gt;
-						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
-						554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:4:"name";s:3:"ads";s:2:"id";N;s:3:"num";N;}554fcae493e564ee0dc75bdf2ebf94ca						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
-						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
-					</div>
-				</div>
-			</div>
-		</div>-->
-		<!--<div class="blank5"></div>
-		<div class="home-sale-layout wrapper">
-			<div class="left-layout">
-				&lt;!&ndash; #BeginLibraryItem "/library/stores_tab.lbi" &ndash;&gt;
-				&lt;!&ndash; #EndLibraryItem &ndash;&gt;
-				<div class="tabs-panel sale-goods-list tabs-hide">
-					<ul>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="pro_goods.php?id=34" title="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙">夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="pro_goods.php?id=34" title="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙">
-										<img src="images/201507/thumb_img/34_thumb_G_1437507487587.jpg" alt="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash;  &ndash;&gt;
-										299.0										&lt;!&ndash; &ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-				</div>
-				<div class="tabs-panel sale-goods-list tabs-hide">
-					<ul>
-						&lt;!&ndash; &ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=147" title="">【套装版】荣耀 6 Plus (PE-TL20)...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=147" title="">
-										<img src="images/201507/thumb_img/147_thumb_G_1437530142553.jpg" alt="">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										2199.00										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=143" title="">小米（MI）小米Note 移动联通双4G 特别版...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=143" title="">
-										<img src="images/201507/thumb_img/143_thumb_G_1437529603664.jpg" alt="">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										2098.00										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-				</div>
-				<div class="tabs-panel sale-goods-list tabs-hide">
-					<ul>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">
-										<img src="images/201507/thumb_img/140_thumb_G_1437528915082.jpg" alt="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										333.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=231" title="可爱卡通餐盘水果盘点心盘 盘子儿童托盘餐具6件套">可爱卡通餐盘水果盘点心盘 盘子儿童托盘餐具6件套</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=231" title="可爱卡通餐盘水果盘点心盘 盘子儿童托盘餐具6件套">
-										<img src="images/201507/thumb_img/231_thumb_G_1437587773545.jpg" alt="可爱卡通餐盘水果盘点心盘 盘子儿童托盘餐具6件套">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										99.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=229" title="Jaka蝴蝶夫人浮雕陶瓷分层水果盘 点心盘子 双层三层 多款可选">Jaka蝴蝶夫人浮雕陶瓷分层水果盘 点心盘子 双...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=229" title="Jaka蝴蝶夫人浮雕陶瓷分层水果盘 点心盘子 双层三层 多款可选">
-										<img src="images/201507/thumb_img/229_thumb_G_1437587547996.jpg" alt="Jaka蝴蝶夫人浮雕陶瓷分层水果盘 点心盘子 双层三层 多款可选">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										116.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=230" title="304不锈钢宝宝分格餐盘 儿童餐具分隔格碗餐盘婴儿盘">304不锈钢宝宝分格餐盘 儿童餐具分隔格碗餐盘婴...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=230" title="304不锈钢宝宝分格餐盘 儿童餐具分隔格碗餐盘婴儿盘">
-										<img src="images/201507/thumb_img/230_thumb_G_1437587680625.jpg" alt="304不锈钢宝宝分格餐盘 儿童餐具分隔格碗餐盘婴儿盘">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										35.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">意大利费列罗巧克力食品进口零食礼盒576粒整箱装...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">
-										<img src="images/201507/thumb_img/29_thumb_G_1437506331258.jpg" alt="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										380.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-				</div>
-				<div class="tabs-panel sale-goods-list tabs-hide">
-					<ul>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=139" title="优雅100 经典设计款全棉斜纹印花四件套">优雅100 经典设计款全棉斜纹印花四件套</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=139">
-										<img src="images/201507/thumb_img/139_thumb_G_1437528892306.jpg" alt="优雅100 经典设计款全棉斜纹印花四件套">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										189.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=140">
-										<img src="images/201507/thumb_img/140_thumb_G_1437528915082.jpg" alt="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										333.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=137" title="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基">LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=137">
-										<img src="images/201507/thumb_img/137_thumb_G_1437528855059.jpg" alt="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										399.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=143" title="小米（MI）小米Note 移动联通双4G 特别版(16G ROM)">小米（MI）小米Note 移动联通双4G 特别版...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=143">
-										<img src="images/201507/thumb_img/143_thumb_G_1437529603664.jpg" alt="小米（MI）小米Note 移动联通双4G 特别版(16G ROM)">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										2098.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=100" title="苹果（Apple）iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机">苹果（Apple）iPhone 6 (A1586...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=100">
-										<img src="images/201507/thumb_img/100_thumb_G_1437523484060.jpg" alt="苹果（Apple）iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										4888.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-				</div>
-				<div class="tabs-panel sale-goods-list">
-					<ul>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=139" title="优雅100 经典设计款全棉斜纹印花四件套">优雅100 经典设计款全棉斜纹印花四件套</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=139" title="优雅100 经典设计款全棉斜纹印花四件套">
-										<img data-original="images/201507/thumb_img/139_thumb_G_1437528892306.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="优雅100 经典设计款全棉斜纹印花四件套">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										189.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=140" title="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">
-										<img data-original="images/201507/thumb_img/140_thumb_G_1437528915082.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="雅鹿全棉四件套纯棉套件床上用品 回忆蓝 1.8米床">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										333.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=137" title="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基">LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=137" title="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基">
-										<img data-original="images/201507/thumb_img/137_thumb_G_1437528855059.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="LOVO 罗莱家纺出品全棉斜纹床品套件四件套 兔斯基">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										399.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=143" title="小米（MI）小米Note 移动联通双4G 特别版(16G ROM)">小米（MI）小米Note 移动联通双4G 特别版...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=143" title="小米（MI）小米Note 移动联通双4G 特别版(16G ROM)">
-										<img data-original="images/201507/thumb_img/143_thumb_G_1437529603664.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="小米（MI）小米Note 移动联通双4G 特别版(16G ROM)">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										2098.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-						<li>
-							<dl>
-								<dt class="goods-name">
-									<a target="_blank" href="goods.php?id=100" title="苹果（Apple）iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机">苹果（Apple）iPhone 6 (A1586...</a>
-								</dt>
-								<dd class="goods-thumb">
-									<a target="_blank" href="goods.php?id=100" title="苹果（Apple）iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机">
-										<img data-original="images/201507/thumb_img/100_thumb_G_1437523484060.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="苹果（Apple）iPhone 6 (A1586) 16GB 金色 移动联通电信4G手机">
-									</a>
-								</dd>
-								<dd class="goods-price">
-									商城价：
-									<em>
-										&lt;!&ndash; &ndash;&gt;
-										4888.0										&lt;!&ndash;&ndash;&gt;
-									</em>
-								</dd>
-							</dl>
-						</li>
-						&lt;!&ndash;&ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-				</div>
-			</div>
-			<div class="right-sidebar">
-				<div class="title">
-					<h3>
-						<i></i>
-						限时折扣
-					</h3>
-				</div>
-				<div id="saleDiscount" class="sale-discount">
-					<ul>
-						&lt;!&ndash;&ndash;&gt;
-						 &ndash;&gt;
-						&lt;!&ndash;&ndash;&gt;
-					</ul>
-					<div class="pagination">
-						<span style="opacity: 0.4;"></span>
-						<span style="opacity: 0.4;"></span>
-						<span style="opacity: 0.4;"></span>
-						<span style="opacity: 1;"></span>
-					</div>
-					<div class="arrow pre" style="opacity: 0;"></div>
-					<div class="arrow next" style="opacity: 0;"></div>
-				</div>
-			</div>
-		</div>-->
-		<div class="blank5"></div>
-		
-		<div class="floorList">
-			<div class="floor"></div>
-			
-			<script type="text/javascript">
-			function Move(btn1,btn2,box,btnparent,shu){
-				var llishu=$(box).first().children().length;
-				var liwidth=121;
-				var boxwidth=llishu*liwidth-1;
-				var shuliang=llishu-shu;
-				$(box).css('width',''+boxwidth+'px');
-				var num=0;
-				$(btn1).click(function(){
-					num++;
-					if (num>shuliang) {
-						num=shuliang;
-					}
-					var move=-liwidth*num;
-					$(this).closest(btnparent).find(box).stop().animate({'left':''+move+'px'},300);
-				});
-				$(btn2).click(function(){
-					num--;
-					if (num<0) {
-						num=0;
-					}
-					var move=liwidth*num;
-					$(this).closest(btnparent).find(box).stop().animate({'left':''+-move+'px'},300);
-				})
-			}
-			</script>
-			
-			<div class="w floor">
-	<div class="floor02 clearfix">
-		<div id="f0" class="home-standard-layout tm-chaoshi-floorlayout style-one">
-									<a href="affiche.php?ad_id=35&uri=" class="j_ItemInfo_tong">
-				<img data-original="data/afficheimg/1437500451024703742.jpg" src="themes/68ecshopcom_360buy/images/loading1.gif" alt="" height="100" width="1210">
-			</a>
-						<div class="m-floor">
-				<div class="header left_floor">
-					<h2>
-						<span>
-														1F
-													</span>
-						<a href="category.php?id=1" target="_blank">食品生鲜</a>
-					</h2>
-					<div class="recommend">
-						<div class="words">
-																																										<a href="category.php?id=17">
-								<b>芒果桃李</b>
-							</a>
-																																			<a href="category.php?id=21">
-								<b>凤梨蓝莓</b>
-							</a>
-																																																	<a href="category.php?id=25">
-								<b>口香糖</b>
-							</a>
-																																			<a href="category.php?id=26">
-								<b>棒棒糖</b>
-							</a>
-																																			<a href="category.php?id=27">
-								<b>软糖</b>
-							</a>
-																																			<a href="category.php?id=28">
-								<b>奶糖</b>
-							</a>
-																																			<a href="category.php?id=30">
-								<b>果冻</b>
-							</a>
-																																																	<a href="category.php?id=46">
-								<b>杏仁</b>
-							</a>
-																																																	<a href="category.php?id=47">
-								<b>红枣</b>
-							</a>
-																											</div>
-																								<a href="affiche.php?ad_id=11&uri=" target="_blank" class="banner">
-							<img data-original="data/afficheimg/1437498557902889630.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" height="297" width="240">
-						</a>
-																	</div>
-				</div>
-				<div class="content mid_floor">
-					<div class="goods">
-						<div class="middle-layout">
-							<ul class="tabs-nav">
-								<li class="tabs-selected">
-									<h3>精挑细选</h3>
-								</li>
-																								<li class="">
-									<h3>进口水果</h3>
-								</li>
-																<li class="">
-									<h3>糖果巧克力</h3>
-								</li>
-																<li class="">
-									<h3>牛奶乳品</h3>
-								</li>
-															</ul>
-							<div class="tabs-panel">
-																								<div class="j_ItemInfo" id="li_29" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">
-											<img data-original="images/201507/thumb_img/29_thumb_G_1437506331258.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖" height="160" width="160" class="pic_img_29">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">意大利费列罗巧克力食品进口零食礼盒576粒整箱装...</a>
-										</p>
-										<p class="o-price">456.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								380.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(29)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_30" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=30" title="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g">
-											<img data-original="images/201507/thumb_img/30_thumb_G_1437506667557.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g" height="160" width="160" class="pic_img_30">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=30" title="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g">日本进口 KRACIE（KRACIE）牌玫瑰香味...</a>
-										</p>
-										<p class="o-price">14.3</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								12.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(30)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_3" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=3" title="美国西北车厘子 1斤装 进口水果新鲜樱桃水果">
-											<img data-original="images/201507/thumb_img/3_thumb_G_1437501601556.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="美国西北车厘子 1斤装 进口水果新鲜樱桃水果" height="160" width="160" class="pic_img_3">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=3" title="美国西北车厘子 1斤装 进口水果新鲜樱桃水果">美国西北车厘子 1斤装 进口水果新鲜樱桃水果</a>
-										</p>
-										<p class="o-price">32.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								29.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(3)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_4" style="border-right: none">
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=4" title="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果">
-											<img data-original="images/201507/thumb_img/4_thumb_G_1437501961154.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果" height="160" width="160" class="pic_img_4">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=4" title="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果">加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜...</a>
-										</p>
-										<p class="o-price">155.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								128.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(4)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_11" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=11" title="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果">
-											<img data-original="images/201507/thumb_img/11_thumb_G_1437503527861.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果" height="160" width="160" class="pic_img_11">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=11" title="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果">七果果 越南白心火龙果1斤【3斤起拍，只多不少】...</a>
-										</p>
-										<p class="o-price">36.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								30.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(11)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_16" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=16" title="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果">
-											<img data-original="images/201507/thumb_img/16_thumb_G_1437503698428.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果" height="160" width="160" class="pic_img_16">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=16" title="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果">畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果</a>
-										</p>
-										<p class="o-price">200.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								168.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(16)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_14" >
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=14" title="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只">
-											<img data-original="images/201507/thumb_img/14_thumb_G_1437503630878.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只" height="160" width="160" class="pic_img_14">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=14" title="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只">哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心...</a>
-										</p>
-										<p class="o-price">500.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								479.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(14)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-																<div class="j_ItemInfo" id="li_20" style="border-right: none">
-									<div class="wrap">
-										<a target="_blank" href="goods.php?id=20" title="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果">
-											<img data-original="images/201507/thumb_img/20_thumb_G_1437504111409.jpg" src="themes/68ecshopcom_360buy/images/loading.gif" alt="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果" height="160" width="160" class="pic_img_20">
-										</a>
-										<p class="title">
-											<a target="_blank" href="goods.php?id=20" title="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果">佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水...</a>
-										</p>
-										<p class="o-price">95.0</p>
-										<p class="price">
-											<span class="j_CurPrice">
-																								88.0																							</span>
-										</p>
-										<a class="j_AddCart" onclick="addToCart(20)" title="加入购物车"></a>
-										<i class="product-mask"></i>
-									</div>
-								</div>
-															</div>
-																					<div class="tabs-panel tabs-hide">
-								<ul>
-																											<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=2" title="佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈">
-												<img src="images/201507/thumb_img/2_thumb_G_1437501414613.jpg" alt="佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=2" title="佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈">佳沛新西兰阳光金奇异果原装33个 zepris猕...</a>
-											</p>
-											<p class="o-price">260.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										218.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(2)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=4" title="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果">
-												<img src="images/201507/thumb_img/4_thumb_G_1437501961154.jpg" alt="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=4" title="加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果">加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜...</a>
-											</p>
-											<p class="o-price">155.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										128.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(4)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=11" title="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果">
-												<img src="images/201507/thumb_img/11_thumb_G_1437503527861.jpg" alt="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=11" title="七果果 越南白心火龙果1斤【3斤起拍，只多不少】 毁包赔 进口新鲜水果 堪比红心火龙果">七果果 越南白心火龙果1斤【3斤起拍，只多不少】...</a>
-											</p>
-											<p class="o-price">36.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										30.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(11)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=16" title="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果">
-												<img src="images/201507/thumb_img/16_thumb_G_1437503698428.jpg" alt="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=16" title="畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果">畅享礼盒 奇异果火龙果佳节送礼进口新鲜水果</a>
-											</p>
-											<p class="o-price">200.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										168.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(16)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=14" title="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只">
-												<img src="images/201507/thumb_img/14_thumb_G_1437503630878.jpg" alt="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=14" title="哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心火龙果 4只">哥伦比亚金燕窝果 新鲜进口水果 麒麟果 黄色白心...</a>
-											</p>
-											<p class="o-price">500.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										479.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(14)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=20" title="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果">
-												<img src="images/201507/thumb_img/20_thumb_G_1437504111409.jpg" alt="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=20" title="佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水果">佳沛新西兰阳光金奇异果12个/进口猕猴桃/新鲜水...</a>
-											</p>
-											<p class="o-price">95.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										88.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(20)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=23" title="进口 新鲜水果 车厘子1000g">
-												<img src="images/201507/thumb_img/23_thumb_G_1437504225111.jpg" alt="进口 新鲜水果 车厘子1000g" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=23" title="进口 新鲜水果 车厘子1000g">进口 新鲜水果 车厘子1000g</a>
-											</p>
-											<p class="o-price">220.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										198.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(23)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=1" title="佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃">
-												<img src="images/201507/thumb_img/1_thumb_G_1437501058250.jpg" alt="佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=1" title="佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃">佳沛新西兰绿奇异果36个（原装）进口Zespri...</a>
-											</p>
-											<p class="o-price">180.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										148.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(1)" title="加入购物车"></a>
-										</div>
-									</div>
-																	</ul>
-							</div>
-																					<div class="tabs-panel tabs-hide">
-								<ul>
-																											<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">
-												<img src="images/201507/thumb_img/29_thumb_G_1437506331258.jpg" alt="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=29" title="意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖">意大利费列罗巧克力食品进口零食礼盒576粒整箱装...</a>
-											</p>
-											<p class="o-price">456.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										380.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(29)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=30" title="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g">
-												<img src="images/201507/thumb_img/30_thumb_G_1437506667557.jpg" alt="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=30" title="日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g">日本进口 KRACIE（KRACIE）牌玫瑰香味...</a>
-											</p>
-											<p class="o-price">14.3</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										12.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(30)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=26" title="韩国进口X-5花生夹心巧克力棒盒装（24根）864g">
-												<img src="images/201507/thumb_img/26_thumb_G_1437505984631.jpg" alt="韩国进口X-5花生夹心巧克力棒盒装（24根）864g" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=26" title="韩国进口X-5花生夹心巧克力棒盒装（24根）864g">韩国进口X-5花生夹心巧克力棒盒装（24根）86...</a>
-											</p>
-											<p class="o-price">95.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										79.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(26)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=27" title="Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节">
-												<img src="images/201507/thumb_img/27_thumb_G_1437506372309.jpg" alt="Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=27" title="Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节">Ferrero/费列罗 意大利进口威化榛果巧克力...</a>
-											</p>
-											<p class="o-price">95.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										79.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(27)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=32" title="Lindt瑞士莲黑巧克力特醇排装德国进口 70%可可黑巧克力10块组合 特惠分享装">
-												<img src="images/201507/thumb_img/32_thumb_G_1437506920994.jpg" alt="Lindt瑞士莲黑巧克力特醇排装德国进口 70%可可黑巧克力10块组合 特惠分享装" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=32" title="Lindt瑞士莲黑巧克力特醇排装德国进口 70%可可黑巧克力10块组合 特惠分享装">Lindt瑞士莲黑巧克力特醇排装德国进口 70%...</a>
-											</p>
-											<p class="o-price">350.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										299.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(32)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=31" title="台湾进口 百年老店糖之坊夏威夷果牛轧糖奶糖（蔓越莓味）120克">
-												<img src="images/201507/thumb_img/31_thumb_G_1437506821290.jpg" alt="台湾进口 百年老店糖之坊夏威夷果牛轧糖奶糖（蔓越莓味）120克" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=31" title="台湾进口 百年老店糖之坊夏威夷果牛轧糖奶糖（蔓越莓味）120克">台湾进口 百年老店糖之坊夏威夷果牛轧糖奶糖（蔓越...</a>
-											</p>
-											<p class="o-price">42.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										35.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(31)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=55" title="嘉云糖 300g玻璃罐装 水果硬糖 喜糖 德国进口">
-												<img src="images/201507/thumb_img/55_thumb_G_1437520599834.jpg" alt="嘉云糖 300g玻璃罐装 水果硬糖 喜糖 德国进口" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=55" title="嘉云糖 300g玻璃罐装 水果硬糖 喜糖 德国进口">嘉云糖 300g玻璃罐装 水果硬糖 喜糖 德国进...</a>
-											</p>
-											<p class="o-price">45.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										38.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(55)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=28" title="进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品">
-												<img src="images/201507/thumb_img/28_thumb_G_1437506346326.jpg" alt="进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=28" title="进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品">进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】...</a>
-											</p>
-											<p class="o-price">144.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										120.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(28)" title="加入购物车"></a>
-										</div>
-									</div>
-																	</ul>
-							</div>
-																					<div class="tabs-panel tabs-hide">
-								<ul>
-																											<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=81" title="伊利 味可滋（巧克力）奶昔乳饮品240ml*12盒">
-												<img src="images/201507/thumb_img/81_thumb_G_1437522277060.jpg" alt="伊利 味可滋（巧克力）奶昔乳饮品240ml*12盒" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=81" title="伊利 味可滋（巧克力）奶昔乳饮品240ml*12盒">伊利 味可滋（巧克力）奶昔乳饮品240ml*12...</a>
-											</p>
-											<p class="o-price">54.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										45.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(81)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=79" title="蒙牛 特仑苏 纯牛奶 250ml*12 礼盒装">
-												<img src="images/201507/thumb_img/79_thumb_G_1437522204345.jpg" alt="蒙牛 特仑苏 纯牛奶 250ml*12 礼盒装" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=79" title="蒙牛 特仑苏 纯牛奶 250ml*12 礼盒装">蒙牛 特仑苏 纯牛奶 250ml*12 礼盒装</a>
-											</p>
-											<p class="o-price">66.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										55.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(79)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=75" title="宾格瑞（BINGGRAE）香蕉味牛奶饮料 200ml*24">
-												<img src="images/201507/thumb_img/75_thumb_G_1437522091099.jpg" alt="宾格瑞（BINGGRAE）香蕉味牛奶饮料 200ml*24" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=75" title="宾格瑞（BINGGRAE）香蕉味牛奶饮料 200ml*24">宾格瑞（BINGGRAE）香蕉味牛奶饮料 200...</a>
-											</p>
-											<p class="o-price">155.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										129.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(75)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=74" title="德运Devondale 脱脂高钙奶粉1kg">
-												<img src="images/201507/thumb_img/74_thumb_G_1437521987425.jpg" alt="德运Devondale 脱脂高钙奶粉1kg" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=74" title="德运Devondale 脱脂高钙奶粉1kg">德运Devondale 脱脂高钙奶粉1kg</a>
-											</p>
-											<p class="o-price">95.8</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										79.9																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(74)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=72" title="波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒">
-												<img src="images/201507/thumb_img/72_thumb_G_1437521848992.jpg" alt="波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=72" title="波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒">波兰 进口牛奶 日昇（MLEKOVITA）全脂牛...</a>
-											</p>
-											<p class="o-price">130.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										109.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(72)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=68" title="新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱">
-												<img src="images/201507/thumb_img/68_thumb_G_1437521651986.jpg" alt="新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=68" title="新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱">新西兰 原装进口 纯牛奶 纽麦福（ Meadow...</a>
-											</p>
-											<p class="o-price">130.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										109.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(68)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" >
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=60" title="德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12">
-												<img src="images/201507/thumb_img/60_thumb_G_1437520982494.jpg" alt="德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=60" title="德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12">德国 进口牛奶 欧德堡（Oldenburger）...</a>
-											</p>
-											<p class="o-price">130.0</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										119.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(60)" title="加入购物车"></a>
-										</div>
-									</div>
-																		<div class="j_ItemInfo" style="border-right: none">
-										<div class="wrap">
-											<a target="_blank" href="goods.php?id=62" title="澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装">
-												<img src="images/201507/thumb_img/62_thumb_G_1437521071878.jpg" alt="澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装" height="160" width="160">
-											</a>
-											<p class="title">
-												<a target="_blank" href="goods.php?id=62" title="澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装">澳大利亚 进口牛奶 德运（Devondale） ...</a>
-											</p>
-											<p class="o-price">118.8</p>
-											<p class="price">
-												<span class="j_CurPrice">
-																										99.0																									</span>
-											</p>
-											<a class="j_AddCart" onclick="addToCart(62)" title="加入购物车"></a>
-										</div>
-									</div>
-																	</ul>
-							</div>
-													</div>
-					</div>
-				</div>
-				<div class="promo">
-															<a href="affiche.php?ad_id=19&uri=" class="j_ItemInfo">
-						<img data-original="data/afficheimg/1437498774407314769.jpg" src="themes/68ecshopcom_360buy/images/loading2.gif" alt="" height="278" width="150">
-					</a>
-																				<a href="affiche.php?ad_id=20&uri=" class="j_ItemInfo">
-						<img data-original="data/afficheimg/1437498791542281098.jpg" src="themes/68ecshopcom_360buy/images/loading2.gif" alt="" height="279" width="150">
-					</a>
-									</div>
-				<div class="promo_brand">
-					<div class="recommend-brand">
-						<div class="gw_con">
-							<div class="anli">
-								<div class="anli_con">
-									<ul class="yyyy_1 anli_con_num" style="position: absolute; width: 1210px; height: 40px; top: 0px; left: 0px;">
-																														<li class="fore1">
-											<a href="category.php?id=1&amp;brand=41" target="_blank" title="伊利">
-												<img width="100" height="40" src="data/brandlogo/1437431337248235690.jpg" alt="伊利">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=51" target="_blank" title="享爱.">
-												<img width="100" height="40" src="data/brandlogo/1437432512022024124.jpg" alt="享爱.">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=46" target="_blank" title="三只松鼠">
-												<img width="100" height="40" src="data/brandlogo/1437431595688289538.jpg" alt="三只松鼠">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=38" target="_blank" title="必胜客">
-												<img width="100" height="40" src="data/brandlogo/1437431098320240967.jpg" alt="必胜客">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=44" target="_blank" title="三元">
-												<img width="100" height="40" src="data/brandlogo/1437431370729213687.jpg" alt="三元">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=100" target="_blank" title="美赞臣">
-												<img width="100" height="40" src="data/brandlogo/1437438523104074504.jpg" alt="美赞臣">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=34" target="_blank" title="肯德基">
-												<img width="100" height="40" src="data/brandlogo/1437431062768997274.jpg" alt="肯德基">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=45" target="_blank" title="百草味">
-												<img width="100" height="40" src="data/brandlogo/1437431586427003983.jpg" alt="百草味">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=49" target="_blank" title="西域美农">
-												<img width="100" height="40" src="data/brandlogo/1437431645949723761.jpg" alt="西域美农">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=89" target="_blank" title="锐澳">
-												<img width="100" height="40" src="data/brandlogo/1437437261557386149.jpg" alt="锐澳">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=50" target="_blank" title="糖糖屋">
-												<img width="100" height="40" src="data/brandlogo/1437431655511622908.jpg" alt="糖糖屋">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=48" target="_blank" title="楼兰密语">
-												<img width="100" height="40" src="data/brandlogo/1437431622196514430.jpg" alt="楼兰密语">
-											</a>
-										</li>
-																				<li >
-											<a href="category.php?id=1&amp;brand=47" target="_blank" title="口水娃">
-												<img width="100" height="40" src="data/brandlogo/1437431609681889286.jpg" alt="口水娃">
-											</a>
-										</li>
-																			</ul>
-									<div class="anniu">
-										<a class="gw_left right_1" href="javascript:void(0)">
-											<img src="themes/68ecshopcom_360buy/images/upgrade_ad/icon-slide-left.png" />
-										</a>
-										<a class="gw_right left_1" href="javascript:void(0)">
-											<img src="themes/68ecshopcom_360buy/images/upgrade_ad/icon-slide-right.png" />
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<script type="text/javascript">
-						Move(".left_1",".right_1",".yyyy_1",".anli","10");
-						</script>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="blank5"></div>
-			
-		</div>
-		
-	</div>
-	<script type="text/javascript">
-	$(function(){
-		$(".anli_con").find(".anniu").hide();
-		$(".anli_con").hover(function(){
-			var num = $(this).find("li").length;
-			if(num > 10){
-		$(this).find(".anniu").show();
-			}
-	},
-	function(){
-	
-		$(this).find(".anniu").hide();
-	})
-	}) 
-	</script>
-	<div class="wrapper">
-		<div class="mt10">
-			
-			
-		</div>
-	</div>
-	<div class="n-footer"></div>
-	<script type="text/javascript" src="themes/68ecshopcom_360buy/js/indexPrivate.min.js"></script>
-	<div class="site-footer">
-  <div class="container wrapper">
-    <div class="footer-service">
-      <ul class="list-service clearfix">
-        <li> <a class="ic1" rel="nofollow" href="" target="_blank" > <strong>1小时快修服务</strong> </a> </li>
-        <li> <a class="ic2" rel="nofollow" href="" target="_blank"><strong>7天无理由退货</strong> </a> </li>
-        <li> <a class="ic3" rel="nofollow" href="" target="_blank" > <strong>15天免费换货</strong> </a> </li>
-        <li> <a class="ic4" rel="nofollow" href="" target="_blank"> <strong>满150元包邮</strong> </a> </li>
-        <li> <a class="ic5" rel="nofollow" href="" target="_blank"> <strong>460余家售后网点</strong> </a> </li>
-      </ul>
+    <div class="floorContent"> 
+          <div class="itemOuter"  id="li_25">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(25)" title="加入购物车"></a>
+          <a href="goods.php?id=25" title='蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/25_thumb_G_1437504443197.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_25" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=25" title='蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品' target="_blank" class="itemName"> 蟹黄包180g 火锅丸子澳门豆捞食材蟹籽包 蟹子丸 海鲜水产 鱼丸蟹类制品</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               19.0               </span> <span class="subPrice"><del>22.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_24">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(24)" title="加入购物车"></a>
+          <a href="goods.php?id=24" title='悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/24_thumb_G_1437504375288.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_24" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=24" title='悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g' target="_blank" class="itemName"> 悦胜 挪威超新鲜三文鱼 三文鱼中段刺身进口海鲜 广东2份包邮 三文鱼新鲜 500g</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               78.0               </span> <span class="subPrice"><del>95.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_10">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(10)" title="加入购物车"></a>
+          <a href="goods.php?id=10" title='越南红心火龙果5斤装 红肉火龙果 新鲜进口水果' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/10_thumb_G_1437503428257.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_10" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=10" title='越南红心火龙果5斤装 红肉火龙果 新鲜进口水果' target="_blank" class="itemName"> 越南红心火龙果5斤装 红肉火龙果 新鲜进口水果</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               35.0               </span> <span class="subPrice"><del>42.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_7">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(7)" title="加入购物车"></a>
+          <a href="goods.php?id=7" title='新西兰红玫瑰苹果queen4个（约180g/个）' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/7_thumb_G_1437503112503.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_7" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=7" title='新西兰红玫瑰苹果queen4个（约180g/个）' target="_blank" class="itemName"> 新西兰红玫瑰苹果queen4个（约180g/个）</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               35.0               </span> <span class="subPrice"><del>42.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_6">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(6)" title="加入购物车"></a>
+          <a href="goods.php?id=6" title='【宅鲜配】半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜 ' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/6_thumb_G_1437503036629.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_6" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=6" title='【宅鲜配】半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜 ' target="_blank" class="itemName"> 【宅鲜配】半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜 </a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               58.0               </span> <span class="subPrice"><del>65.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_5">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(5)" title="加入购物车"></a>
+          <a href="goods.php?id=5" title='半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/5_thumb_G_1437502904492.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_5" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=5" title='半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜' target="_blank" class="itemName"> 半壳扇贝 扇贝肉 1000g/新鲜扇贝冷冻烧烤海鲜</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               58.0               </span> <span class="subPrice"><del>65.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_4">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(4)" title="加入购物车"></a>
+          <a href="goods.php?id=4" title='加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/4_thumb_G_1437501961154.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_4" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=4" title='加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果' target="_blank" class="itemName"> 加拿大樱桃 2斤装 车厘子 樱桃 进口水果 新鲜水果</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               118.0               </span> <span class="subPrice"><del>155.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_3">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(3)" title="加入购物车"></a>
+          <a href="goods.php?id=3" title='美国西北车厘子 1斤装 进口水果新鲜樱桃水果' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/3_thumb_G_1437501601556.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_3" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=3" title='美国西北车厘子 1斤装 进口水果新鲜樱桃水果' target="_blank" class="itemName"> 美国西北车厘子 1斤装 进口水果新鲜樱桃水果</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               26.0               </span> <span class="subPrice"><del>32.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_2">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(2)" title="加入购物车"></a>
+          <a href="goods.php?id=2" title='佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/2_thumb_G_1437501414613.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_2" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=2" title='佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈' target="_blank" class="itemName"> 佳沛新西兰阳光金奇异果原装33个 zepris猕猴桃进口金果新鲜水果准妈妈</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               218.0               </span> <span class="subPrice"><del>260.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_1">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(1)" title="加入购物车"></a>
+          <a href="goods.php?id=1" title='佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/1_thumb_G_1437501058250.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_1" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=1" title='佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃' target="_blank" class="itemName"> 佳沛新西兰绿奇异果36个（原装）进口Zespri猕猴桃 新鲜水果准妈妈爱吃</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               148.0               </span> <span class="subPrice"><del>180.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+       
     </div>
-    <div class="footer-links clearfix"> 
+  </div>
+    <div class="floorWrapper">
+    <div class="mt">
+      <h2>2F<span>糖果巧克力</span></h2>
+      <a href="category.php?id=13" target="_blank" class="category_more">更多 &gt;</a> </div>
+    <script type="text/javascript"> 
+$(document).ready(function(){ 
+$(".itemOuter .itemWrapper").mouseover(function(){ 
+$(this).addClass("itemWrapper_hover"); 
+}); 
+$(".itemOuter .itemWrapper").mouseout(function(){ 
+$(this).removeClass("itemWrapper_hover"); 
+}); 
+}); 
+</script>
+    <div class="floorContent"> 
+          <div class="itemOuter"  id="li_30">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(30)" title="加入购物车"></a>
+          <a href="goods.php?id=30" title='日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/30_thumb_G_1437506667557.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_30" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=30" title='日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g' target="_blank" class="itemName"> 日本进口 KRACIE（KRACIE）牌玫瑰香味糖果32g</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               9.9               </span> <span class="subPrice"><del>14.3</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_29">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(29)" title="加入购物车"></a>
+          <a href="goods.php?id=29" title='意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/29_thumb_G_1437506331258.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_29" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=29" title='意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖' target="_blank" class="itemName"> 意大利费列罗巧克力食品进口零食礼盒576粒整箱装结婚喜糖</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               320.0               </span> <span class="subPrice"><del>456.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_28">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(28)" title="加入购物车"></a>
+          <a href="goods.php?id=28" title='进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/28_thumb_G_1437506346326.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_28" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=28" title='进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品' target="_blank" class="itemName"> 进口费列罗巧克力礼盒DIY心形27粒【顺丰包邮】【代写贺卡】七夕礼物生日创意礼品</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               120.0               </span> <span class="subPrice"><del>144.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_27">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(27)" title="加入购物车"></a>
+          <a href="goods.php?id=27" title='Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/27_thumb_G_1437506372309.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_27" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=27" title='Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节' target="_blank" class="itemName"> Ferrero/费列罗 意大利进口威化榛果巧克力30粒礼盒装 生日礼物送女友情人节</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               79.0               </span> <span class="subPrice"><del>95.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_26">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(26)" title="加入购物车"></a>
+          <a href="goods.php?id=26" title='韩国进口X-5花生夹心巧克力棒盒装（24根）864g' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/26_thumb_G_1437505984631.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_26" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=26" title='韩国进口X-5花生夹心巧克力棒盒装（24根）864g' target="_blank" class="itemName"> 韩国进口X-5花生夹心巧克力棒盒装（24根）864g</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               79.0               </span> <span class="subPrice"><del>95.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+  </div>
+    <div class="floorWrapper">
+    <div class="mt">
+      <h2>3F<span>牛奶乳品</span></h2>
+      <a href="category.php?id=9" target="_blank" class="category_more">更多 &gt;</a> </div>
+    <script type="text/javascript"> 
+$(document).ready(function(){ 
+$(".itemOuter .itemWrapper").mouseover(function(){ 
+$(this).addClass("itemWrapper_hover"); 
+}); 
+$(".itemOuter .itemWrapper").mouseout(function(){ 
+$(this).removeClass("itemWrapper_hover"); 
+}); 
+}); 
+</script>
+    <div class="floorContent"> 
+          <div class="itemOuter"  id="li_74">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(74)" title="加入购物车"></a>
+          <a href="goods.php?id=74" title='德运Devondale 脱脂高钙奶粉1kg' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/74_thumb_G_1437521987425.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_74" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=74" title='德运Devondale 脱脂高钙奶粉1kg' target="_blank" class="itemName"> 德运Devondale 脱脂高钙奶粉1kg</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               79.9               </span> <span class="subPrice"><del>95.8</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_72">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(72)" title="加入购物车"></a>
+          <a href="goods.php?id=72" title='波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/72_thumb_G_1437521848992.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_72" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=72" title='波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒' target="_blank" class="itemName"> 波兰 进口牛奶 日昇（MLEKOVITA）全脂牛奶1L*12盒</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               109.0               </span> <span class="subPrice"><del>130.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_68">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(68)" title="加入购物车"></a>
+          <a href="goods.php?id=68" title='新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/68_thumb_G_1437521651986.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_68" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=68" title='新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱' target="_blank" class="itemName"> 新西兰 原装进口 纯牛奶 纽麦福（ Meadow fresh ）全脂1L*12盒/箱</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               99.0               </span> <span class="subPrice"><del>130.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_62">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(62)" title="加入购物车"></a>
+          <a href="goods.php?id=62" title='澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/62_thumb_G_1437521071878.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_62" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=62" title='澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装' target="_blank" class="itemName"> 澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               99.0               </span> <span class="subPrice"><del>118.8</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="itemOuter"  id="li_60">
+        <div class="itemWrapper"> 
+          <a class="add_to_cart" href="javascript:addToCart(60)" title="加入购物车"></a>
+          <a href="goods.php?id=60" title='德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12' target="_blank" class="itemImg">
+            <img data-original="images/201507/thumb_img/60_thumb_G_1437520982494.jpg" src="themes/68ecshopcom_360buy/images/loading.gif"  class="pic_img_60" height="160" width="160"> 
+          </a>
+          <p><a href="goods.php?id=60" title='德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12' target="_blank" class="itemName"> 德国 进口牛奶 欧德堡（Oldenburger）超高温处理全脂纯牛奶1L*12</a></p>
+          <div class="priceSection">
+            <div class="priceNumber"> <span class="mainPrice">               119.0               </span> <span class="subPrice"><del>130.0</del></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+  </div>
+    <div class="blank"></div>
+  
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/scrollpic.js"></script>
+<DIV class=w>
+<DIV id=product-track>
+  <DIV class=right>
+    <DIV class="m m2" id=maybe-like>
+      <DIV class=mt  style=" background:none;">
+        <H2>根据浏览猜你喜欢</H2>
+        <DIV class=extra></DIV>
+      </DIV>
+      <DIV class=mc >
+        
+        <a class="guess-control" id="guess-forward">&lt;</a><a class="guess-control" id="guess-backward">&gt;</a>
+        <div id="guess-scroll" >
+ <ul class="lh" style="float:left;">
+    <li>
+              <div class="p-img"> <a target="_blank" title="夏装新款修身假两件无袖绣花蕾丝连衣裙" href="goods.php?id=33"><img height="130" width="130" alt="夏装新款修身假两件无袖绣花蕾丝连衣裙" src="images/201507/thumb_img/33_thumb_G_1437507221390.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="夏装新款修身假两件无袖绣花蕾丝连衣裙" href="goods.php?id=33">夏装新款修身假两件无袖绣花蕾丝连衣裙</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=33">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >279.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙" href="goods.php?id=34"><img height="130" width="130" alt="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙" src="images/201507/thumb_img/34_thumb_G_1437507487587.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱背心裙" href="goods.php?id=34">夏装甜美爱心提花蕾丝连衣裙女 宽松欧根纱...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=34">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >368.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="荷叶边欧根纱刺绣短袖镂空蕾丝连衣裙 夏韩系小香风短裙A字连衣裙" href="goods.php?id=36"><img height="130" width="130" alt="荷叶边欧根纱刺绣短袖镂空蕾丝连衣裙 夏韩系小香风短裙A字连衣裙" src="images/201507/thumb_img/36_thumb_G_1437508564664.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="荷叶边欧根纱刺绣短袖镂空蕾丝连衣裙 夏韩系小香风短裙A字连衣裙" href="goods.php?id=36">荷叶边欧根纱刺绣短袖镂空蕾丝连衣裙 夏韩...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=36">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >198.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="高端2015夏装新款修身淑坊女女装蕾丝短袖复古森女连衣裙装" href="goods.php?id=38"><img height="130" width="130" alt="高端2015夏装新款修身淑坊女女装蕾丝短袖复古森女连衣裙装" src="images/201507/thumb_img/38_thumb_G_1437514275132.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="高端2015夏装新款修身淑坊女女装蕾丝短袖复古森女连衣裙装" href="goods.php?id=38">高端2015夏装新款修身淑坊女女装蕾丝短...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=38">(已有1人评价)</a> </div>
+              <div class="p-price"> <strong >178.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋" href="goods.php?id=40"><img height="130" width="130" alt="伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋" src="images/201507/thumb_img/40_thumb_G_1437515363345.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="伊芙丽秋装新款翻领小西装女 2015新款 西装外套女春秋" href="goods.php?id=40">伊芙丽秋装新款翻领小西装女 2015新款...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=40">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >299.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏" href="goods.php?id=42"><img height="130" width="130" alt="2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏" src="images/201507/thumb_img/42_thumb_G_1437515742056.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏" href="goods.php?id=42">2015新款修身开衫短款七分袖小西装女薄...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=42">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >259.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="2015夏装韩版修身白色小西装女薄外套" href="goods.php?id=45"><img height="130" width="130" alt="2015夏装韩版修身白色小西装女薄外套" src="images/201507/thumb_img/45_thumb_G_1437516035103.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="2015夏装韩版修身白色小西装女薄外套" href="goods.php?id=45">2015夏装韩版修身白色小西装女薄外套</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=45">(已有1人评价)</a> </div>
+              <div class="p-price"> <strong >399.00</strong> </div>
+            </li>
+    <li>
+              <div class="p-img"> <a target="_blank" title="2015夏季小西装女外套夏装薄款韩版修身短款小西服" href="goods.php?id=46"><img height="130" width="130" alt="2015夏季小西装女外套夏装薄款韩版修身短款小西服" src="images/201507/thumb_img/46_thumb_G_1437516342367.jpg"></a></div>
+              <div class="p-name"> <a target="_blank" title="2015夏季小西装女外套夏装薄款韩版修身短款小西服" href="goods.php?id=46">2015夏季小西装女外套夏装薄款韩版修身...</a> </div>
+              <div class="p-comm"> <span class="star sa5"></span><br/>
+                <a target="_blank" href="goods.php?id=46">(已有0人评价)</a> </div>
+              <div class="p-price"> <strong >213.00</strong> </div>
+            </li>
+     </ul>
+        </DIV>
+      </DIV>
+      </DIV>
+      <script language=javascript type=text/javascript>
+		var scrollPic_01 = new ScrollPic();
+		scrollPic_01.scrollContId   = "guess-scroll"; //内容容器ID
+		scrollPic_01.arrLeftId      = "guess-forward";//左箭头ID
+		scrollPic_01.arrRightId     = "guess-backward"; //右箭头ID
+if(pageConfig.wideVersion&&pageConfig.compatible){
+	scrollPic_01.frameWidth     = 900;//显示框宽度
+	scrollPic_01.pageWidth      = 184; //翻页宽度
+	}else{
+		scrollPic_01.frameWidth     = 900;//显示框宽度
+		scrollPic_01.pageWidth      = 184; //翻页宽度
+		}
+		scrollPic_01.speed          = 10; //移动速度(单位毫秒，越小越快)
+		scrollPic_01.space          = 10; //每次移动像素(单位px，越大越快)
+		scrollPic_01.autoPlay       = true; //自动播放
+		scrollPic_01.autoPlayTime   = 3; //自动播放间隔时间(秒)
+		scrollPic_01.initialize(); //初始化
+</script>
+    
+    </DIV>
+    <DIV class=left>
+      <DIV class="m m2" id=recent-view-track  style="border-right:none;">
+        <DIV class=mt>
+          <H2>最近浏览</H2>
+        </DIV>
+        <DIV class=mc >
+          <ul id='history_list'>
+          554fcae493e564ee0dc75bdf2ebf94cahistory|a:1:{s:4:"name";s:7:"history";}554fcae493e564ee0dc75bdf2ebf94ca          <li style="text-align:right;"><span ><a onclick="clear_history()" href="javascript:void(0);" style="color:#005AA0;">清空最近浏览商品>>&nbsp;</a></span></li>
+          </ul>
+         
+        </DIV>
+      </DIV>
+      </DIV>
+    <SPAN class=clr></SPAN></DIV>
+</DIV>
+<script type="text/javascript">
+function clear_history()
+{
+Ajax.call('user.php', 'act=clear_history',clear_history_Response, 'GET', 'TEXT',1,1);
+}
+function clear_history_Response(res)
+{
+document.getElementById('history_list').innerHTML = '您已清空最近浏览过的商品';
+}
+</script> 
+  <div class="blank"></div>
+    
+<script type="text/javascript">
+			   function tell_me(goods_id, no_have_val)
+			   {
+			
+			  no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val)
+			  Ajax.call('user.php?act=book_goods', 'id=' + goods_id + '&no_have=' + no_have, tellmeResponse, 'GET', 'JSON');
+			
+				}
+				
+	
+			 function tell_me1( no_have_val)
+			{
+				var num=document.getElementById('book_number').value;
+				var tel=document.getElementById('phone_num').value;
+				var email=document.getElementById('arrival_email').value;
+				var goods_id = document.getElementById('g_id').value;
+			
+				
+				no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val);
+				Ajax.call('user.php?act=add_book_goods', 'id=' + goods_id + '&no_have=' + no_have+ '&num=' + num+ '&tel=' + tel+ '&em=' + email, tellmeResponse, 'GET', 'JSON');
+	
+			}
+			
+			function tellmeResponse(result)
+			{
+				
+				if(result.error==1)
+				{
+				//document.getElementById('tell_me_form').style.display = document.getElementById('tell_me_form').style.display=='none'?'block':'none';
+				document.getElementById('tell_me_form').style.display = 'block';
+				document.getElementById('bg').style.display='block';
+				document.getElementById('phone_num').value=result.tel;
+				document.getElementById('arrival_email').value=result.email;
+				}
+				 if(result.error==0)
+				 {
+					 alert(result.message);
+					 }
+				 if(result.error==2)
+				  {
+					  alert(result.message);
+				  	  document.getElementById('tell_me_form').style.display = document.getElementById('tell_me_form').style.display=='none'?'block':'none';
+					  document.getElementById('bg').style.display='none';
+					  }
+				 
+			}
+    </script>
+<div id="tell_me_form" style="display:none;">
+  <div class="tell_me_tit">到货通知<span class="tell_me_close"></span></div>
+  <div class="tell_me_con">
+  	<table width="0" border="0" cellspacing="1" cellpadding="5">
+      <tr>
+        <td align="left" style="padding:15px 0 15px 0;"><div style="background:#FFFDEE ;padding:10px 10px;border:1px dotted #ff3300;height:60px;line-height:150%; font-weight:normal">
+            <p id="rgoods_name" style="font-size:15px;color:#F52648; height:30px; line-height:30px; overflow:hidden"></p>对不起，该商品已经库存不足暂停销售。
+您可以通过“到货通知”来预定该商品。
+            当商品进行补货时，我们将以短信、邮件的形式通知您，最多发送一次，不会对您造成干扰。 </div></td>
+      </tr>
+    </table>
+    <table cellpadding=0 cellspacing=0 width="100%" border=0>
+      <tr>
+        <td width="150" align="right" class="td_l">数量：</td>
+        <td align="left" class="td_r"><input type="text" value="1" id="book_number" /></td>
+      </tr>
+      <tr>
+        <td align="right" class="td_l">手机号码：</td>
+        <td align="left" class="td_r"><input type="text" value="" id="phone_num" /></td>
+      </tr>
+      <tr>
+        <td align="right" class="td_l">电子邮箱：</td>
+        <td align="left" class="td_r"><input type="text" value="" id="arrival_email" /></td>
+      </tr>
+      <tr>
+        <td class="td_l">&nbsp;</td>
+        <td align="left" class="td_r"><input type="button" value="提交" onclick="tell_me1()" class="tell_btn"/>
+        	<input type="hidden" id="g_id" value="" />
+          <input type="reset" value="重置"   class="tell_btn"/></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<script>
+                $(function(){
+					$('#tell_me_form').css('left',($(window).width()-500)/2);
+					$('#tell_me_form').css('top',($(window).height()-300)/2);
+					$('.tell_me_close').click(function(){
+						$('#tell_me_form').hide();	
+						document.getElementById('bg').style.display='none';
+					})
+				})
+                </script> 
+  <div class="site-footer" style="border-top:1px solid #dfdfdf">
+  <div class="wrapper">
+<div class="footer-links clearfix"> 
             <dl class="col-links col-links-first">
         <dt>新手上路 </dt>
                 <dd><a rel="nofollow" href="help.php?id=9" target="_blank">售后流程</a></dd>
@@ -2977,13 +2489,15 @@ $(document).ready(function(){
           （仅收市话费）</p>
         <a rel="nofollow" class="btn2 btn-primary btn-small" href="javascript:void(0);" style="color:#fff">24小时在线客服</a> </div>
     </div>
-    <div class="footer-info clearfix" >
+  </div>
+</div>
+ 
+  
+<div class="site-footer">
+  <div class="wrapper">
+    <div class="footer-info clearfix">
       <div class="info-text">
-       
-        <p>友情链接：
-                <a href="http://www.ecshop.com/" target="_blank" title="商之翼 网店管理系统">商之翼 网店管理系统</a><span class="sep">|</span>
-               <a href="http://www.maifou.net/" target="_blank" title="免费申请网店">免费申请网店</a><span class="sep">|</span>       <a href="http://www.wdwd.com/" target="_blank" title="免费开独立网店">免费开独立网店</a>            </p>
-                <p class="nav_bottom">
+              <p class="nav_bottom">
                     <a href="http://www.68ecshop.com/ecshop_topic/company/" target="_blank">关于我们</a><em >|</em>
                <a href="http://www.68ecshop.com/article-4.html" target="_blank">联系我们</a><em >|</em>
                <a href="apply_index.php" >商家入驻</a><em >|</em>
@@ -2994,27 +2508,24 @@ $(document).ready(function(){
                <a href="#" >商城社区</a><em >|</em>
                <a href="#" >企业文化</a><em >|</em>
                <a href="help.php" >帮助中心</a><em style="display:none">|</em>
-                           </p>
-      <p>
+                             </p>
+         <p>
       <a href="javascript:;">&copy; 2005-2016 小京东商城 版权所有，并保留所有权利。</a> <a href="javascript:;">成都市锦江区五世同堂街 </a>
       <a href="javascript:;"></a>
         <a href="javascript:;"></a>
       </p>
       <p>
                                                                                                       </p>
-      </div>      
-    </div>    
+      </div>
+    </div>
   </div>
 </div>
 <script type="text/javascript">
 Ajax.call('api/okgoods.php', '', '', 'GET', 'JSON');
-$("img").lazyload({
-    effect       : "fadeIn",
-	 skip_invisible : true,
-	 failure_limit : 20
-});
-</script>
-	<script type="text/javascript">
+//预售
+Ajax.call('pre_sale.php?act=check_order', '', '', 'GET', 'JSON');
+</script> 
+  <script type="text/javascript">
 function fun1()
 {
  	$("#right_login").children(".dropdown").show();
@@ -3225,128 +2736,112 @@ $("#mod-fold").click(function(){
 $('.sidebar-nav').hasClass('fold') ? $('.sidebar-nav').removeClass('fold') : $('.sidebar-nav').addClass('fold');
 });
 </script>
-	<div class="fsFixedTopContent" style="visibility: hidden; display: block;">
-  <div class="fsFixedTop" style="opacity: 0;"> 
-  	<a class="smooth active" href="javascript:;"> <b class="fs fs01">1F</b> <em class="fs-name">食品</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">2F</b> <em class="fs-name">服饰</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">3F</b> <em class="fs-name">化妆</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">4F</b> <em class="fs-name">手机</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">5F</b> <em class="fs-name">家电</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">6F</b> <em class="fs-name">家纺</em> <i class="fs-line"></i> </a> 
-    <a class="smooth" href="javascript:;"> <b class="fs">7F</b> <em class="fs-name">酒水</em> <i class="fs-line"></i> </a>  
-    <a class="smooth" href="javascript:;"> <b class="fs">8F</b> <em class="fs-name">母婴</em></a>     
-  </div>
-</div>	
-<script type="text/javascript">
-			   function tell_me(goods_id, no_have_val)
-			   {
-			
-			  no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val)
-			  Ajax.call('user.php?act=book_goods', 'id=' + goods_id + '&no_have=' + no_have, tellmeResponse, 'GET', 'JSON');
-			
-				}
-				
-	
-			 function tell_me1( no_have_val)
-			{
-				var num=document.getElementById('book_number').value;
-				var tel=document.getElementById('phone_num').value;
-				var email=document.getElementById('arrival_email').value;
-				var goods_id = document.getElementById('g_id').value;
-			
-				
-				no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val);
-				Ajax.call('user.php?act=add_book_goods', 'id=' + goods_id + '&no_have=' + no_have+ '&num=' + num+ '&tel=' + tel+ '&em=' + email, tellmeResponse, 'GET', 'JSON');
-	
-			}
-			
-			function tellmeResponse(result)
-			{
-				
-				if(result.error==1)
-				{
-				//document.getElementById('tell_me_form').style.display = document.getElementById('tell_me_form').style.display=='none'?'block':'none';
-				document.getElementById('tell_me_form').style.display = 'block';
-				document.getElementById('bg').style.display='block';
-				document.getElementById('phone_num').value=result.tel;
-				document.getElementById('arrival_email').value=result.email;
-				}
-				 if(result.error==0)
-				 {
-					 alert(result.message);
-					 }
-				 if(result.error==2)
-				  {
-					  alert(result.message);
-				  	  document.getElementById('tell_me_form').style.display = document.getElementById('tell_me_form').style.display=='none'?'block':'none';
-					  document.getElementById('bg').style.display='none';
-					  }
-				 
-			}
-    </script>
-<div id="tell_me_form" style="display:none;">
-  <div class="tell_me_tit">到货通知<span class="tell_me_close"></span></div>
-  <div class="tell_me_con">
-  	<table width="0" border="0" cellspacing="1" cellpadding="5">
-      <tr>
-        <td align="left" style="padding:15px 0 15px 0;"><div style="background:#FFFDEE ;padding:10px 10px;border:1px dotted #ff3300;height:60px;line-height:150%; font-weight:normal">
-            <p id="rgoods_name" style="font-size:15px;color:#F52648; height:30px; line-height:30px; overflow:hidden"></p>对不起，该商品已经库存不足暂停销售。
-您可以通过“到货通知”来预定该商品。
-            当商品进行补货时，我们将以短信、邮件的形式通知您，最多发送一次，不会对您造成干扰。 </div></td>
-      </tr>
-    </table>
-    <table cellpadding=0 cellspacing=0 width="100%" border=0>
-      <tr>
-        <td width="150" align="right" class="td_l">数量：</td>
-        <td align="left" class="td_r"><input type="text" value="1" id="book_number" /></td>
-      </tr>
-      <tr>
-        <td align="right" class="td_l">手机号码：</td>
-        <td align="left" class="td_r"><input type="text" value="" id="phone_num" /></td>
-      </tr>
-      <tr>
-        <td align="right" class="td_l">电子邮箱：</td>
-        <td align="left" class="td_r"><input type="text" value="" id="arrival_email" /></td>
-      </tr>
-      <tr>
-        <td class="td_l">&nbsp;</td>
-        <td align="left" class="td_r"><input type="button" value="提交" onclick="tell_me1()" class="tell_btn"/>
-        	<input type="hidden" id="g_id" value="" />
-          <input type="reset" value="重置"   class="tell_btn"/></td>
-      </tr>
-    </table>
-  </div>
+ 
 </div>
-<script>
-                $(function(){
-					$('#tell_me_form').css('left',($(window).width()-500)/2);
-					$('#tell_me_form').css('top',($(window).height()-300)/2);
-					$('.tell_me_close').click(function(){
-						$('#tell_me_form').hide();	
-						document.getElementById('bg').style.display='none';
-					})
-				})
-                </script> 
-</body>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/home_index.js"></script>
+<script type="text/javascript" src="themes/68ecshopcom_360buy/js/lib-v1.js"></script> 
+<script>//收集skuId
+var skuIds = [];
+$('ul.list-h li[sku]').each(function(i){
+    skuIds.push($(this).attr('sku'));
+})
+/* spu合并 begin */
+var imgSize = 'n2';
+if ( $('#plist').hasClass('plist-160') ) {
+    imgSize = 'n2';
+}
+if ( $('#plist').hasClass('plist-220') ) {
+    if ( $('#plist').hasClass('plist-160') ) {
+        imgSize = 'n2';
+    } else {
+        imgSize = 'n7';
+    }
+}
+if ( $('#plist').hasClass('plist-n7') ) {
+    imgSize = 'n7';
+}
+if ( $('#plist').hasClass('plist-n8') ) {
+    imgSize = 'n8';
+}
+$('.p-scroll').each(function() {
+    var scroll = $(this).find('.p-scroll-wrap'),
+        btnPrev = $(this).find('.p-scroll-prev'),
+        btnNext = $(this).find('.p-scroll-next'),
+        len = $(this).find('li').length;
+    if ( len > 5 ) {
+        btnPrev.css('display', 'inline');
+        btnNext.css('display', 'inline');
+        scroll.imgScroll({
+            visible: 5,
+            showControl: false,
+            next: btnNext,
+            prev: btnPrev
+        });
+    }
+    var colors = scroll.find('img');
+    colors.each(function() {
+        $(this).mouseover(function() {
+            var index = $(this).parent('li').parent('li').attr('index');
+            var src = $(this).attr("src"),
+                skuid = $(this).attr('data-skuid');
+            scroll.find('a').removeClass('curr');
+            $(this).parent('a').addClass('curr');
+            var targetImg = $(this).parents('li').find('.p-img img').eq(0),
+                targetImgLink = $(this).parents('li').find('.p-img a').eq(0),
+                targetNameLink = $(this).parents('li').find('.p-name a').eq(0),
+                targetFollowLink = $(this).parents('li').find('.product-follow a').eq(0);
+            targetImg.attr( 'src', src.replace('\/n5\/', '\/'+imgSize+'\/') );
+            targetImgLink.attr( 'href', targetImgLink.attr('href').replace(/\/\d{6,}/, '/'+skuid) );
+            targetNameLink.attr( 'href', targetNameLink.attr('href').replace(/\/\d{6,}/, '/'+skuid) );
+            targetFollowLink.attr( 'id', targetFollowLink.attr('id').replace(/coll\d{6,}/, 'coll'+skuid) );
+        });
+    });
+});
+$('#plist.plist-n7 .list-h>li').hover(function() {
+    $(this).addClass('hover').find('.product-follow,.shop-name').show();
+    $(this).find('.item-wrap').addClass('item-hover');
+}, function() {
+    $(this).removeClass('hover').find('.item-wrap').removeClass('item-hover');
+    $(this).find('.product-follow,.shop-name').hide();
+});
+/* spu合并 end */
+</script> 
 <script type="text/javascript">
-$(document).ready(function(){ 
-var goods_id = "";
-var goodsattr_style = 1;
-var gmt_end_time = 0;
-var day = "天";
-var hour = "小时";
-var minute = "分钟";
-var second = "秒";
-var end = "结束";
-var goodsId = "";
-var now_time = "";
-onload = function(){
-  //changePrice();
-  fixpng();
-  //ShowMyComments("",0,1);
-  try {onload_leftTime();}
-  catch (e) {}
-}});
+$(document).ready(function(){
+var headHeight=580;  //这个高度其实有更好的办法的。使用者根据自己的需要可以手工调整。
+ 
+var nav=$("#filter");        //要悬浮的容器的id
+$(window).scroll(function(){
+ 
+if($(this).scrollTop()>headHeight){
+nav.addClass("cat-nav-fixed");   //悬浮的样式
+}
+else{
+nav.removeClass("cat-nav-fixed");
+}
+})
+})
+</script> 
+ 
+<script type="text/javascript">
+$("img").lazyload({
+    effect       : "fadeIn",
+	 skip_invisible : true,
+	 failure_limit : 20
+});
+</script> 
+<script type="text/javascript">
+window.onload = function()
+{
+  Compare.init();
+}
+var button_compare = '';
+var exist = "您已经选择了%s";
+var count_limit = "最多只能选择4个商品进行对比";
+var goods_type_different = "\"%s\"和已选择商品类型不同无法进行对比";
+var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
+var btn_buy = "购买";
+var is_cancel = "取消";
+var select_spe = "请选择商品属性";
 </script>
+</body>
 </html>
