@@ -14,15 +14,15 @@
      <?php $_from = $this->_var['vote']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'title');if (count($_from)):
     foreach ($_from AS $this->_var['title']):
 ?>
-          <?php $_from = $this->_var['title']['options']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item');if (count($_from)):
-    foreach ($_from AS $this->_var['item']):
+          <?php $_from = $this->_var['title']['options']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item_0_09844300_1466413304');if (count($_from)):
+    foreach ($_from AS $this->_var['item_0_09844300_1466413304']):
 ?>
             <?php if ($this->_var['title']['can_multi'] == 0): ?>
-            <p><input type="checkbox" name="option_id" value="<?php echo $this->_var['item']['option_id']; ?>" />
-            <?php echo $this->_var['item']['option_name']; ?> (<?php echo $this->_var['item']['percent']; ?>%)</p>
+            <p><input type="checkbox" name="option_id" value="<?php echo $this->_var['item_0_09844300_1466413304']['option_id']; ?>" />
+            <?php echo $this->_var['item_0_09844300_1466413304']['option_name']; ?> (<?php echo $this->_var['item_0_09844300_1466413304']['percent']; ?>%)</p>
             <?php else: ?>
-            <p><input type="radio" name="option_id" value="<?php echo $this->_var['item']['option_id']; ?>" />
-            <?php echo $this->_var['item']['option_name']; ?> (<?php echo $this->_var['item']['percent']; ?>%)</p>
+            <p><input type="radio" name="option_id" value="<?php echo $this->_var['item_0_09844300_1466413304']['option_id']; ?>" />
+            <?php echo $this->_var['item_0_09844300_1466413304']['option_name']; ?> (<?php echo $this->_var['item_0_09844300_1466413304']['percent']; ?>%)</p>
             <?php endif; ?>
             <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
             <input type="hidden" name="type" value="<?php echo $this->_var['title']['can_multi']; ?>" />
