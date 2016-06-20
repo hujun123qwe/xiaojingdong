@@ -169,7 +169,7 @@ function get_promotion_info1($goods_id = '')
 }
 $this->assign('promotion_info1', get_promotion_info1());
 ?>
-<?php echo $this->fetch('library/user_headerindex.lbi'); ?>
+<?php echo $this->fetch('library/user_header.lbi'); ?> 
 <div id="header">
   <div class="headerLayout">
     <div class="headerCon ">
@@ -177,7 +177,7 @@ $this->assign('promotion_info1', get_promotion_info1());
      	<a href="/" class="header-logo" title="logo"><img src="themes/68ecshopcom_360buy/images/header/logo.jpg" /></a>
       </h1>
       <div class="header-extra">
-        <?php echo $this->fetch('library/user_header_right.lbi'); ?>
+        <?php echo $this->fetch('library/user_header_right.lbi'); ?> 
         <script src="themes/68ecshopcom_360buy/images/page.js" type="text/javascript"></script>  
         <div id="mallSearch" class="mall-search" style="position:relative; z-index:999999999; overflow:visible;">
         <div id="search_tips" style="display:none;"></div>

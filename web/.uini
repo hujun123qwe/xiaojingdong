@@ -1,0 +1,1 @@
+open_basedir="C:\upupw\vhosts\xiaojingdong.local\web\;C:\upupw\memcached\;C:\upupw\phpmyadmin\;C:\upupw\temp\;C:\Windows\Temp\"

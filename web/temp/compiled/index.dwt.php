@@ -1,7 +1,7 @@
-<!DOCTYPE html">
-<html lang="zh-cn">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://xjd.local/" />
+<base href="http://xiaojingdong.local/" />
 <meta name="Generator" content="68ECSHOP v4_2" />
 <meta property="qc:admins" content="377512662466053307063757" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -36,7 +36,6 @@ var select_spe = "<?php echo $this->_var['lang']['select_spe']; ?>";
 </script>
 <?php echo $this->smarty_insert_scripts(array('files'=>'jquery.json.js,transport.js')); ?> <?php echo $this->smarty_insert_scripts(array('files'=>'common.js,index.js')); ?>
 </head>
-
 <body>
 	<div id="site-nav">
 		<?php echo $this->fetch('library/page_headerindex.lbi'); ?>
@@ -77,32 +76,23 @@ var select_spe = "<?php echo $this->_var['lang']['select_spe']; ?>";
 			alert(result.message);	
 		}
 	    </script>
-		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_77377300_1458225828');if (count($_from)):
-    foreach ($_from AS $this->_var['row_0_77377300_1458225828']):
+		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_14960100_1460106012');if (count($_from)):
+    foreach ($_from AS $this->_var['row_0_14960100_1460106012']):
 ?>
-		<?php if ($this->_var['row_0_77377300_1458225828']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_77377300_1458225828']['send_end_date'] > $this->_var['time']): ?>
+		<?php if ($this->_var['row_0_14960100_1460106012']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_14960100_1460106012']['send_end_date'] > $this->_var['time']): ?>
 
 		<?php endif; ?>
 		<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 		<?php echo $this->fetch('library/index_ad_group.lbi'); ?>
 		<div class="blank5"></div>
-<!--		<div class="fp-brand-rec main-container" id="J_FpBrandRec">
+		<div class="fp-brand-rec main-container" id="J_FpBrandRec">
 			<a class="brand-title" href="stores.php">热门品牌</a>
 			<div class="brand-content clearfix">
 				<div class="module">
 					<div class="brand-first">
-						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示左侧广告" &ndash;&gt;
-						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
-						<?php 
-$k = array (
-  'name' => 'ads',
-  'id' => $this->_var['ads_id'],
-  'num' => $this->_var['ads_num'],
-);
-echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
-?>
-						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
-						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
+						
+						<?php $this->assign('ads_id','6'); ?><?php $this->assign('ads_num','0'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
+						
 					</div>
 				</div>
 				<div id="J_indexstore"><?php 
@@ -113,35 +103,25 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?></div>
 				<div class="module">
 					<div class="brand-today-b">
-						&lt;!&ndash; TemplateBeginEditable name="首页店铺展示右侧广告" &ndash;&gt;
-						&lt;!&ndash; #BeginLibraryItem "/library/ad_position.lbi" &ndash;&gt;
-						<?php 
-$k = array (
-  'name' => 'ads',
-  'id' => $this->_var['ads_id'],
-  'num' => $this->_var['ads_num'],
-);
-echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
-?>
-						&lt;!&ndash; #EndLibraryItem &ndash;&gt;
-						&lt;!&ndash; TemplateEndEditable &ndash;&gt;
+						
+						<?php $this->assign('ads_id','7'); ?><?php $this->assign('ads_num','1'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
+						
 					</div>
 				</div>
 			</div>
-		</div>-->
-		<!--<div class="blank5"></div>
+		</div>
+		<div class="blank5"></div>
 		<div class="home-sale-layout wrapper">
 			<div class="left-layout">
-				&lt;!&ndash; #BeginLibraryItem "/library/stores_tab.lbi" &ndash;&gt;
-				&lt;!&ndash; #EndLibraryItem &ndash;&gt;
+				<?php echo $this->fetch('library/stores_tab.lbi'); ?>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						&lt;!&ndash;<?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
-						&lt;!&ndash;<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>&ndash;&gt;
+?>
+						<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -155,27 +135,27 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-price">
 									商城价：
 									<em>
-										&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+										<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 										<?php echo $this->_var['goods']['promote_price']; ?>
-										&lt;!&ndash; <?php else: ?>&ndash;&gt;
+										<?php else: ?>
 										<?php echo $this->_var['goods']['shop_price']; ?>
-										&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+										<?php endif; ?>
 									</em>
 								</dd>
 							</dl>
 						</li>
-						&lt;!&ndash;<?php endif; ?>&ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						&lt;!&ndash; <?php $_from = $this->_var['top_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['top_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
-						&lt;!&ndash;<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>&ndash;&gt;
+?>
+						<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -189,27 +169,27 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-price">
 									商城价：
 									<em>
-										&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+										<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 										<?php echo $this->_var['goods']['promote_price']; ?>
-										&lt;!&ndash; <?php else: ?>&ndash;&gt;
+										<?php else: ?>
 										<?php echo $this->_var['goods']['shop_price']; ?>
-										&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+										<?php endif; ?>
 									</em>
 								</dd>
 							</dl>
 						</li>
-						&lt;!&ndash;<?php endif; ?>&ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						&lt;!&ndash;<?php $_from = $this->_var['hot_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['hot_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
-						&lt;!&ndash;<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>&ndash;&gt;
+?>
+						<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -223,27 +203,27 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-price">
 									商城价：
 									<em>
-										&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+										<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 										<?php echo $this->_var['goods']['promote_price']; ?>
-										&lt;!&ndash; <?php else: ?>&ndash;&gt;
+										<?php else: ?>
 										<?php echo $this->_var['goods']['shop_price']; ?>
-										&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+										<?php endif; ?>
 									</em>
 								</dd>
 							</dl>
 						</li>
-						&lt;!&ndash;<?php endif; ?>&ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list tabs-hide">
 					<ul>
-						&lt;!&ndash;<?php $_from = $this->_var['best_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['best_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
-						&lt;!&ndash;<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>&ndash;&gt;
+?>
+						<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -257,27 +237,27 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-price">
 									商城价：
 									<em>
-										&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+										<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 										<?php echo $this->_var['goods']['promote_price']; ?>
-										&lt;!&ndash; <?php else: ?>&ndash;&gt;
+										<?php else: ?>
 										<?php echo $this->_var['goods']['shop_price']; ?>
-										&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+										<?php endif; ?>
 									</em>
 								</dd>
 							</dl>
 						</li>
-						&lt;!&ndash;<?php endif; ?>&ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 				</div>
 				<div class="tabs-panel sale-goods-list">
 					<ul>
-						&lt;!&ndash;<?php $_from = $this->_var['new_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['new_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
-						&lt;!&ndash;<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>&ndash;&gt;
+?>
+						<?php if ($this->_foreach['index_goods']['iteration'] < 6): ?>
 						<li>
 							<dl>
 								<dt class="goods-name">
@@ -291,17 +271,17 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-price">
 									商城价：
 									<em>
-										&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+										<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 										<?php echo $this->_var['goods']['promote_price']; ?>
-										&lt;!&ndash; <?php else: ?>&ndash;&gt;
+										<?php else: ?>
 										<?php echo $this->_var['goods']['shop_price']; ?>
-										&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+										<?php endif; ?>
 									</em>
 								</dd>
 							</dl>
 						</li>
-						&lt;!&ndash;<?php endif; ?>&ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 				</div>
 			</div>
@@ -314,11 +294,11 @@ if ($this->_foreach['index_goods']['total'] > 0):
 				</div>
 				<div id="saleDiscount" class="sale-discount">
 					<ul>
-						&lt;!&ndash;<?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('key', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
+						<?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('key', 'goods');$this->_foreach['index_goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['index_goods']['total'] > 0):
     foreach ($_from AS $this->_var['key'] => $this->_var['goods']):
         $this->_foreach['index_goods']['iteration']++;
-?>&ndash;&gt;
+?>
 						<?php if ($this->_foreach['index_goods']['iteration'] > 5 && $this->_foreach['index_goods']['iteration'] < 10): ?>
 						<li>
 							<dl>
@@ -331,11 +311,11 @@ if ($this->_foreach['index_goods']['total'] > 0):
 									</a>
 								</dd>
 								<dd class="goods-price">
-									&lt;!&ndash; <?php if ($this->_var['goods']['promote_price'] != ""): ?> &ndash;&gt;
+									<?php if ($this->_var['goods']['promote_price'] != ""): ?>
 									<?php echo $this->_var['goods']['promote_price']; ?>
-									&lt;!&ndash; <?php else: ?>&ndash;&gt;
+									<?php else: ?>
 									<?php echo $this->_var['goods']['shop_price']; ?>
-									&lt;!&ndash;<?php endif; ?>&ndash;&gt;
+									<?php endif; ?>
 									<span class="original"><?php echo $this->_var['goods']['market_price']; ?></span>
 								</dd>
 								<dd class="goods-price-discount">
@@ -357,7 +337,7 @@ if ($this->_foreach['index_goods']['total'] > 0):
 								<dd class="goods-buy-btn"></dd>
 							</dl>
 						</li>
-						&lt;!&ndash;
+						<!-- 
 						<script type="text/javascript">
 						/**
 						Tday[<?php echo $this->_var['key']; ?>] = new Date("<?php echo $this->_var['goods']['gmt_end_time']; ?>");
@@ -367,9 +347,9 @@ if ($this->_foreach['index_goods']['total'] > 0):
 						{clock(<?php echo $this->_var['key']; ?>);}, 1000);
 						**/
 						</script>
-						 &ndash;&gt;
-						&lt;!&ndash; <?php endif; ?> &ndash;&gt;
-						&lt;!&ndash;<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>&ndash;&gt;
+						 -->
+						<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 					</ul>
 					<div class="pagination">
 						<span style="opacity: 0.4;"></span>
@@ -381,7 +361,7 @@ if ($this->_foreach['index_goods']['total'] > 0):
 					<div class="arrow next" style="opacity: 0;"></div>
 				</div>
 			</div>
-		</div>-->
+		</div>
 		<div class="blank5"></div>
 		
 		<div class="floorList">
@@ -416,7 +396,27 @@ if ($this->_foreach['index_goods']['total'] > 0):
 			
 			<?php $this->assign('cat_goods',$this->_var['cat_goods_1']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_1']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
 			
-
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_2']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_2']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_3']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_3']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_4']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_4']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_5']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_5']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_6']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_6']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_7']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_7']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
+			
+			<?php $this->assign('cat_goods',$this->_var['cat_goods_8']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_8']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+			
 		</div>
 		
 	</div>
