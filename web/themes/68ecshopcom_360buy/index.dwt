@@ -15,8 +15,9 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
-<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/index.css" />
-<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" />
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/index.css" >
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" >
+<link rel="stylesheet" href="css/chart.css">
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jqueryAll.index.min.js"></script>
@@ -256,7 +257,7 @@ var select_spe = "{$lang.select_spe}";
 								</dt>
 								<dd class="goods-thumb">
 									<a target="_blank" href="{$goods.url}" title="{$goods.name|escape:html}">
-										<img data-original="{$goods.thumb}" src="themes/68ecshopcom_360buy/images/loading.gif" alt="{$goods.name|escape:html}">
+										<img data-original="{$goods.thumb}" src="images/loading.gif" alt="{$goods.name|escape:html}">
 									</a>
 								</dd>
 								<dd class="goods-price">
@@ -437,7 +438,7 @@ var select_spe = "{$lang.select_spe}";
 		</div>
 	</div>
 	<div class="n-footer"></div>
-	<script type="text/javascript" src="themes/68ecshopcom_360buy/js/indexPrivate.min.js"></script>
+	<script type="text/javascript" src="js/indexPrivate.min.js"></script>
 	<!-- #BeginLibraryItem "/library/page_footerindex.lbi" -->
 	<!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/site_bar.lbi" -->
@@ -447,7 +448,7 @@ var select_spe = "{$lang.select_spe}";
 	<!-- #BeginLibraryItem "/library/arrive_notice_list.lbi" -->
 	<!-- #EndLibraryItem -->
 </body>
-<script type="text/javascript" src="themes/68ecshopcom_360buy/js/home_index.js"></script>
+<script type="text/javascript" src="js/home_index.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
 var goods_id = "{$goods_id}";

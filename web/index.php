@@ -115,7 +115,6 @@ $cache_id = sprintf('%X', crc32($_SESSION['user_rank'] . '-' . $_CFG['lang']));
 
 if (!$smarty->is_cached('index.dwt', $cache_id))
 {
-
     assign_template();
 
     $position = assign_ur_here();

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://xiaojingdong.local/" />
+<base href="http://xjd.local/" />
 <meta name="Generator" content="68ECSHOP v4_2" />
 <meta property="qc:admins" content="377512662466053307063757" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,8 +17,9 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link rel="alternate" type="application/rss+xml" title="RSS|<?php echo $this->_var['page_title']; ?>" href="<?php echo $this->_var['feed_url']; ?>" />
-<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/index.css" />
-<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" />
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/index.css" >
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" >
+<link rel="stylesheet" href="css/chart.css">
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jqueryAll.index.min.js"></script>
@@ -76,10 +77,10 @@ var select_spe = "<?php echo $this->_var['lang']['select_spe']; ?>";
 			alert(result.message);	
 		}
 	    </script>
-		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_14960100_1460106012');if (count($_from)):
-    foreach ($_from AS $this->_var['row_0_14960100_1460106012']):
+		<?php $_from = $this->_var['row']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'row_0_10806300_1466430092');if (count($_from)):
+    foreach ($_from AS $this->_var['row_0_10806300_1466430092']):
 ?>
-		<?php if ($this->_var['row_0_14960100_1460106012']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_14960100_1460106012']['send_end_date'] > $this->_var['time']): ?>
+		<?php if ($this->_var['row_0_10806300_1466430092']['send_start_date'] < $this->_var['time'] && $this->_var['row_0_10806300_1466430092']['send_end_date'] > $this->_var['time']): ?>
 
 		<?php endif; ?>
 		<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

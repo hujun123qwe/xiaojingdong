@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-<?php exit;?>a:3:{s:8:"template";a:16:{i:0;s:76:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/index.dwt";i:1;s:95:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_headerindex.lbi";i:2;s:95:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_headerindex.lbi";i:3;s:96:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:5;s:89:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:6;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad3.lbi";i:7;s:89:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/order_type.lbi";i:8;s:91:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_articles.lbi";i:9;s:93:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad_group.lbi";i:10;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_goods.lbi";i:11;s:95:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footerindex.lbi";i:12;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:13;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";i:14;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/left_bar.lbi";i:15;s:97:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/arrive_notice_list.lbi";}s:7:"expires";i:1466416903;s:8:"maketime";i:1466413303;}<!DOCTYPE html">
-<html lang="zh-cn">
-=======
-<?php exit;?>a:3:{s:8:"template";a:18:{i:0;s:74:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/index.dwt";i:1;s:93:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/page_headerindex.lbi";i:2;s:88:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:94:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:85:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:5;s:87:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:6;s:86:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/index_ad3.lbi";i:7;s:87:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/order_type.lbi";i:8;s:89:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/cat_articles.lbi";i:9;s:91:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/index_ad_group.lbi";i:10;s:88:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/ad_position.lbi";i:11;s:87:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/stores_tab.lbi";i:12;s:86:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/cat_goods.lbi";i:13;s:93:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/page_footerindex.lbi";i:14;s:85:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:15;s:86:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/vote_list.lbi";i:16;s:85:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/left_bar.lbi";i:17;s:95:"C:/upupw/vhosts/xiaojingdong.local/web/themes/68ecshopcom_360buy/library/arrive_notice_list.lbi";}s:7:"expires";i:1460281015;s:8:"maketime";i:1460277415;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:18:{i:0;s:76:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/index.dwt";i:1;s:95:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_headerindex.lbi";i:2;s:90:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header.lbi";i:3;s:96:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/user_header_right.lbi";i:4;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/head_nav.lbi";i:5;s:89:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/header_tan.lbi";i:6;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad3.lbi";i:7;s:89:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/order_type.lbi";i:8;s:91:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_articles.lbi";i:9;s:93:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/index_ad_group.lbi";i:10;s:90:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/ad_position.lbi";i:11;s:89:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/stores_tab.lbi";i:12;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/cat_goods.lbi";i:13;s:95:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/page_footerindex.lbi";i:14;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/site_bar.lbi";i:15;s:88:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/vote_list.lbi";i:16;s:87:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/left_bar.lbi";i:17;s:97:"D:/ShinelonT1Pro/GitHub/xiaojingdong/web/themes/68ecshopcom_360buy/library/arrive_notice_list.lbi";}s:7:"expires";i:1466433691;s:8:"maketime";i:1466430091;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
->>>>>>> origin/master
 <head>
-<base href="http://xiaojingdong.local/" />
+<base href="http://xjd.local/" />
 <meta name="Generator" content="68ECSHOP v4_2" />
 <meta property="qc:admins" content="377512662466053307063757" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,8 +13,9 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link rel="alternate" type="application/rss+xml" title="RSS|小京东商城  " href="feed.php" />
-<link rel="stylesheet" href="themes/68ecshopcom_360buy/css/index.css" />
-<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" />
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/index.css" >
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/68ecshop_commin.css" >
+<link rel="stylesheet" href="css/chart.css">
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.6.2.min.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-lazyload.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jqueryAll.index.min.js"></script>
@@ -1729,6 +1725,18 @@ $('.search-type li').click(function() {
 });
 </script>		<div class="home-focus-layout">
 			<ul id="fullScreenSlides" class="full-screen-slides">
+    <li style=" background:url(data/afficheimg/20151009mpfhhr.jpg) center no-repeat; display:list-item"> 
+  	<a href="http://" target="_blank" title="">&nbsp;</a> 
+  </li>
+    <li style=" background:url(data/afficheimg/20150723axsewo.jpg) center no-repeat;display: none; "> 
+  	<a href="http://" target="_blank" title="">&nbsp;</a> 
+  </li>
+    <li style=" background:url(data/afficheimg/20150722uzphik.jpg) center no-repeat;display: none; "> 
+  	<a href="http://" target="_blank" title="">&nbsp;</a> 
+  </li>
+    <li style=" background:url(data/afficheimg/20150722zsmllz.jpg) center no-repeat;display: none; "> 
+  	<a href="http://" target="_blank" title="">&nbsp;</a> 
+  </li>
   </ul>
 <div class="jfocus-trigeminy">
   <div class="tm-chaoshi-markets">
