@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<title>页面没有找到</title>
+
+<style type="text/css">
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+</style>
+
+</head>
+<body style="color:#666666;margin:0;font:normal 14px/20px Arial, Helvetica, sans-serif;height:100%;background:url(404.jpg) no-repeat center 0;">
+
+<!-- 404_html begin -->
+<div style="height:auto;min-height:100%;">
+
+<div style="text-align:center;width:800px;margin-left:-400px;position:absolute;top:23%;left:42%;">
+
+<h1 style="margin:0;font-size:150px;line-height:150px;font-weight:bold;text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;">404</h1>
+<h2 style="margin-top:20px;font-size:30px;text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;">Not Found
+</h2>
+<p style="text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;">The resource requested could not be found on this server!</p>
+
+</div>
+
+</div>
+<!-- 404_html end -->
+<!-- 404_html_javascript begin -->
+<SCRIPT type=text/javascript>
+//<!--
+function isIFrameSelf(){try{if(window.top ==window){return false;}else{return true;}}catch(e){return true;}}
+function toHome(){ if(!isIFrameSelf()){ window.location.href="http://localhost/";}}
+window.setTimeout("toHome()",12000);
+//-->
+</SCRIPT>
+<!-- 404_html_javascript end -->
+
+
+</body>
+</html>

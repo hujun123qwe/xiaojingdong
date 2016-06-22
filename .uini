@@ -1,0 +1,1 @@
+open_basedir="D:\ShinelonT1Pro\GitHub\xiaojingdong\web\;C:\upupw_kangle\memcached\;C:\upupw_kangle\phpmyadmin\;C:\upupw_kangle\temp\;C:\Windows\Temp\"
