@@ -1,6 +1,0 @@
-*.log
-*.xml
-.idea/*
-Runtime/Tmep/*
-web/temp/*
-/temp/*
